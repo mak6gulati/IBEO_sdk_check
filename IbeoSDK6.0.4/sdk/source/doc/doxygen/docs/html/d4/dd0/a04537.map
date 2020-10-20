@@ -1,0 +1,8 @@
+<map id="ibeo::common::sdk::Scan2310" name="ibeo::common::sdk::Scan2310">
+<area shape="rect" id="node2" href="$d6/da3/a00589.html" title="ibeo::common::sdk::\lSpecializedDataContainer" alt="" coords="307,5,480,47"/>
+<area shape="rect" id="node3" href="$d9/d4b/a00117.html" title="ibeo::common::sdk::\lDataContainerBase" alt="" coords="5,5,147,47"/>
+<area shape="rect" id="node4" href="$dd/d63/a00455.html" title="ibeo::common::sdk::\lNTPTime" alt="" coords="5,83,147,124"/>
+<area shape="rect" id="node5" href="$d3/d87/a00539.html" title="ibeo::common::sdk::\lScanTrailerIn2310" alt="" coords="323,164,464,205"/>
+<area shape="rect" id="node6" href="$d9/d44/a00527.html" title="ibeo::common::sdk::\lScanHeaderIn2310" alt="" coords="323,229,464,271"/>
+<area shape="rect" id="node7" href="$d5/d81/a00528.html" title="ibeo::common::sdk::\lScanInfoIn2310" alt="" coords="323,295,464,336"/>
+</map>

@@ -1,0 +1,32 @@
+<map id="DeviceStatusSerializedSize6301.cpp" name="DeviceStatusSerializedSize6301.cpp">
+<area shape="rect" id="node2" href="$d9/dbb/a00852.html" title="ibeo/common/sdk/datablocks\l/devicestatus/DeviceStatusSerialized\lSize6301.hpp" alt="" coords="3002,80,3242,136"/>
+<area shape="rect" id="node53" href="$d9/d02/a00834.html" title="ibeo/common/sdk/datablocks\l/devicestatus/special/DeviceStatus6301\lSerializedSize6301.hpp" alt="" coords="2722,80,2978,136"/>
+<area shape="rect" id="node3" href="$db/d7c/a01614.html" title="ibeo/common/sdk/misc\l/WinCompatibility.hpp" alt="" coords="2562,913,2720,955"/>
+<area shape="rect" id="node6" href="$da/d90/a00826.html" title="ibeo/common/sdk/datablocks\l/devicestatus/DeviceStatus.hpp" alt="" coords="2980,184,3188,225"/>
+<area shape="rect" id="node7" href="$de/d9d/a00813.html" title="ibeo/common/sdk/datablocks\l/DataContainerBase.hpp" alt="" coords="1982,370,2174,411"/>
+<area shape="rect" id="node34" href="$d3/d79/a01611.html" title="ibeo/common/sdk/datablocks\l/devicestatus/Version448.hpp" alt="" coords="3121,273,3316,315"/>
+<area shape="rect" id="node36" href="$d3/da3/a01450.html" title="ibeo/common/sdk/datablocks\l/devicestatus/SerialNumber.hpp" alt="" coords="3340,273,3548,315"/>
+<area shape="rect" id="node38" href="$d4/d3c/a01418.html" title="ibeo/common/sdk/datablocks\l/scan/ScannerInfo.hpp" alt="" coords="2609,273,2801,315"/>
+<area shape="rect" id="node52" href="$d3/d29/a00947.html" title="ibeo/common/sdk/misc\l/IbeoSdkHash.hpp" alt="" coords="2233,556,2390,597"/>
+<area shape="rect" id="node8" href="$dc/d5e/a00817.html" title="ibeo/common/sdk/DataType\lId.hpp" alt="" coords="1637,556,1824,597"/>
+<area shape="rect" id="node27" href="$d6/d82/a00920.html" title="ibeo/common/sdk/datablocks\l/IbeoDataHeader.hpp" alt="" coords="1424,467,1616,508"/>
+<area shape="rect" id="node9" href="$da/dcf/a01558.html" title="ibeo/common/sdk/misc\l/Unconvertable.hpp" alt="" coords="624,645,781,687"/>
+<area shape="rect" id="node10" href="$d6/d8d/a01007.html" title="ibeo/common/sdk/io.hpp" alt="" coords="620,742,784,769"/>
+<area shape="rect" id="node20" href="$dc/d0c/a01532.html" title="ibeo/common/sdk/misc\l/ToHex.hpp" alt="" coords="2102,735,2260,776"/>
+<area shape="rect" id="node24" href="$d9/d0f/a00644.html" title="ibeo/common/sdk/bufferIO.hpp" alt="" coords="859,742,1060,769"/>
+<area shape="rect" id="node11" href="$dd/dac/a01008.html" title="ibeo/common/sdk/io\l_prototypes.hpp" alt="" coords="1881,824,2020,865"/>
+<area shape="rect" id="node28" href="$da/ddc/a01492.html" title="ibeo/common/sdk/Time.hpp" alt="" coords="1552,742,1735,769"/>
+<area shape="rect" id="node35" href="$d5/d84/a01612.html" title="ibeo/common/sdk/datablocks\l/devicestatus/special/Version448\lIn6301.hpp" alt="" coords="2927,363,3142,419"/>
+<area shape="rect" id="node37" href="$d3/dbc/a01451.html" title="ibeo/common/sdk/datablocks\l/devicestatus/special/SerialNumber\lIn6301.hpp" alt="" coords="3218,363,3446,419"/>
+<area shape="rect" id="node39" href="$d0/d05/a01420.html" title="ibeo/common/sdk/datablocks\l/scan/special/ScannerInfoIn2205.hpp" alt="" coords="2518,370,2756,411"/>
+<area shape="rect" id="node40" href="$d6/dfe/a01366.html" title="ibeo/common/sdk/datablocks\l/scan/special/ResolutionInfoIn2205.hpp" alt="" coords="2356,645,2606,687"/>
+<area shape="rect" id="node41" href="$d8/dbe/a01370.html" title="ibeo/common/sdk/Rotation\lOrder.hpp" alt="" coords="2628,467,2806,508"/>
+<area shape="rect" id="node42" href="$d5/da5/a01424.html" title="ibeo/common/sdk/ScannerType.hpp" alt="" coords="2436,742,2667,769"/>
+<area shape="rect" id="node43" href="$d0/db9/a01552.html" title="ibeo/common/sdk/Transformation\lMatrix3d.hpp" alt="" coords="2881,467,3097,508"/>
+<area shape="rect" id="node44" href="$d1/d17/a01369.html" title="ibeo/common/sdk/Rotation\lMatrix3d.hpp" alt="" coords="2817,556,2996,597"/>
+<area shape="rect" id="node46" href="$de/dd5/a01564.html" title="ibeo/common/sdk/Vector3.hpp" alt="" coords="2894,742,3092,769"/>
+<area shape="rect" id="node45" href="$d2/d4d/a01079.html" title="ibeo/common/sdk/Matrix3x3.hpp" alt="" coords="2793,653,3004,679"/>
+<area shape="rect" id="node47" href="$d6/d80/a01076.html" title="ibeo/common/sdk/Math.hpp" alt="" coords="3674,831,3856,858"/>
+<area shape="rect" id="node48" href="$d3/d60/a00818.html" title="ibeo/common/sdk/misc\l/deprecatedwarning.hpp" alt="" coords="3549,913,3709,955"/>
+<area shape="rect" id="node54" href="$d8/d64/a00828.html" title="ibeo/common/sdk/datablocks\l/devicestatus/special/DeviceStatus6301.hpp" alt="" coords="2564,184,2846,225"/>
+</map>

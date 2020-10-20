@@ -1,0 +1,35 @@
+setupHeaders(HEADERS
+        ResolutionInfoIn2205.hpp
+        ResolutionInfoIn2209.hpp
+        Scan2202.hpp
+        Scan2202Exporter2202.hpp
+        Scan2202Importer2202.hpp
+        Scan2205.hpp
+        Scan2205Exporter2205.hpp
+        Scan2205Importer2205.hpp
+        Scan2208.hpp
+        Scan2208Exporter2208.hpp
+        Scan2208Importer2208.hpp
+        Scan2208Importer2310.hpp
+        Scan2209.hpp
+        Scan2209Exporter2209.hpp
+        Scan2209Importer2209.hpp
+        Scan2310.hpp
+        Scan2310Exporter2310.hpp
+        Scan2310Importer2310.hpp
+        ScanHeaderIn2310.hpp
+        ScanInfoIn2310.hpp
+        ScannerInfoIn2205.hpp
+        ScannerInfoIn2209.hpp
+        ScanPointBaseIn2310.hpp
+        ScanPointDiagPulseIn2310.hpp
+        ScanPointIn2202.hpp
+        ScanPointIn2205.hpp
+        ScanPointIn2208.hpp
+        ScanPointIn2209.hpp
+        ScanPointIn2310.hpp
+        ScanPointRefScanIn2310.hpp
+        ScanSegInfoIn2310.hpp
+        ScanTrailerIn2310.hpp
+        SubScanIn2208.hpp
+        GROUP datablocks\\scan\\special)

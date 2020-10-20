@@ -1,0 +1,35 @@
+namespace ibeosdk{
+/*! \page SdkExamples Available Examples
+
+  \section Demos
+
+  This document contains some more detailed explanations for the most interesting examples of the SDK:
+  <ul>
+    <li><a href='sdk_demos_user_manual.pdf'>Introduction to ibeoSDK Demos</a></li>
+  </ul>
+
+  \section Examples
+
+  Further source code examples available in the sdk_demo project showing how to use various parts of the SDK:
+  <ul>
+    <li> \ref IbeoSdkCarriageWayListDemo.cpp
+    <li> \ref IbeoSdkDataLoggerDemo.cpp
+    <li> \ref IbeoSdkEcuSimDemo.cpp
+    <li> \ref IbeoSdkFileDemo.cpp
+    <li> \ref IbeoSdkGeneralFileDemo.cpp
+    <li> \ref IbeoSdkLaneEvaluationDemo.cpp
+    <li> \ref IbeoSdkLuxHrLiveDemo.cpp
+    <li> \ref IbeoSdkLuxLiveDemo.cpp
+    <li> \ref IbeoSdkMetaInformationDemo.cpp
+    <li> \ref IbeoSdkMiniLuxLiveDemo.cpp
+    <li> \ref IbeoSdkPointCloud7510Demo.cpp
+    <li> \ref IbeoSdkScalaLiveDemo.cpp
+    <li> \ref IbeoSdkScalaSimDemo.cpp
+    <li> \ref IbeoSdkTrackingBoxLiveDemo.cpp
+    <li> \ref IbeoSdkWriterDemo.cpp
+    <li> \ref ScalaUdpLiveDemo.cpp
+    <li> \ref ScalaUdpSimDemo.cpp
+  </ul>
+
+ */
+}

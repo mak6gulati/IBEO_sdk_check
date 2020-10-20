@@ -1,0 +1,7 @@
+<map id="ibeo::common::sdk::CommandLuxResetToDefaultParametersC" name="ibeo::common::sdk::CommandLuxResetToDefaultParametersC">
+<area shape="rect" id="node2" href="$d9/da1/a00396.html" title="ibeo::common::sdk::\lLuxCommandC\&lt; CommandId\l::Id::CmdLuxResetDefaultParameters \&gt;" alt="" coords="14,396,269,452"/>
+<area shape="rect" id="node3" href="$d7/d93/a00397.html" title="Base class for LUX commands. " alt="" coords="70,305,213,347"/>
+<area shape="rect" id="node4" href="$d6/d2c/a00072.html" title="ibeo::common::sdk::\lCommandCBase" alt="" coords="71,215,212,256"/>
+<area shape="rect" id="node5" href="$db/df8/a00076.html" title="ibeo::common::sdk::\lCommandId" alt="" coords="71,111,212,152"/>
+<area shape="rect" id="node6" href="$d1/d84/a00097.html" title="ibeo::common::sdk::\lComparableUnconvertable\l\&lt; uint16_t \&gt;" alt="" coords="53,5,229,61"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="ibeo::common::sdk::IbeoMiniLux" name="ibeo::common::sdk::IbeoMiniLux">
+<area shape="rect" id="node2" href="$d0/d2f/a00259.html" title="ibeo::common::sdk::\lIbeoTcpDevice\&lt; IbeoMiniLux \&gt;" alt="" coords="5,348,209,389"/>
+<area shape="rect" id="node3" href="$d0/d1f/a00247.html" title="ibeo::common::sdk::\lIbeoDevice\&lt; IbeoMiniLux \&gt;" alt="" coords="16,259,199,300"/>
+<area shape="rect" id="node4" href="$d0/da7/a00250.html" title="Base class for all Ibeo devices connected via TCP/IP or UDP. " alt="" coords="37,169,178,211"/>
+<area shape="rect" id="node5" href="$dd/dd7/a00248.html" title="Base class for all Ibeo devices. " alt="" coords="37,80,178,121"/>
+</map>

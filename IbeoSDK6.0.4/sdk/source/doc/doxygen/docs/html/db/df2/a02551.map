@@ -1,0 +1,94 @@
+<map id="Measurement.hpp" name="Measurement.hpp">
+<area shape="rect" id="node2" href="$d2/df3/a01085.html" title="MeasurementList.hpp" alt="" coords="4471,80,4617,107"/>
+<area shape="rect" id="node74" href="$d7/d0c/a01173.html" title="ObjectIn2281.hpp" alt="" coords="4715,155,4839,181"/>
+<area shape="rect" id="node92" href="$d9/d67/a01080.html" title="Measurement.cpp" alt="" coords="4790,80,4917,107"/>
+<area shape="rect" id="node93" href="$dd/df1/a01082.html" title="MeasurementKey.cpp" alt="" coords="4941,80,5091,107"/>
+<area shape="rect" id="node3" href="$d0/d1f/a01087.html" title="MeasurementList2821.hpp" alt="" coords="4287,379,4462,405"/>
+<area shape="rect" id="node24" href="$d8/d11/a01178.html" title="ObjectLabelIn6503.hpp" alt="" coords="4561,229,4716,256"/>
+<area shape="rect" id="node38" href="$db/d51/a01144.html" title="General object with members in SI units (m, rad, m/s, rad/s). " alt="" coords="4452,155,4537,181"/>
+<area shape="rect" id="node91" href="$da/d93/a01084.html" title="MeasurementList.cpp" alt="" coords="4200,155,4347,181"/>
+<area shape="rect" id="node4" href="$d3/dc4/a01089.html" title="MeasurementList2821Exporter2821.hpp" alt="" coords="2866,461,3118,487"/>
+<area shape="rect" id="node6" href="$d6/d0d/a01091.html" title="MeasurementList2821Importer2821.hpp" alt="" coords="3587,461,3837,487"/>
+<area shape="rect" id="node8" href="$d0/d82/a00857.html" title="Include file for using IbeoEcu. " alt="" coords="4585,461,4653,487"/>
+<area shape="rect" id="node20" href="$d6/d4d/a01371.html" title="scala.hpp" alt="" coords="4482,461,4561,487"/>
+<area shape="rect" id="node23" href="$d9/df5/a01086.html" title="MeasurementList2821.cpp" alt="" coords="4283,461,4458,487"/>
+<area shape="rect" id="node5" href="$da/db7/a01088.html" title="MeasurementList2821Exporter2821.cpp" alt="" coords="2643,550,2895,577"/>
+<area shape="rect" id="node7" href="$da/d73/a01090.html" title="MeasurementList2821Importer2821.cpp" alt="" coords="2920,550,3171,577"/>
+<area shape="rect" id="node9" href="$dd/dad/a00005.html" title="IbeoSdkCarriageWayListDemo.cpp" alt="" coords="4408,550,4635,577"/>
+<area shape="rect" id="node10" href="$de/d5e/a00007.html" title="IbeoSdkDataLoggerDemo.cpp" alt="" coords="4659,550,4856,577"/>
+<area shape="rect" id="node11" href="$da/d40/a00946.html" title="IbeoSdkEcuLiveDemo.cpp" alt="" coords="5935,550,6113,577"/>
+<area shape="rect" id="node12" href="$da/da0/a00009.html" title="IbeoSdkEcuSimDemo.cpp" alt="" coords="5488,550,5664,577"/>
+<area shape="rect" id="node13" href="$da/d45/a00011.html" title="IbeoSdkFileDemo.cpp" alt="" coords="3394,550,3545,577"/>
+<area shape="rect" id="node14" href="$d7/dd4/a00013.html" title="IbeoSdkGeneralFileDemo.cpp" alt="" coords="3569,550,3765,577"/>
+<area shape="rect" id="node15" href="$dd/d1b/a00015.html" title="IbeoSdkLaneEvaluationDemo.cpp" alt="" coords="3789,550,4008,577"/>
+<area shape="rect" id="node16" href="$d3/dfe/a00025.html" title="IbeoSdkPointCloud7510Demo.cpp" alt="" coords="5689,550,5911,577"/>
+<area shape="rect" id="node17" href="$d5/d16/a00029.html" title="IbeoSdkScalaSimDemo.cpp" alt="" coords="5277,550,5464,577"/>
+<area shape="rect" id="node18" href="$d0/dc0/a00033.html" title="IbeoSdkWriterDemo.cpp" alt="" coords="4032,550,4197,577"/>
+<area shape="rect" id="node19" href="$d1/dc6/a00037.html" title="ScalaUdpSimDemo.cpp" alt="" coords="4221,550,4384,577"/>
+<area shape="rect" id="node21" href="$d0/d33/a00027.html" title="IbeoSdkScalaLiveDemo.cpp" alt="" coords="4880,550,5067,577"/>
+<area shape="rect" id="node22" href="$d4/d8c/a00035.html" title="ScalaUdpLiveDemo.cpp" alt="" coords="5091,550,5253,577"/>
+<area shape="rect" id="node25" href="$d3/d32/a01176.html" title="ObjectLabel.hpp" alt="" coords="4901,304,5017,331"/>
+<area shape="rect" id="node31" href="$de/db5/a01181.html" title="ObjectLabelList6503.hpp" alt="" coords="4711,304,4876,331"/>
+<area shape="rect" id="node37" href="$dc/d98/a01177.html" title="ObjectLabelIn6503.cpp" alt="" coords="4421,304,4576,331"/>
+<area shape="rect" id="node26" href="$de/d1a/a01179.html" title="ObjectLabelList.hpp" alt="" coords="5158,379,5295,405"/>
+<area shape="rect" id="node27" href="$dc/d70/a01187.html" title="ObjectLabelListExporter6503.hpp" alt="" coords="5165,461,5379,487"/>
+<area shape="rect" id="node29" href="$d3/d10/a01189.html" title="ObjectLabelListImporter6503.hpp" alt="" coords="5404,461,5617,487"/>
+<area shape="rect" id="node28" href="$d9/dbb/a01186.html" title="ObjectLabelListExporter6503.cpp" alt="" coords="6137,550,6351,577"/>
+<area shape="rect" id="node30" href="$d6/d97/a01188.html" title="ObjectLabelListImporter6503.cpp" alt="" coords="6376,550,6589,577"/>
+<area shape="rect" id="node32" href="$dc/d2d/a01183.html" title="ObjectLabelList6503Exporter6503.hpp" alt="" coords="4891,379,5133,405"/>
+<area shape="rect" id="node34" href="$d3/dd3/a01185.html" title="ObjectLabelList6503Importer6503.hpp" alt="" coords="5502,379,5743,405"/>
+<area shape="rect" id="node36" href="$dd/d75/a01180.html" title="ObjectLabelList6503.cpp" alt="" coords="4651,379,4816,405"/>
+<area shape="rect" id="node33" href="$dd/de9/a01182.html" title="ObjectLabelList6503Exporter6503.cpp" alt="" coords="4847,461,5089,487"/>
+<area shape="rect" id="node35" href="$d1/d35/a01184.html" title="ObjectLabelList6503Importer6503.cpp" alt="" coords="5642,461,5883,487"/>
+<area shape="rect" id="node39" href="$d1/d0d/a01191.html" title="Generalized container class for object lists. " alt="" coords="1733,379,1840,405"/>
+<area shape="rect" id="node73" href="$db/db2/a01143.html" title="Object.cpp" alt="" coords="4452,229,4537,256"/>
+<area shape="rect" id="node40" href="$d3/d07/a01241.html" title="ObjectListExporter2271.hpp" alt="" coords="251,461,434,487"/>
+<area shape="rect" id="node42" href="$d7/dc5/a01242.html" title="Exports object type 0x2281 to general object container. " alt="" coords="2326,639,2509,666"/>
+<area shape="rect" id="node43" href="$d4/dd5/a01244.html" title="Exports object type 0x2281/0x2291 to general object container. " alt="" coords="2358,543,2517,584"/>
+<area shape="rect" id="node44" href="$d1/d31/a01245.html" title="Exports object type 0x2291 to general object container. " alt="" coords="2533,639,2715,666"/>
+<area shape="rect" id="node45" href="$d8/db0/a01243.html" title="ObjectListExporter2281\l_2291.cpp" alt="" coords="1427,632,1586,673"/>
+<area shape="rect" id="node46" href="$da/de0/a01248.html" title="Get serialized size for object types 0x2280/0x2290 from/to general object container. " alt="" coords="600,453,827,495"/>
+<area shape="rect" id="node48" href="$da/da1/a01258.html" title="Imports object type 0x2280 from general object container. " alt="" coords="231,639,414,666"/>
+<area shape="rect" id="node50" href="$d7/d73/a01266.html" title="Imports object type 0x2290 from general object container. " alt="" coords="461,639,643,666"/>
+<area shape="rect" id="node52" href="$dd/d42/a01259.html" title="ObjectListImporter2280\l_2290.cpp" alt="" coords="5,632,163,673"/>
+<area shape="rect" id="node54" href="$d4/d22/a01250.html" title="Get serialized size for object types 0x2281/0x2291 from/to general object container. " alt="" coords="2075,453,2301,495"/>
+<area shape="rect" id="node56" href="$d3/d53/a01262.html" title="Imports object type 0x2281 from general object container. " alt="" coords="1755,639,1938,666"/>
+<area shape="rect" id="node58" href="$dc/dd9/a01268.html" title="Imports object type 0x2291 from general object container. " alt="" coords="929,639,1111,666"/>
+<area shape="rect" id="node60" href="$de/dcb/a01263.html" title="ObjectListImporter2281\l_2291.cpp" alt="" coords="1972,632,2129,673"/>
+<area shape="rect" id="node62" href="$d0/d33/a01252.html" title="ObjectListImporter2221.hpp" alt="" coords="1009,461,1191,487"/>
+<area shape="rect" id="node64" href="$dc/d83/a01254.html" title="ObjectListImporter2225.hpp" alt="" coords="1243,461,1426,487"/>
+<area shape="rect" id="node66" href="$d6/d0f/a01256.html" title="ObjectListImporter2271.hpp" alt="" coords="1463,461,1646,487"/>
+<area shape="rect" id="node68" href="$df/d18/a01071.html" title="Include file for using IbeoLux. " alt="" coords="4083,461,4147,487"/>
+<area shape="rect" id="node70" href="$d1/d62/a01533.html" title="Include file for using IbeoTrackingBox. " alt="" coords="1679,461,1793,487"/>
+<area shape="rect" id="node72" href="$dc/d19/a01190.html" title="ObjectList.cpp" alt="" coords="2325,461,2432,487"/>
+<area shape="rect" id="node41" href="$d5/d6e/a01240.html" title="ObjectListExporter2271.cpp" alt="" coords="161,550,343,577"/>
+<area shape="rect" id="node47" href="$d7/da3/a01260.html" title="Imports object type 0x2280 or 0x2290 from general object container. " alt="" coords="368,543,525,584"/>
+<area shape="rect" id="node53" href="$dd/d95/a01247.html" title="ObjectListImExporterCommon2280\l_2290.cpp" alt="" coords="600,543,827,584"/>
+<area shape="rect" id="node49" href="$d9/de7/a01257.html" title="ObjectListImporter2280.cpp" alt="" coords="231,721,414,748"/>
+<area shape="rect" id="node51" href="$da/dd8/a01265.html" title="ObjectListImporter2290.cpp" alt="" coords="461,721,643,748"/>
+<area shape="rect" id="node55" href="$d3/d51/a01264.html" title="Im&#45; or exports object type 0x2281/0x2291 from/to general object container. " alt="" coords="1875,543,2032,584"/>
+<area shape="rect" id="node61" href="$d3/d7b/a01249.html" title="ObjectListImExporterCommon2281\l_2291.cpp" alt="" coords="2107,543,2333,584"/>
+<area shape="rect" id="node57" href="$de/d34/a01261.html" title="ObjectListImporter2281.cpp" alt="" coords="1755,721,1938,748"/>
+<area shape="rect" id="node59" href="$d4/d41/a01267.html" title="ObjectListImporter2291.cpp" alt="" coords="929,721,1111,748"/>
+<area shape="rect" id="node63" href="$dc/dc2/a01251.html" title="ObjectListImporter2221.cpp" alt="" coords="953,550,1135,577"/>
+<area shape="rect" id="node65" href="$d3/d0b/a01253.html" title="ObjectListImporter2225.cpp" alt="" coords="1159,550,1342,577"/>
+<area shape="rect" id="node67" href="$d7/d88/a01255.html" title="ObjectListImporter2271.cpp" alt="" coords="1366,550,1549,577"/>
+<area shape="rect" id="node69" href="$dd/da2/a00019.html" title="IbeoSdkLuxLiveDemo.cpp" alt="" coords="3195,550,3370,577"/>
+<area shape="rect" id="node71" href="$df/d61/a00031.html" title="IbeoSdkTrackingBoxLiveDemo.cpp" alt="" coords="1573,550,1800,577"/>
+<area shape="rect" id="node75" href="$d7/ddd/a01223.html" title="ObjectList2281.hpp" alt="" coords="5825,229,5959,256"/>
+<area shape="rect" id="node88" href="$d8/daf/a01550.html" title="Transformation helper class. " alt="" coords="4980,229,5087,256"/>
+<area shape="rect" id="node90" href="$d6/db6/a01172.html" title="ObjectIn2281.cpp" alt="" coords="4739,229,4863,256"/>
+<area shape="rect" id="node76" href="$d6/df2/a01175.html" title="ObjectIn2291.hpp" alt="" coords="6319,304,6443,331"/>
+<area shape="rect" id="node83" href="$d8/d53/a01225.html" title="ObjectList2281Exporter2281.hpp" alt="" coords="5688,304,5899,331"/>
+<area shape="rect" id="node85" href="$d9/da8/a01227.html" title="ObjectList2281Importer2281.hpp" alt="" coords="6083,304,6293,331"/>
+<area shape="rect" id="node87" href="$de/d7e/a01222.html" title="ObjectList2281.cpp" alt="" coords="5923,304,6058,331"/>
+<area shape="rect" id="node77" href="$dd/dad/a01235.html" title="ObjectList2291.hpp" alt="" coords="6439,379,6574,405"/>
+<area shape="rect" id="node78" href="$dc/dab/a01237.html" title="ObjectList2291Exporter2291.hpp" alt="" coords="6401,461,6612,487"/>
+<area shape="rect" id="node80" href="$d7/dbf/a01239.html" title="ObjectList2291Importer2291.hpp" alt="" coords="6636,461,6847,487"/>
+<area shape="rect" id="node82" href="$d6/d1e/a01234.html" title="ObjectList2291.cpp" alt="" coords="6871,461,7006,487"/>
+<area shape="rect" id="node79" href="$d8/d2b/a01236.html" title="ObjectList2291Exporter2291.cpp" alt="" coords="6613,550,6824,577"/>
+<area shape="rect" id="node81" href="$d8/ddf/a01238.html" title="ObjectList2291Importer2291.cpp" alt="" coords="6848,550,7059,577"/>
+<area shape="rect" id="node84" href="$d8/d8e/a01224.html" title="ObjectList2281Exporter2281.cpp" alt="" coords="5768,379,5979,405"/>
+<area shape="rect" id="node86" href="$dd/d9e/a01226.html" title="ObjectList2281Importer2281.cpp" alt="" coords="6083,379,6293,405"/>
+<area shape="rect" id="node89" href="$d3/d1b/a01549.html" title="Transformation helper class. " alt="" coords="5041,304,5148,331"/>
+</map>

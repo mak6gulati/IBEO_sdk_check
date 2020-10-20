@@ -1,0 +1,7 @@
+<map id="ibeo::common::sdk::CommandMiniLuxStartMeasureC" name="ibeo::common::sdk::CommandMiniLuxStartMeasureC">
+<area shape="rect" id="node2" href="$de/df7/a00418.html" title="ibeo::common::sdk::\lMiniLuxCommandC\&lt; CommandId\l::Id::CmdLuxStartMeasure \&gt;" alt="" coords="5,396,225,452"/>
+<area shape="rect" id="node3" href="$d3/d29/a00419.html" title="Base class for LUX commands. " alt="" coords="32,305,199,347"/>
+<area shape="rect" id="node4" href="$d6/d2c/a00072.html" title="ibeo::common::sdk::\lCommandCBase" alt="" coords="45,215,186,256"/>
+<area shape="rect" id="node5" href="$db/df8/a00076.html" title="ibeo::common::sdk::\lCommandId" alt="" coords="45,111,186,152"/>
+<area shape="rect" id="node6" href="$d1/d84/a00097.html" title="ibeo::common::sdk::\lComparableUnconvertable\l\&lt; uint16_t \&gt;" alt="" coords="27,5,203,61"/>
+</map>

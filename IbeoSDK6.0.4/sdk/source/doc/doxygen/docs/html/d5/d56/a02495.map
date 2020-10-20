@@ -1,0 +1,20 @@
+<map id="LogMessageError6400Importer6400.hpp" name="LogMessageError6400Importer6400.hpp">
+<area shape="rect" id="node2" href="$db/d7c/a01614.html" title="ibeo/common/sdk/misc\l/WinCompatibility.hpp" alt="" coords="1775,809,1932,851"/>
+<area shape="rect" id="node5" href="$d1/dcd/a01351.html" title="ibeo/common/sdk/datablocks\l/RegisteredImporter.hpp" alt="" coords="2301,80,2493,121"/>
+<area shape="rect" id="node40" href="$d8/d27/a01043.html" title="ibeo/common/sdk/datablocks\l/logmessages/LogMessageError6400.hpp" alt="" coords="2677,177,2939,218"/>
+<area shape="rect" id="node46" href="$de/d26/a01035.html" title="ibeo/common/sdk/datablocks\l/logmessages/LogMessage64x0Importer64x0\lBase.hpp" alt="" coords="344,169,629,225"/>
+<area shape="rect" id="node6" href="$d7/d06/a01005.html" title="ibeo/common/sdk/datablocks\l/ImporterBase.hpp" alt="" coords="1139,177,1331,218"/>
+<area shape="rect" id="node8" href="$dc/d5e/a00817.html" title="ibeo/common/sdk/DataType\lId.hpp" alt="" coords="1171,452,1357,493"/>
+<area shape="rect" id="node38" href="$da/d71/a00814.html" title="ibeo/common/sdk/listener\l/DataContainerListener.hpp" alt="" coords="2199,177,2380,218"/>
+<area shape="rect" id="node7" href="$de/d9d/a00813.html" title="ibeo/common/sdk/datablocks\l/DataContainerBase.hpp" alt="" coords="1583,273,1775,315"/>
+<area shape="rect" id="node27" href="$d6/d82/a00920.html" title="ibeo/common/sdk/datablocks\l/IbeoDataHeader.hpp" alt="" coords="1449,363,1641,404"/>
+<area shape="rect" id="node34" href="$d2/d95/a01449.html" title="ibeo/common/sdk/misc\l/SdkExceptions.hpp" alt="" coords="408,273,565,315"/>
+<area shape="rect" id="node9" href="$da/dcf/a01558.html" title="ibeo/common/sdk/misc\l/Unconvertable.hpp" alt="" coords="617,541,775,583"/>
+<area shape="rect" id="node10" href="$d6/d8d/a01007.html" title="ibeo/common/sdk/io.hpp" alt="" coords="614,638,778,665"/>
+<area shape="rect" id="node20" href="$dc/d0c/a01532.html" title="ibeo/common/sdk/misc\l/ToHex.hpp" alt="" coords="1343,631,1500,672"/>
+<area shape="rect" id="node24" href="$d9/d0f/a00644.html" title="ibeo/common/sdk/bufferIO.hpp" alt="" coords="937,638,1138,665"/>
+<area shape="rect" id="node11" href="$dd/dac/a01008.html" title="ibeo/common/sdk/io\l_prototypes.hpp" alt="" coords="1037,720,1176,761"/>
+<area shape="rect" id="node28" href="$da/ddc/a01492.html" title="ibeo/common/sdk/Time.hpp" alt="" coords="1717,638,1899,665"/>
+<area shape="rect" id="node41" href="$d2/d57/a01033.html" title="ibeo/common/sdk/datablocks\l/logmessages/LogMessage64x0Base.hpp" alt="" coords="2727,273,2991,315"/>
+<area shape="rect" id="node45" href="$d3/d29/a00947.html" title="ibeo/common/sdk/misc\l/IbeoSdkHash.hpp" alt="" coords="2777,720,2935,761"/>
+</map>

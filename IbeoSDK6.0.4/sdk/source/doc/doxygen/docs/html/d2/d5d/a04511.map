@@ -1,0 +1,12 @@
+<map id="ibeo::common::sdk::ReplyMiniLuxGetStatus" name="ibeo::common::sdk::ReplyMiniLuxGetStatus">
+<area shape="rect" id="node2" href="$db/d4f/a00420.html" title="ibeo::common::sdk::\lMiniLuxCommandReply\l\&lt; CommandId::Id::CmdLuxGetStatus \&gt;" alt="" coords="1057,35,1309,91"/>
+<area shape="rect" id="node3" href="$d2/de1/a00421.html" title="ibeo::common::sdk::\lMiniLuxCommandReplyBase" alt="" coords="707,43,897,84"/>
+<area shape="rect" id="node4" href="$d9/df8/a00096.html" title="ibeo::common::sdk::\lCommandReplyBase" alt="" coords="511,43,657,84"/>
+<area shape="rect" id="node5" href="$da/d72/a00124.html" title="ibeo::common::sdk::\lDataTypeId" alt="" coords="231,5,372,47"/>
+<area shape="rect" id="node6" href="$d1/d84/a00097.html" title="ibeo::common::sdk::\lComparableUnconvertable\l\&lt; uint16_t \&gt;" alt="" coords="5,27,181,83"/>
+<area shape="rect" id="node7" href="$db/df8/a00076.html" title="ibeo::common::sdk::\lCommandId" alt="" coords="231,71,372,112"/>
+<area shape="rect" id="node8" href="$db/d57/a00112.html" title="Base class for Serializable which can be read and written. " alt="" coords="1113,115,1254,156"/>
+<area shape="rect" id="node9" href="$d4/d3a/a00101.html" title="Class that provides a mutex mechanism for it heir. " alt="" coords="731,111,873,152"/>
+<area shape="rect" id="node10" href="$dd/d63/a00455.html" title="ibeo::common::sdk::\lNTPTime" alt="" coords="731,176,873,217"/>
+<area shape="rect" id="node11" href="$da/d6e/a00610.html" title="ibeo::common::sdk::\lReplyMiniLuxGetStatus\l::Timestamp" alt="" coords="1103,179,1263,235"/>
+</map>

@@ -1,0 +1,17 @@
+<map id="TimeRelationsList9010.hpp" name="TimeRelationsList9010.hpp">
+<area shape="rect" id="node2" href="$db/d7c/a01614.html" title="ibeo/common/sdk/misc\l/WinCompatibility.hpp" alt="" coords="1105,631,1263,672"/>
+<area shape="rect" id="node5" href="$de/d9d/a00813.html" title="ibeo/common/sdk/datablocks\l/DataContainerBase.hpp" alt="" coords="1175,80,1367,121"/>
+<area shape="rect" id="node32" href="$dd/d05/a01504.html" title="ibeo/common/sdk/datablocks\l/timerelation/special/TimeRelation\lIn9010.hpp" alt="" coords="2159,259,2377,315"/>
+<area shape="rect" id="node40" href="$d3/d29/a00947.html" title="ibeo/common/sdk/misc\l/IbeoSdkHash.hpp" alt="" coords="2924,541,3081,583"/>
+<area shape="rect" id="node6" href="$dc/d5e/a00817.html" title="ibeo/common/sdk/DataType\lId.hpp" alt="" coords="825,266,1012,307"/>
+<area shape="rect" id="node25" href="$d6/d82/a00920.html" title="ibeo/common/sdk/datablocks\l/IbeoDataHeader.hpp" alt="" coords="1608,169,1800,211"/>
+<area shape="rect" id="node7" href="$da/dcf/a01558.html" title="ibeo/common/sdk/misc\l/Unconvertable.hpp" alt="" coords="540,363,697,404"/>
+<area shape="rect" id="node8" href="$d6/d8d/a01007.html" title="ibeo/common/sdk/io.hpp" alt="" coords="778,459,942,486"/>
+<area shape="rect" id="node18" href="$dc/d0c/a01532.html" title="ibeo/common/sdk/misc\l/ToHex.hpp" alt="" coords="1053,452,1211,493"/>
+<area shape="rect" id="node22" href="$d9/d0f/a00644.html" title="ibeo/common/sdk/bufferIO.hpp" alt="" coords="538,459,739,486"/>
+<area shape="rect" id="node9" href="$dd/dac/a01008.html" title="ibeo/common/sdk/io\l_prototypes.hpp" alt="" coords="1328,541,1467,583"/>
+<area shape="rect" id="node26" href="$da/ddc/a01492.html" title="ibeo/common/sdk/Time.hpp" alt="" coords="1851,459,2034,486"/>
+<area shape="rect" id="node33" href="$d5/d5b/a00695.html" title="ibeo/common/sdk/datablocks\l/ClockType.hpp" alt="" coords="2172,363,2364,404"/>
+<area shape="rect" id="node34" href="$d3/d60/a00818.html" title="../misc/deprecatedwarning.hpp" alt="" coords="2649,549,2849,575"/>
+<area shape="rect" id="node35" href="$d6/d80/a01076.html" title="../Math.hpp" alt="" coords="2459,459,2547,486"/>
+</map>

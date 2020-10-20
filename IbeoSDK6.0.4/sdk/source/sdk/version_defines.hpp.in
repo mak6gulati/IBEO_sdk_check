@@ -1,0 +1,22 @@
+//==============================================================================
+
+#pragma once
+
+//==============================================================================
+@NAMESPACE_BEGIN@
+
+//==============================================================================
+
+#define VERSION_MAJOR        @PROJECT_VERSION_MAJOR@
+#define VERSION_MINOR        @PROJECT_VERSION_MINOR@
+#define VERSION_PATCH        @PROJECT_VERSION_PATCH@
+#define VERSION_TWEAK        @PROJECT_VERSION_TWEAK@
+#define VERSION_EXTRA       "@PROJECT_VERSION_EXTRA@"
+#define VERSION_STRING      "@PROJECT_VERSION_STRING@"
+#define VERSION             "@PROJECT_VERSION@"
+#define VERSION_IS_SNAPSHOT  @PROJECT_VERSION_IS_SNAPSHOT@
+
+//==============================================================================
+@NAMESPACE_END@
+
+//==============================================================================

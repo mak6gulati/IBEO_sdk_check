@@ -1,0 +1,5 @@
+<map id="ibeo::common::sdk::PointCloudBase" name="ibeo::common::sdk::PointCloudBase">
+<area shape="rect" id="node2" href="$db/dc4/a00495.html" title="Holds a list of points. " alt="" coords="195,5,336,47"/>
+<area shape="rect" id="node3" href="$d3/dad/a00496.html" title="Contains a vector of points. " alt="" coords="195,71,336,112"/>
+<area shape="rect" id="node4" href="$d4/d1e/a00497.html" title="Ibeo point cloud plane. " alt="" coords="195,136,336,177"/>
+</map>

@@ -1,0 +1,101 @@
+<map id="PositionWgs84.hpp" name="PositionWgs84.hpp">
+<area shape="rect" id="node2" href="$dd/dfd/a01027.html" title="Support point for a LaneSegment. " alt="" coords="3915,80,4104,107"/>
+<area shape="rect" id="node5" href="$d3/d08/a01018.html" title="LaneHandler which implements functionality for the CarriageWay / Lane linked lists. " alt="" coords="3825,408,3945,435"/>
+<area shape="rect" id="node13" href="$dc/d00/a00820.html" title="Destination3520.hpp" alt="" coords="5687,80,5828,107"/>
+<area shape="rect" id="node19" href="$da/d98/a00870.html" title="EventTag7000.hpp" alt="" coords="6337,80,6468,107"/>
+<area shape="rect" id="node28" href="$d0/ddf/a00918.html" title="GpsPoint.hpp" alt="" coords="4523,80,4624,107"/>
+<area shape="rect" id="node37" href="$d3/d22/a01572.html" title="Generalized ContainerClass for VehicleState. " alt="" coords="1203,333,1325,360"/>
+<area shape="rect" id="node65" href="$de/d40/a01592.html" title="VehicleState2808.hpp" alt="" coords="4885,80,5035,107"/>
+<area shape="rect" id="node73" href="$d1/d54/a01326.html" title="PositionWgs84_2604.hpp" alt="" coords="4279,333,4449,360"/>
+<area shape="rect" id="node79" href="$d9/d45/a01332.html" title="PositionWgs84Sequence.hpp" alt="" coords="7547,80,7741,107"/>
+<area shape="rect" id="node85" href="$d3/da4/a01343.html" title="PositionWgs84SequenceImporter2604.cpp" alt="" coords="7068,251,7337,278"/>
+<area shape="rect" id="node89" href="$d4/dd1/a01334.html" title="PositionWgs84Sequence3510.hpp" alt="" coords="8451,80,8672,107"/>
+<area shape="rect" id="node95" href="$de/d41/a01030.html" title="Definition of structs and enums for carriageways and lanes. " alt="" coords="3652,162,3756,189"/>
+<area shape="rect" id="node100" href="$db/da8/a01323.html" title="PositionWgs84.cpp" alt="" coords="8697,80,8831,107"/>
+<area shape="rect" id="node3" href="$de/d02/a01026.html" title="LaneSupportPoint.hpp" alt="" coords="4002,251,4153,278"/>
+<area shape="rect" id="node8" href="$d6/dcd/a01023.html" title="Segment of a lane. " alt="" coords="3621,251,3787,278"/>
+<area shape="rect" id="node11" href="$db/d08/a01028.html" title="Support point for a LaneSegment. " alt="" coords="3839,162,4028,189"/>
+<area shape="rect" id="node4" href="$d5/dfb/a01021.html" title="LaneSegment.hpp" alt="" coords="3927,333,4054,360"/>
+<area shape="rect" id="node6" href="$dd/dad/a00005.html" title="IbeoSdkCarriageWayListDemo.cpp" alt="" coords="3772,483,3999,509"/>
+<area shape="rect" id="node7" href="$dd/d1b/a00015.html" title="IbeoSdkLaneEvaluationDemo.cpp" alt="" coords="4023,483,4241,509"/>
+<area shape="rect" id="node9" href="$db/daf/a01019.html" title="Lane which has a list of LaneSegments. " alt="" coords="3495,333,3609,360"/>
+<area shape="rect" id="node10" href="$d1/dd8/a01022.html" title="Segment of a lane for data type 0x6970. " alt="" coords="3634,333,3801,360"/>
+<area shape="rect" id="node12" href="$db/d23/a01025.html" title="Segment of a lane. " alt="" coords="3811,251,3978,278"/>
+<area shape="rect" id="node14" href="$d6/da7/a00822.html" title="Destination3520Exporter3520.hpp" alt="" coords="5527,162,5745,189"/>
+<area shape="rect" id="node16" href="$d8/d1c/a00824.html" title="Destination3520Importer3520.hpp" alt="" coords="5770,162,5987,189"/>
+<area shape="rect" id="node18" href="$d7/d4f/a00819.html" title="Destination3520.cpp" alt="" coords="6012,162,6153,189"/>
+<area shape="rect" id="node15" href="$d6/d8b/a00821.html" title="Destination3520Exporter3520.cpp" alt="" coords="5455,251,5673,278"/>
+<area shape="rect" id="node17" href="$d3/db4/a00823.html" title="Destination3520Importer3520.cpp" alt="" coords="5698,251,5915,278"/>
+<area shape="rect" id="node20" href="$dc/d17/a00872.html" title="EventTag7000Exporter7000.hpp" alt="" coords="6180,162,6388,189"/>
+<area shape="rect" id="node22" href="$df/d2a/a00874.html" title="EventTag7000Importer7000.hpp" alt="" coords="6418,162,6625,189"/>
+<area shape="rect" id="node27" href="$d3/db2/a00869.html" title="EventTag7000.cpp" alt="" coords="6649,162,6780,189"/>
+<area shape="rect" id="node21" href="$dd/de1/a00871.html" title="EventTag7000Exporter7000.cpp" alt="" coords="5940,251,6148,278"/>
+<area shape="rect" id="node23" href="$d7/d0a/a00801.html" title="ContentSeparatorImporter7100.cpp" alt="" coords="6173,251,6398,278"/>
+<area shape="rect" id="node24" href="$d9/d22/a00873.html" title="EventTag7000Importer7000.cpp" alt="" coords="6422,251,6629,278"/>
+<area shape="rect" id="node25" href="$d9/dfb/a00913.html" title="GpsImuImporter9001.cpp" alt="" coords="6653,251,6822,278"/>
+<area shape="rect" id="node26" href="$de/dc3/a00909.html" title="GpsImu9001Importer9001.cpp" alt="" coords="6847,251,7044,278"/>
+<area shape="rect" id="node29" href="$d8/d38/a01299.html" title="PointBase.hpp" alt="" coords="4641,333,4748,360"/>
+<area shape="rect" id="node34" href="$de/d6c/a01349.html" title="ReferencePlane.hpp" alt="" coords="4557,162,4697,189"/>
+<area shape="rect" id="node36" href="$d4/ddc/a00917.html" title="GpsPoint.cpp" alt="" coords="4329,162,4431,189"/>
+<area shape="rect" id="node30" href="$d1/d72/a01319.html" title="PointCloudPointIn7500.hpp" alt="" coords="4838,408,5018,435"/>
+<area shape="rect" id="node31" href="$d9/d5c/a01321.html" title="PointCloudPointIn7510.hpp" alt="" coords="5042,408,5222,435"/>
+<area shape="rect" id="node32" href="$d4/d34/a01298.html" title="PointBase.cpp" alt="" coords="4707,408,4813,435"/>
+<area shape="rect" id="node33" href="$d7/d57/a01348.html" title="ReferencePlane.cpp" alt="" coords="5246,408,5386,435"/>
+<area shape="rect" id="node35" href="$d7/d41/a01312.html" title="PointCloudBase.hpp" alt="" coords="4607,251,4748,278"/>
+<area shape="rect" id="node38" href="$d3/da5/a01598.html" title="VehicleStateExporter2805.hpp" alt="" coords="242,408,441,435"/>
+<area shape="rect" id="node40" href="$d4/d3f/a01600.html" title="VehicleStateExporter2808.hpp" alt="" coords="610,408,809,435"/>
+<area shape="rect" id="node42" href="$d5/dcf/a01602.html" title="Imports vehicleState type 0x2805 to general vehicle state container. " alt="" coords="833,408,1031,435"/>
+<area shape="rect" id="node44" href="$dc/dd2/a01604.html" title="Imports vehicleState type 0x2806 to general vehicle state container. " alt="" coords="1055,408,1252,435"/>
+<area shape="rect" id="node46" href="$d3/d2d/a01606.html" title="Imports vehicleState type 0x2807 to general vehicle state container. " alt="" coords="1276,408,1473,435"/>
+<area shape="rect" id="node48" href="$db/dfd/a01608.html" title="Imports vehicleState type 0x2808 to general vehicle state container. " alt="" coords="1497,408,1695,435"/>
+<area shape="rect" id="node50" href="$d0/d82/a00857.html" title="Include file for using IbeoEcu. " alt="" coords="3182,408,3250,435"/>
+<area shape="rect" id="node60" href="$df/d18/a01071.html" title="Include file for using IbeoLux. " alt="" coords="2571,408,2635,435"/>
+<area shape="rect" id="node62" href="$d1/d62/a01533.html" title="Include file for using IbeoTrackingBox. " alt="" coords="75,408,189,435"/>
+<area shape="rect" id="node64" href="$d5/d10/a01571.html" title="VehicleState.cpp" alt="" coords="465,408,586,435"/>
+<area shape="rect" id="node39" href="$d0/d1d/a01597.html" title="VehicleStateExporter2805.cpp" alt="" coords="257,483,455,509"/>
+<area shape="rect" id="node41" href="$d9/d13/a01599.html" title="VehicleStateExporter2808.cpp" alt="" coords="610,483,809,509"/>
+<area shape="rect" id="node43" href="$d7/d82/a01601.html" title="VehicleStateImporter2805.cpp" alt="" coords="833,483,1031,509"/>
+<area shape="rect" id="node45" href="$db/d51/a01603.html" title="VehicleStateImporter2806.cpp" alt="" coords="1055,483,1252,509"/>
+<area shape="rect" id="node47" href="$d5/d75/a01605.html" title="VehicleStateImporter2807.cpp" alt="" coords="1276,483,1473,509"/>
+<area shape="rect" id="node49" href="$d6/d82/a01607.html" title="VehicleStateImporter2808.cpp" alt="" coords="1497,483,1695,509"/>
+<area shape="rect" id="node51" href="$de/d5e/a00007.html" title="IbeoSdkDataLoggerDemo.cpp" alt="" coords="2105,483,2303,509"/>
+<area shape="rect" id="node52" href="$da/d40/a00946.html" title="IbeoSdkEcuLiveDemo.cpp" alt="" coords="3323,483,3501,509"/>
+<area shape="rect" id="node53" href="$da/da0/a00009.html" title="IbeoSdkEcuSimDemo.cpp" alt="" coords="2327,483,2503,509"/>
+<area shape="rect" id="node54" href="$da/d45/a00011.html" title="IbeoSdkFileDemo.cpp" alt="" coords="2527,483,2678,509"/>
+<area shape="rect" id="node55" href="$d7/dd4/a00013.html" title="IbeoSdkGeneralFileDemo.cpp" alt="" coords="2702,483,2898,509"/>
+<area shape="rect" id="node56" href="$d3/dfe/a00025.html" title="IbeoSdkPointCloud7510Demo.cpp" alt="" coords="3525,483,3747,509"/>
+<area shape="rect" id="node57" href="$d5/d16/a00029.html" title="IbeoSdkScalaSimDemo.cpp" alt="" coords="2923,483,3109,509"/>
+<area shape="rect" id="node58" href="$d0/dc0/a00033.html" title="IbeoSdkWriterDemo.cpp" alt="" coords="3133,483,3299,509"/>
+<area shape="rect" id="node59" href="$d1/dc6/a00037.html" title="ScalaUdpSimDemo.cpp" alt="" coords="1919,483,2081,509"/>
+<area shape="rect" id="node61" href="$dd/da2/a00019.html" title="IbeoSdkLuxLiveDemo.cpp" alt="" coords="1719,483,1894,509"/>
+<area shape="rect" id="node63" href="$df/d61/a00031.html" title="IbeoSdkTrackingBoxLiveDemo.cpp" alt="" coords="5,483,232,509"/>
+<area shape="rect" id="node66" href="$dc/def/a01594.html" title="VehicleState2808Exporter2808.hpp" alt="" coords="4721,162,4948,189"/>
+<area shape="rect" id="node68" href="$dd/d70/a01596.html" title="VehicleState2808Importer2808.hpp" alt="" coords="4973,162,5198,189"/>
+<area shape="rect" id="node70" href="$d8/daf/a01550.html" title="Transformation helper class. " alt="" coords="5223,162,5329,189"/>
+<area shape="rect" id="node72" href="$dc/d42/a01591.html" title="VehicleState2808.cpp" alt="" coords="5353,162,5503,189"/>
+<area shape="rect" id="node67" href="$d9/dc8/a01593.html" title="VehicleState2808Exporter2808.cpp" alt="" coords="4823,251,5049,278"/>
+<area shape="rect" id="node69" href="$dc/dbf/a01595.html" title="VehicleState2808Importer2808.cpp" alt="" coords="5074,251,5299,278"/>
+<area shape="rect" id="node71" href="$d3/d1b/a01549.html" title="Transformation helper class. " alt="" coords="5324,251,5431,278"/>
+<area shape="rect" id="node74" href="$dc/dd9/a01328.html" title="PositionWgs84_2604Exporter2604.hpp" alt="" coords="3970,408,4217,435"/>
+<area shape="rect" id="node76" href="$d5/d78/a01330.html" title="PositionWgs84_2604Importer2604.hpp" alt="" coords="4241,408,4487,435"/>
+<area shape="rect" id="node78" href="$dd/d5d/a01325.html" title="PositionWgs84_2604.cpp" alt="" coords="4512,408,4683,435"/>
+<area shape="rect" id="node75" href="$d4/d2c/a01327.html" title="PositionWgs84_2604Exporter2604.cpp" alt="" coords="4266,483,4513,509"/>
+<area shape="rect" id="node77" href="$df/d29/a01329.html" title="PositionWgs84_2604Importer2604.cpp" alt="" coords="4537,483,4783,509"/>
+<area shape="rect" id="node80" href="$d7/d51/a01340.html" title="PositionWgs84SequenceExporter2604.hpp" alt="" coords="7362,162,7633,189"/>
+<area shape="rect" id="node82" href="$d5/da0/a01342.html" title="PositionWgs84SequenceExporter3510.hpp" alt="" coords="7657,162,7927,189"/>
+<area shape="rect" id="node84" href="$dc/d54/a01344.html" title="PositionWgs84SequenceImporter2604.hpp" alt="" coords="7068,162,7337,189"/>
+<area shape="rect" id="node86" href="$d9/de4/a01346.html" title="PositionWgs84SequenceImporter3510.hpp" alt="" coords="7952,162,8221,189"/>
+<area shape="rect" id="node88" href="$dc/d8e/a01331.html" title="PositionWgs84Sequence.cpp" alt="" coords="8246,162,8439,189"/>
+<area shape="rect" id="node81" href="$dd/d6e/a01339.html" title="PositionWgs84SequenceExporter2604.cpp" alt="" coords="7362,251,7633,278"/>
+<area shape="rect" id="node83" href="$de/da0/a01341.html" title="PositionWgs84SequenceExporter3510.cpp" alt="" coords="7657,251,7927,278"/>
+<area shape="rect" id="node87" href="$d4/deb/a01345.html" title="PositionWgs84SequenceImporter3510.cpp" alt="" coords="7952,251,8221,278"/>
+<area shape="rect" id="node90" href="$df/d93/a01336.html" title="PositionWgs84Sequence3510\lExporter3510.hpp" alt="" coords="8463,155,8659,196"/>
+<area shape="rect" id="node92" href="$d2/d4d/a01338.html" title="PositionWgs84Sequence3510\lImporter3510.hpp" alt="" coords="8683,155,8879,196"/>
+<area shape="rect" id="node94" href="$dc/d2a/a01333.html" title="PositionWgs84Sequence3510.cpp" alt="" coords="8904,162,9125,189"/>
+<area shape="rect" id="node91" href="$d4/d04/a01335.html" title="PositionWgs84Sequence3510\lExporter3510.cpp" alt="" coords="8463,244,8659,285"/>
+<area shape="rect" id="node93" href="$db/dec/a01337.html" title="PositionWgs84Sequence3510\lImporter3510.cpp" alt="" coords="8683,244,8879,285"/>
+<area shape="rect" id="node96" href="$d0/db6/a00692.html" title="CarriageWayTemplate.hpp" alt="" coords="3293,333,3470,360"/>
+<area shape="rect" id="node99" href="$d0/daa/a01029.html" title="LaneTemplate.hpp" alt="" coords="3467,251,3597,278"/>
+<area shape="rect" id="node97" href="$d0/d50/a00661.html" title="CarriageWayList.hpp" alt="" coords="3657,408,3801,435"/>
+<area shape="rect" id="node98" href="$d9/db8/a00658.html" title="CarriageWay for datatype 0x6970 which stores CarriageWayIn6970Segments. " alt="" coords="2995,408,3157,435"/>
+</map>

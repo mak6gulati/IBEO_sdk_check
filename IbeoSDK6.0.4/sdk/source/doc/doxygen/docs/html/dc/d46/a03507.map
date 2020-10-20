@@ -1,0 +1,83 @@
+<map id="ibeo::common::sdk::DataContainerBase" name="ibeo::common::sdk::DataContainerBase">
+<area shape="rect" id="node2" href="$d3/d8b/a00059.html" title="CAN Message. " alt="" coords="211,737,352,779"/>
+<area shape="rect" id="node3" href="$d4/de8/a00061.html" title="List of carriageways containing a list of lane segments. " alt="" coords="211,803,352,844"/>
+<area shape="rect" id="node4" href="$d1/dd6/a00108.html" title="ibeo content separator " alt="" coords="211,868,352,909"/>
+<area shape="rect" id="node5" href="$d7/d12/a00126.html" title="status of device " alt="" coords="211,933,352,975"/>
+<area shape="rect" id="node6" href="$da/d2e/a00238.html" title="frame index " alt="" coords="211,999,352,1040"/>
+<area shape="rect" id="node7" href="$d6/d82/a00243.html" title="GPS IMU. " alt="" coords="211,1064,352,1105"/>
+<area shape="rect" id="node8" href="$d9/dd6/a00272.html" title="Sequence of mission ids. " alt="" coords="211,1129,352,1171"/>
+<area shape="rect" id="node9" href="$dd/d56/a00274.html" title="General data container for images. " alt="" coords="211,1195,352,1236"/>
+<area shape="rect" id="node10" href="$d9/dad/a00394.html" title="List of informational polygons with text label. " alt="" coords="211,1260,352,1301"/>
+<area shape="rect" id="node11" href="$d4/dbc/a00414.html" title="Container for a list of meta information datas. " alt="" coords="211,1325,352,1367"/>
+<area shape="rect" id="node12" href="$da/d65/a00458.html" title="ibeo::common::sdk::\lObjectAssociationList" alt="" coords="207,1391,356,1432"/>
+<area shape="rect" id="node13" href="$dc/ddf/a00469.html" title="List of object labels. " alt="" coords="211,1456,352,1497"/>
+<area shape="rect" id="node14" href="$d4/d4b/a00471.html" title="List of objects. " alt="" coords="211,1521,352,1563"/>
+<area shape="rect" id="node15" href="$d6/d1a/a00485.html" title="Motion data. " alt="" coords="211,1587,352,1628"/>
+<area shape="rect" id="node16" href="$dd/d9c/a00487.html" title="Serialisation of incoming OGpsImu UDP packets. " alt="" coords="211,1652,352,1693"/>
+<area shape="rect" id="node17" href="$db/dc4/a00495.html" title="Holds a list of points. " alt="" coords="211,1717,352,1759"/>
+<area shape="rect" id="node18" href="$dc/d1c/a00504.html" title="ibeo::common::sdk::\lPositionWgs84Sequence" alt="" coords="197,1783,365,1824"/>
+<area shape="rect" id="node19" href="$d7/def/a00521.html" title="Scan containing list of points. " alt="" coords="196,1849,367,1875"/>
+<area shape="rect" id="node20" href="$d6/da3/a00589.html" title="ibeo::common::sdk::\lSpecializedDataContainer" alt="" coords="195,1900,368,1941"/>
+<area shape="rect" id="node80" href="$d9/d07/a00607.html" title="List of relations for the reference timebase to an &#39;Other&#39; timebase. " alt="" coords="211,1965,352,2007"/>
+<area shape="rect" id="node81" href="$db/db5/a00616.html" title="A container for all traffic lights and their state. " alt="" coords="211,2031,352,2072"/>
+<area shape="rect" id="node82" href="$d5/de3/a00631.html" title="ibeo::common::sdk::\lVehicleState" alt="" coords="211,2096,352,2137"/>
+<area shape="rect" id="node21" href="$d9/d73/a00060.html" title="CAN Message over Ethernet. " alt="" coords="465,5,606,47"/>
+<area shape="rect" id="node22" href="$df/d03/a00062.html" title="List of carriageways containing a list of lane segments. " alt="" coords="462,71,609,112"/>
+<area shape="rect" id="node23" href="$df/d5f/a00064.html" title="List of carriageways containing a list of lane segments. " alt="" coords="462,136,609,177"/>
+<area shape="rect" id="node24" href="$d0/d89/a00071.html" title="Ibeo FUSION SYSTEM/ECU Set Filter Command. " alt="" coords="465,201,606,243"/>
+<area shape="rect" id="node25" href="$dd/d42/a00109.html" title="ibeo content separator " alt="" coords="459,267,611,308"/>
+<area shape="rect" id="node26" href="$dc/dfe/a00125.html" title="ibeo::common::sdk::\lDestination3520" alt="" coords="465,332,606,373"/>
+<area shape="rect" id="node27" href="$df/dcd/a00127.html" title="Device Status of LUX3 and Scala B2 X90. " alt="" coords="465,397,606,439"/>
+<area shape="rect" id="node28" href="$d9/d47/a00129.html" title="Current draft of device status definition for Scala B2 &gt;X100 (generic) " alt="" coords="465,463,606,504"/>
+<area shape="rect" id="node29" href="$db/d48/a00148.html" title="Event Tag. " alt="" coords="465,528,606,569"/>
+<area shape="rect" id="node30" href="$d4/d08/a00237.html" title="Ibeo frame end separator. " alt="" coords="452,593,619,635"/>
+<area shape="rect" id="node31" href="$d0/d27/a00239.html" title="Ibeo frame index. " alt="" coords="465,659,606,700"/>
+<area shape="rect" id="node32" href="$d6/d08/a00244.html" title="GpsImu. " alt="" coords="465,724,606,765"/>
+<area shape="rect" id="node33" href="$d3/d1a/a00251.html" title="ibeo::common::sdk::\lIbeoEvent7001" alt="" coords="465,789,606,831"/>
+<area shape="rect" id="node34" href="$dd/d86/a00271.html" title="IDC Trailer: Data type marking the end of each IDC&#45;file. Does not contain any data. " alt="" coords="465,855,606,896"/>
+<area shape="rect" id="node35" href="$d0/d19/a00273.html" title="Sequence of mission ids. " alt="" coords="465,920,606,961"/>
+<area shape="rect" id="node36" href="$d3/d5e/a00275.html" title="Specialized data container for images (0x2403) " alt="" coords="465,985,606,1027"/>
+<area shape="rect" id="node37" href="$dc/dc9/a00389.html" title="Ibeo FUSION SYSTEM/ECU Trace Messages. " alt="" coords="454,1051,617,1092"/>
+<area shape="rect" id="node38" href="$d9/d0a/a00390.html" title="Ibeo FUSION SYSTEM/ECU Trace Messages. " alt="" coords="459,1116,611,1157"/>
+<area shape="rect" id="node39" href="$db/d95/a00391.html" title="Ibeo FUSION SYSTEM/ECU Trace Messages. " alt="" coords="459,1181,611,1223"/>
+<area shape="rect" id="node40" href="$d4/d27/a00392.html" title="Ibeo FUSION SYSTEM/ECU Trace Messages. " alt="" coords="449,1247,621,1288"/>
+<area shape="rect" id="node41" href="$db/dbc/a00395.html" title="List of informational polygons with text label. " alt="" coords="444,1312,627,1353"/>
+<area shape="rect" id="node42" href="$d1/d98/a00407.html" title="Ibeo FUSION SYSTEM/ECU measurement list: Measurement List (generic) " alt="" coords="460,1377,611,1419"/>
+<area shape="rect" id="node43" href="$d0/dd6/a00415.html" title="Ibeo meta information list. " alt="" coords="453,1443,618,1484"/>
+<area shape="rect" id="node44" href="$d1/d05/a00423.html" title="current mission status " alt="" coords="443,1508,627,1549"/>
+<area shape="rect" id="node45" href="$dc/df3/a00424.html" title="response to a mission definition " alt="" coords="458,1573,613,1615"/>
+<area shape="rect" id="node46" href="$d2/d91/a00459.html" title="Object Association. " alt="" coords="447,1639,624,1680"/>
+<area shape="rect" id="node47" href="$d0/d29/a00470.html" title="List of object labels. " alt="" coords="465,1704,606,1745"/>
+<area shape="rect" id="node48" href="$d7/db5/a00472.html" title="List of objects in the format of the LUX3 firmware. " alt="" coords="465,1769,606,1811"/>
+<area shape="rect" id="node49" href="$dc/d8e/a00473.html" title="Ibeo FUSION SYSTEM/ECU object data: ObjectList has now a timestamp that should have the midTimestamp ..." alt="" coords="465,1835,606,1876"/>
+<area shape="rect" id="node50" href="$d5/d26/a00474.html" title="List of objects with extended tracking information in the format of the LUX4/Scala145 firmware..." alt="" coords="465,1900,606,1941"/>
+<area shape="rect" id="node51" href="$d1/d92/a00475.html" title="List of objects for scala. With unfiltered and filtered object information. " alt="" coords="465,1965,606,2007"/>
+<area shape="rect" id="node52" href="$d9/d34/a00476.html" title="Ibeo FUSION SYSTEM/ECU object data: List of objects with extended tracking information (generic) ..." alt="" coords="465,2031,606,2072"/>
+<area shape="rect" id="node53" href="$d9/dca/a00477.html" title="Ibeo FUSION SYSTEM/ECU object data: List of objects with extended tracking information an dynamic Typ..." alt="" coords="465,2096,606,2137"/>
+<area shape="rect" id="node54" href="$d9/dea/a00478.html" title="Same as DataTypeObjectList (0x2280) but holds only reference objects. " alt="" coords="465,2161,606,2203"/>
+<area shape="rect" id="node55" href="$d9/d4a/a00479.html" title="Ibeo reference object data: Same as DataTypeObjectList (0x2281) but holds only reference objects..." alt="" coords="465,2227,606,2268"/>
+<area shape="rect" id="node56" href="$db/df1/a00486.html" title="Motion data. " alt="" coords="465,2292,606,2333"/>
+<area shape="rect" id="node57" href="$d4/ddf/a00488.html" title="Serialisation of incoming OGpsImu UDP packets. " alt="" coords="456,2357,615,2399"/>
+<area shape="rect" id="node58" href="$d3/dad/a00496.html" title="Contains a vector of points. " alt="" coords="465,2423,606,2464"/>
+<area shape="rect" id="node59" href="$d4/d1e/a00497.html" title="Ibeo point cloud plane. " alt="" coords="465,2488,606,2529"/>
+<area shape="rect" id="node60" href="$d4/de5/a00503.html" title="Ibeo FUSION SYSTEM/ECU GPS position: WGS84 position w/ device ID. " alt="" coords="463,2553,608,2595"/>
+<area shape="rect" id="node61" href="$d7/d37/a00505.html" title="Contains a sequence of wgs84 positions. " alt="" coords="437,2619,633,2660"/>
+<area shape="rect" id="node62" href="$d8/d14/a00522.html" title="List of scan points in the format of the LUX3 firmware. " alt="" coords="465,2684,606,2725"/>
+<area shape="rect" id="node63" href="$d0/de7/a00523.html" title="Ibeo FUSION SYSTEM/ECU scan data: List of scan points in the new proposed format of class Scan (Gener..." alt="" coords="465,2749,606,2791"/>
+<area shape="rect" id="node64" href="$d9/d24/a00524.html" title="Raw scan point list for Scala and Minilux. " alt="" coords="465,2815,606,2856"/>
+<area shape="rect" id="node65" href="$d7/db7/a00525.html" title="Same as 0x2205 but uint32 for serialized number of scanpoints. " alt="" coords="465,2880,606,2921"/>
+<area shape="rect" id="node66" href="$d0/d35/a00526.html" title="Scala for HIL. " alt="" coords="465,2945,606,2987"/>
+<area shape="rect" id="node67" href="$d0/dec/a00592.html" title="State of operation at a given time. " alt="" coords="460,3011,611,3052"/>
+<area shape="rect" id="node68" href="$d8/de9/a00595.html" title="SystemMonitoringCANStatus. " alt="" coords="427,3076,644,3117"/>
+<area shape="rect" id="node69" href="$dc/d25/a00596.html" title="SystemMonitoringDeviceStatus. " alt="" coords="418,3141,653,3183"/>
+<area shape="rect" id="node70" href="$d8/dbd/a00597.html" title="SystemMonitoringSystemStatus. " alt="" coords="416,3207,655,3248"/>
+<area shape="rect" id="node71" href="$de/d94/a00603.html" title="TimeRecord. " alt="" coords="465,3272,606,3313"/>
+<area shape="rect" id="node72" href="$d4/d14/a00608.html" title="List of relations for the reference timebase to an &#39;Other&#39; timebase. " alt="" coords="458,3337,613,3379"/>
+<area shape="rect" id="node73" href="$db/d3f/a00609.html" title="List of relations for the reference timebase to an &#39;Other&#39; timebase. " alt="" coords="458,3403,613,3444"/>
+<area shape="rect" id="node74" href="$d4/dc4/a00617.html" title="A container for all traffic lights and their state. " alt="" coords="452,3468,619,3509"/>
+<area shape="rect" id="node75" href="$dc/d66/a00630.html" title="TimeTrigger. " alt="" coords="465,3533,606,3575"/>
+<area shape="rect" id="node76" href="$d4/d2a/a00632.html" title="State Data in the format of LUX3&#45;Firmware, or Scala Firmware. " alt="" coords="465,3599,606,3640"/>
+<area shape="rect" id="node77" href="$d9/d1d/a00633.html" title="Ibeo FUSION SYSTEM/ECU vehicle state: Basic Vehicle State Data including static vehicle information (..." alt="" coords="465,3664,606,3705"/>
+<area shape="rect" id="node78" href="$d7/de4/a00634.html" title="Ibeo FUSION SYSTEM/ECU vehicle state: New Basic Vehicle State Data including static vehicle informati..." alt="" coords="465,3729,606,3771"/>
+<area shape="rect" id="node79" href="$d4/d10/a00635.html" title="Ibeo FUSION SYSTEM/ECU vehicle state. " alt="" coords="465,3795,606,3836"/>
+</map>

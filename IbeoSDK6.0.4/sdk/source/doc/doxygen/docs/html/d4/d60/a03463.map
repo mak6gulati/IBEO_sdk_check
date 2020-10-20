@@ -1,0 +1,8 @@
+<map id="ibeo::common::sdk::CommandMiniLuxSetNtpTimestampSyncC" name="ibeo::common::sdk::CommandMiniLuxSetNtpTimestampSyncC">
+<area shape="rect" id="node2" href="$de/df7/a00418.html" title="ibeo::common::sdk::\lMiniLuxCommandC\&lt; CommandId\l::Id::CmdLuxSetNTPTimestampSync \&gt;" alt="" coords="917,5,1169,61"/>
+<area shape="rect" id="node3" href="$d3/d29/a00419.html" title="Base class for LUX commands. " alt="" coords="701,13,868,54"/>
+<area shape="rect" id="node4" href="$d6/d2c/a00072.html" title="ibeo::common::sdk::\lCommandCBase" alt="" coords="511,13,652,54"/>
+<area shape="rect" id="node5" href="$db/df8/a00076.html" title="ibeo::common::sdk::\lCommandId" alt="" coords="231,13,372,54"/>
+<area shape="rect" id="node6" href="$d1/d84/a00097.html" title="ibeo::common::sdk::\lComparableUnconvertable\l\&lt; uint16_t \&gt;" alt="" coords="5,5,181,61"/>
+<area shape="rect" id="node7" href="$dd/d63/a00455.html" title="ibeo::common::sdk::\lNTPTime" alt="" coords="973,85,1114,126"/>
+</map>

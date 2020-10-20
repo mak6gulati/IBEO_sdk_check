@@ -1,0 +1,23 @@
+setupSources(
+    SOURCES
+        CommandId.cpp
+        CompressedPoint2d.cpp
+        EcefPoint.cpp
+        EventMonitor.cpp
+        io.cpp
+        MeasurementKey.cpp
+        MsgBuffer.cpp
+        MsgBufferBase.cpp
+        ObjectBasic.cpp
+        ObjectBasicSerializations.cpp
+        PassiveMsgBuffer.cpp
+        ScannerProperties.cpp
+        IbeoSdk.cpp
+        ThreadRunner.cpp
+        Time.cpp
+        Transform.cpp)
+
+include(${CMAKE_CURRENT_LIST_DIR}/datablocks/CMakeLists.txt)
+include(${CMAKE_CURRENT_LIST_DIR}/devices/CMakeLists.txt)
+include(${CMAKE_CURRENT_LIST_DIR}/jpegsupport/CMakeLists.txt)
+include(${CMAKE_CURRENT_LIST_DIR}/misc/CMakeLists.txt)

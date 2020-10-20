@@ -1,0 +1,215 @@
+/*!
+\page page_tutorial_gettingstarted Getting Started
+\tableofcontents
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+\section sec_gettingstarted_requirements Requirements
+
+\subsection ssec_cppCompiler C++-Compiler
+
+Tested with
+<table class="doxtable">
+<tr> <th> OS      </th> <th> Compiler           </th> </tr>
+<tr> <td> Linux   </td> <td> gcc 5.4            </td> </tr>
+<tr> <td>         </td> <td> gcc 7.3            </td> </tr>
+<tr> <td> Windows </td> <td> Visual Studio 2015 </td> </tr>
+<tr> <td>         </td> <td> Visual Studio 2017 </td> </tr>
+</table>
+
+\subsection ssec_boost boost
+
+Has to be installed.
+
+Tested with boost 1.58.0 (Linux), 1.59 (Windows)
+
+<table class="doxtable">
+<tr> <td style="border:0px">   </td>    <td style="border:0px">   </td>    \htmlonly<th colspan="2"> Boost Versions      </th>\endhtmlonly</tr>
+\htmlonly<tr>  <th> OS </th> <th> Compiler </th>  <th> 1.58.0 </th>  <th> 1.59.0 </th> </tr> \endhtmlonly
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<tr> <td> Windows </td> <td> VS 2015 </td> <td>           </td> <td> 32+64 Bit </td>  </tr>
+<tr> <td> Windows </td> <td> VS 2017 </td> <td>           </td> <td> 32+64 Bit </td>  </tr>
+<tr> <td> Linux </td>   <td> g++ 5.4 </td> <td> 32+64 Bit </td> <td>           </td>  </tr>
+<tr> <td> Linux </td>   <td> g++ 7.3 </td> <td> 32+64 Bit </td> <td>           </td>  </tr>
+</table>
+
+\subsubsection sssec_boost_windows Precompiled boost Libraries for Windows
+Windows is using precompiled boost libraries. boost precompiled libraries are not available from boost.org directly but
+from e.g.<br>
+        <ul>
+           <li><a target="_blank" rel="noopener noreferrer" href="http://sourceforge.net/projects/boost/files/boost-binaries">http://sourceforge.net/projects/boost/files/boost-binaries</a><br></li>
+           <li><a target="_blank" rel="noopener noreferrer" href="http://boost.teeks99.com">http://boost.teeks99.com</a><br></li>
+        </ul>
+Choose the right boost version and the libraries for the right Visual Studio version, e.g. vc140 = Visual Studio 2015)
+<br>
+
+\attention <b>IMPORTANT:</b> To use the supplied build scripts under Windows, the environment variable <span style="color:#FF0000"><b>BOOST_ROOT</b></span> should point to the installation location of boost.
+
+\subsection ssec_cmake CMake
+
+Provides the cmake command (3.8.0 required).
+
+\subsection ssec_libjpeg libjpeg
+<a target="_blank" rel="noopener noreferrer" href="https://www.libjpeg-turbo.org">libjpeg-turbo</a> has to be installed for using the ibeoSDK.
+
+<table class="doxtable">
+<tr> <td style="border:0px">   </td>   \htmlonly<th colspan="2"> libjpeg-turbo </th>\endhtmlonly</tr>
+<tr>  <th> OS </th> <th> Version </th>  <th> link </th>  </tr>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<tr> <td> Windows 32 bit </td> <td> 2.0.3 </td> <td> <a target="_blank" rel="noopener noreferrer" href="https://sourceforge.net/projects/libjpeg-turbo/files/2.0.3/libjpeg-turbo-2.0.3-vc64.exe/download">libjpeg-turbo-2.0.3-vc64.exe </a> </td> </tr>
+<tr> <td> Windows 64 bit </td> <td> 2.0.3 </td> <td> <a target="_blank" rel="noopener noreferrer" href="https://sourceforge.net/projects/libjpeg-turbo/files/2.0.3/libjpeg-turbo-2.0.3-vc.exe/download">libjpeg-turbo-2.0.3-vc.exe </a> </td> </tr>
+<tr> <td> Linux 32 bit   </td> <td> 2.0.3 </td> <td> <a target="_blank" rel="noopener noreferrer" href="https://sourceforge.net/projects/libjpeg-turbo/files/2.0.3/libjpeg-turbo-2.0.3.tar.gz/download">libjpeg-turbo-2.0.3.tar.gz </a> </td> </tr>
+<tr> <td> others         </td> <td> 2.0.3 </td> <td> <a target="_blank" rel="noopener noreferrer" href="https://sourceforge.net/projects/libjpeg-turbo/files/2.0.3/">browse all versions </a>                                           </td> </tr>
+</table>
+
+\attention <b>IMPORTANT:</b> To use the supplied build scripts under Windows, the environment variable <span style="color:#FF0000"><b>LIBJPEG_ROOT</b></span> should point to the installation location of libjpeg.
+<br><br>
+
+\section sec_gettingstarted_buildthesdk To Build the SDK including demos and tools
+- execute the build script
+    - linux: build.sh
+    - Windows: build.bat (Note: Execute in <span style="color:#000000"><b>msbuild Command Prompt</b></span>)
+- to run a demo you need to add arguments when you call it from the command
+        line or if you want to debug it with Visual Studio you can add these arguments
+        (like IP address, filename, logfile) in:
+        - Configuration -> "All Configurations"
+        - Configuration Properties
+                - Debugging
+                        - Command Arguments
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+\section sec_gettingstarted_concept Concepts - IbeoDevice/DataTypes/DataListener
+
+The connection to the hardware device, i.e. Ibeo laserscanner or ECU
+will be handled by an ibeo::common::sdk::IbeoDevice. The ibeo::common::sdk::IbeoDevice will receive messages
+(scan, object list, vehicle data, images) from the scanner/ECU and
+deserialize them. On receive it will inform all DataListenerers for the specific or general data type which has been
+registered to the ibeo::common::sdk::IbeoDevice.<br>
+
+For further information please read this document: <a href='sdk_getting_started.pdf'>Introduction to ibeoSDK</a>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+\section sec_gettingstarted_ownprogram Build your own programs, using ibeosdk
+
+Decide which device to connect to.<br>
+Currently available are
+<table class="doxtable" style="border:0px">
+        <tr><td> ibeo::common::sdk::IbeoLux     </td>       <td> LUX3/4 Laserscanner </td></tr>
+        <tr><td> ibeo::common::sdk::IbeoEcu     </td>       <td> Ibeo ECU device, connected to a scanner </td></tr>
+        <tr><td> ibeo::common::sdk::IbeoScala   </td>       <td> Ibeo Scala (B1 or B2) Laserscanner </td></tr>
+        <tr><td> ibeo::common::sdk::IbeoMiniLux </td>       <td> Ibeo MiniLux laserscanner </td></tr>
+</table>
+
+
+A collection of all needed include will be included by include
+the following files:
+        <table class="doxtable" style="border:0px">
+                <tr><td> IbeoLux     </td>       <td> <ibeo/common/sdk/lux.hpp> </td></tr>
+                <tr><td> IbeoEcu     </td>       <td> <ibeo/common/sdk/ecu.hpp> </td></tr>
+                <tr><td> IbeoScala   </td>       <td> <ibeo/common/sdk/scala.hpp> </td></tr>
+                <tr><td> IbeoMiniLux </td>       <td> <ibeo/common/sdk/minilux.hpp> </td></tr>
+        </table>
+
+Decide which messages you are interested in and create a listner class
+for each message type. (You will find examples in IbeoSdkFileDemo:
+class MyScanListener, MyObjectListener, ... and in IbeoSdkEcuLiveDemo:
+AllEcuListener where all listeners gathered into one single class).
+
+-# Create the ibeo::common::sdk::Listener objects.
+-# Create the ibeo::common::sdk::IbeoDevice providing the IP address and port as parameters.
+-# Optional: Set the ibeo::common::logging for the device
+-# Register all listeners
+-# Establish connection between the hardware and the ibeo::common::sdk::IbeoDevice class.
+
+The receiving will be handled in a separate thread. So the main thread has
+to be kept alive.
+
+\attention <b>IMPORTANT:</b> Exit your program calling exit (cstdlib) instead of just return
+from the main function to close all open channels to prevent crashes due
+to open channels.
+
+\attention <b>IMPORTANT:</b> If you build static libibeosdk.a on Linux you have to link with
+the link option --whole-archive (use "-Wl,--whole-archive" on the g++ command
+line).<br>
+Otherwise no data will be received by the devices.<br>
+On Windows Visual Studio will generate a list of linker include commands
+automatically by calling "src/ibeo/common/sdk/generateDataBlockList.bat"<br>
+as aprebuild event in the given projects to avoid the problem.
+
+\subsection ssec_gettingstarted_ownprogram_example Example
+
+See IbeoSdkEcuLiveDemo.cpp, class AllEcuListener.<br>
+Since AllEcuListener is derived from many listeners, the AllEcuListener object
+allEcuListener has to register in the function live_demo to the ibeo::common::sdk::IbeoEcu device for
+all its ibeo::common::sdk::Listener ancestors.<br>
+After the ecu object has been connected the task will kept alive.<br>
+All the work will done by the ibeo::common::sdk::IbeoEcu receive thread. When receiving n new
+data it will inform all registered ibeo::common::sdk::Listener for this and call
+their onData method.
+
+In case an ibeo::common::sdk::ObjectList2280 has been received the onData method of all
+registered ibeo::common::sdk::ObjectListEcuEtListener will be called. This call is within the
+context of the receive thread of the ibeo::common::sdk::IbeoEcu object.
+
+Here the user can perform some action. This should not take too long since the
+TCP/IP interface will not be able to receive while this processing.<br>
+For example one can show the ids of all received objects:
+
+\code
+virtual void onData(const ObjectList2280* const objectList)
+{
+        logInfo << "ET Objects received: # " << objectList->getNbOfObjects()
+                << std::endl;
+        const std::vector<ObjectEcuEt>& objects = objectList->getObjects();
+        for (unsigned int i = 0; i < objects.size(); ++i) {
+                std::cerr << "Object " << i
+                                << " has id: " << objects.at(i).getObjectId() << std::endl;
+        }
+}
+\endcode
+
+For further information please read this document: <a href='sdk_user demomanual.pdf'>SDK Demos</a></li>
+
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+\section sec_gettingstarted_typenameconflicts Type name conflicts
+
+All types defined in the SDK are inside the ibeo namespace.<br>
+In case of a name conflict, don't use the
+\code
+        using namespace ibeo::common::sdk;
+\endcode
+so generous but selective inside methods where no conflict arises and the ibeo::common::sdk:: as prefix otherwise.
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+\section sec_gettingstarted_logging Logging
+
+\ref ibeo::common::logging provides you functions for logging output.
+
+For further information please read this document: <a href='logging_user_manual.pdf'>SDK Logging</a></li>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+\section sec_gettingstarted_Troubleshooting Troubleshooting
+\subsection sec_gettingstarted_Troubleshooting_ReceiveBufferTooSmall Receive Buffer too small
+
+The following message indicates that the receive message buffer is too small.
+Error  - MsgBuffer.cpp::recvMsg(134): Illegal message body size occured, buffer
+size exceeded: XXXXX Bytes in received DataBlock: 0xHHHH Set to 0.
+Where 0xHHHH is data block id that has been received.
+
+To handle this problem increase the buffer size in
+src/ref/common/sdk/source/sdk/include/ibeo/common/sdk/devices/TcpReceiveThreadEnsemble.hpp
+\code
+        static const int bufferSize = 4 * 1024 * 1024;
+\endcode
+to a size suitable to you message to be received
+and recompile you application.
+
+
+
+*/

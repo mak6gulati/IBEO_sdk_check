@@ -1,0 +1,80 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$d2/d79/a00051.html" title="ibeo::common::sdk::\lAppBaseStatusDefinitions" alt="" coords="489,2166,663,2207"/>
+<area shape="rect" id="node2" href="$db/db6/a00074.html" title="ibeo::common::sdk::\lCommandEcuAppBaseStatusC" alt="" coords="794,1793,1001,1834"/>
+<area shape="rect" id="node3" href="$d6/d52/a00510.html" title="ibeo::common::sdk::\lReplyEcuAppBaseStatus" alt="" coords="812,2238,983,2279"/>
+<area shape="rect" id="node4" href="$d6/d2c/a00072.html" title="ibeo::common::sdk::\lCommandCBase" alt="" coords="8,1157,149,1198"/>
+<area shape="rect" id="node5" href="$d5/d5b/a00135.html" title="Base class for ECU commands. " alt="" coords="223,1661,368,1702"/>
+<area shape="rect" id="node12" href="$d7/d93/a00397.html" title="Base class for LUX commands. " alt="" coords="224,413,367,454"/>
+<area shape="rect" id="node32" href="$d3/d29/a00419.html" title="Base class for LUX commands. " alt="" coords="212,1157,379,1198"/>
+<area shape="rect" id="node6" href="$de/d76/a00134.html" title="ibeo::common::sdk::\lEcuCommandC\&lt; CommandId\l::Id::CmdManagerAppBaseCtrl \&gt;" alt="" coords="469,1573,683,1629"/>
+<area shape="rect" id="node8" href="$de/d76/a00134.html" title="ibeo::common::sdk::\lEcuCommandC\&lt; CommandId\l::Id::CmdManagerAppBaseStatus \&gt;" alt="" coords="461,1733,691,1789"/>
+<area shape="rect" id="node9" href="$de/d76/a00134.html" title="ibeo::common::sdk::\lEcuCommandC\&lt; CommandId\l::Id::CmdManagerSetFilter \&gt;" alt="" coords="477,1653,675,1709"/>
+<area shape="rect" id="node11" href="$de/d76/a00134.html" title="Template base class for ECU commands with given command id. " alt="" coords="497,1813,655,1854"/>
+<area shape="rect" id="node7" href="$d1/d6e/a00073.html" title="ibeo::common::sdk::\lCommandEcuAppBaseCtrlC" alt="" coords="803,1581,992,1622"/>
+<area shape="rect" id="node10" href="$d9/da5/a00075.html" title="ibeo::common::sdk::\lCommandEcuSetFilterC" alt="" coords="815,1661,979,1702"/>
+<area shape="rect" id="node13" href="$d9/da1/a00396.html" title="Template base class for LUX commands with given command id. " alt="" coords="499,485,653,526"/>
+<area shape="rect" id="node14" href="$d9/da1/a00396.html" title="ibeo::common::sdk::\lLuxCommandC\&lt; CommandId\l::Id::CmdLuxGetParameter \&gt;" alt="" coords="478,549,674,605"/>
+<area shape="rect" id="node16" href="$d9/da1/a00396.html" title="ibeo::common::sdk::\lLuxCommandC\&lt; CommandId\l::Id::CmdLuxGetStatus \&gt;" alt="" coords="478,629,674,685"/>
+<area shape="rect" id="node18" href="$d9/da1/a00396.html" title="ibeo::common::sdk::\lLuxCommandC\&lt; CommandId\l::Id::CmdLuxReset \&gt;" alt="" coords="478,709,674,765"/>
+<area shape="rect" id="node20" href="$d9/da1/a00396.html" title="ibeo::common::sdk::\lLuxCommandC\&lt; CommandId\l::Id::CmdLuxResetDefaultParameters \&gt;" alt="" coords="449,5,703,61"/>
+<area shape="rect" id="node22" href="$d9/da1/a00396.html" title="ibeo::common::sdk::\lLuxCommandC\&lt; CommandId\l::Id::CmdLuxSaveConfig \&gt;" alt="" coords="478,85,674,141"/>
+<area shape="rect" id="node24" href="$d9/da1/a00396.html" title="ibeo::common::sdk::\lLuxCommandC\&lt; CommandId\l::Id::CmdLuxSetNTPTimestampSync \&gt;" alt="" coords="450,165,702,221"/>
+<area shape="rect" id="node26" href="$d9/da1/a00396.html" title="ibeo::common::sdk::\lLuxCommandC\&lt; CommandId\l::Id::CmdLuxSetParameter \&gt;" alt="" coords="478,245,674,301"/>
+<area shape="rect" id="node28" href="$d9/da1/a00396.html" title="ibeo::common::sdk::\lLuxCommandC\&lt; CommandId\l::Id::CmdLuxStartMeasure \&gt;" alt="" coords="478,325,674,381"/>
+<area shape="rect" id="node30" href="$d9/da1/a00396.html" title="ibeo::common::sdk::\lLuxCommandC\&lt; CommandId\l::Id::CmdLuxStopMeasure \&gt;" alt="" coords="478,405,674,461"/>
+<area shape="rect" id="node15" href="$d1/d09/a00077.html" title="ibeo::common::sdk::\lCommandLuxGetParameterC" alt="" coords="800,557,995,598"/>
+<area shape="rect" id="node17" href="$d9/da4/a00078.html" title="ibeo::common::sdk::\lCommandLuxGetStatusC" alt="" coords="811,637,983,678"/>
+<area shape="rect" id="node19" href="$d1/d51/a00079.html" title="ibeo::common::sdk::\lCommandLuxResetC" alt="" coords="823,717,971,758"/>
+<area shape="rect" id="node21" href="$da/dec/a00080.html" title="ibeo::common::sdk::\lCommandLuxResetToDefaultParametersC" alt="" coords="761,13,1033,54"/>
+<area shape="rect" id="node23" href="$d8/d53/a00081.html" title="ibeo::common::sdk::\lCommandLuxSaveConfigC" alt="" coords="807,93,988,134"/>
+<area shape="rect" id="node25" href="$d4/d63/a00082.html" title="ibeo::common::sdk::\lCommandLuxSetNtpTimestampSyncC" alt="" coords="773,173,1022,214"/>
+<area shape="rect" id="node27" href="$d2/d1f/a00083.html" title="ibeo::common::sdk::\lCommandLuxSetParameterC" alt="" coords="801,253,994,294"/>
+<area shape="rect" id="node29" href="$df/d5d/a00084.html" title="ibeo::common::sdk::\lCommandLuxStartMeasureC" alt="" coords="802,333,993,374"/>
+<area shape="rect" id="node31" href="$df/d13/a00085.html" title="ibeo::common::sdk::\lCommandLuxStopMeasureC" alt="" coords="802,413,993,454"/>
+<area shape="rect" id="node33" href="$de/df7/a00418.html" title="Template base class for LUX commands with given command id. " alt="" coords="487,1269,665,1310"/>
+<area shape="rect" id="node34" href="$de/df7/a00418.html" title="ibeo::common::sdk::\lMiniLuxCommandC\&lt; CommandId\l::Id::CmdLuxGetParameter \&gt;" alt="" coords="466,1333,686,1389"/>
+<area shape="rect" id="node36" href="$de/df7/a00418.html" title="ibeo::common::sdk::\lMiniLuxCommandC\&lt; CommandId\l::Id::CmdLuxGetStatus \&gt;" alt="" coords="466,1413,686,1469"/>
+<area shape="rect" id="node38" href="$de/df7/a00418.html" title="ibeo::common::sdk::\lMiniLuxCommandC\&lt; CommandId\l::Id::CmdLuxReset \&gt;" alt="" coords="466,1493,686,1549"/>
+<area shape="rect" id="node40" href="$de/df7/a00418.html" title="ibeo::common::sdk::\lMiniLuxCommandC\&lt; CommandId\l::Id::CmdLuxResetDefaultParameters \&gt;" alt="" coords="449,789,703,845"/>
+<area shape="rect" id="node42" href="$de/df7/a00418.html" title="ibeo::common::sdk::\lMiniLuxCommandC\&lt; CommandId\l::Id::CmdLuxSaveConfig \&gt;" alt="" coords="466,869,686,925"/>
+<area shape="rect" id="node44" href="$de/df7/a00418.html" title="ibeo::common::sdk::\lMiniLuxCommandC\&lt; CommandId\l::Id::CmdLuxSetNTPTimestampSync \&gt;" alt="" coords="450,949,702,1005"/>
+<area shape="rect" id="node46" href="$de/df7/a00418.html" title="ibeo::common::sdk::\lMiniLuxCommandC\&lt; CommandId\l::Id::CmdLuxSetParameter \&gt;" alt="" coords="466,1029,686,1085"/>
+<area shape="rect" id="node48" href="$de/df7/a00418.html" title="ibeo::common::sdk::\lMiniLuxCommandC\&lt; CommandId\l::Id::CmdLuxStartMeasure \&gt;" alt="" coords="466,1109,686,1165"/>
+<area shape="rect" id="node50" href="$de/df7/a00418.html" title="ibeo::common::sdk::\lMiniLuxCommandC\&lt; CommandId\l::Id::CmdLuxStopMeasure \&gt;" alt="" coords="466,1189,686,1245"/>
+<area shape="rect" id="node35" href="$da/d2a/a00086.html" title="ibeo::common::sdk::\lCommandMiniLuxGetParameterC" alt="" coords="788,1341,1007,1382"/>
+<area shape="rect" id="node37" href="$d1/d1e/a00087.html" title="ibeo::common::sdk::\lCommandMiniLuxGetStatusC" alt="" coords="799,1421,995,1462"/>
+<area shape="rect" id="node39" href="$db/ddf/a00088.html" title="ibeo::common::sdk::\lCommandMiniLuxResetC" alt="" coords="811,1501,983,1542"/>
+<area shape="rect" id="node41" href="$db/dab/a00089.html" title="ibeo::common::sdk::\lCommandMiniLuxResetToDefault\lParametersC" alt="" coords="788,789,1007,845"/>
+<area shape="rect" id="node43" href="$d9/dec/a00090.html" title="ibeo::common::sdk::\lCommandMiniLuxSaveConfigC" alt="" coords="795,877,1000,918"/>
+<area shape="rect" id="node45" href="$da/d82/a00091.html" title="ibeo::common::sdk::\lCommandMiniLuxSetNtpTimestamp\lSyncC" alt="" coords="781,949,1014,1005"/>
+<area shape="rect" id="node47" href="$d1/dc1/a00092.html" title="ibeo::common::sdk::\lCommandMiniLuxSetParameterC" alt="" coords="789,1037,1006,1078"/>
+<area shape="rect" id="node49" href="$d4/d7d/a00093.html" title="ibeo::common::sdk::\lCommandMiniLuxStartMeasureC" alt="" coords="790,1117,1005,1158"/>
+<area shape="rect" id="node51" href="$dc/d54/a00094.html" title="ibeo::common::sdk::\lCommandMiniLuxStopMeasureC" alt="" coords="790,1197,1005,1238"/>
+<area shape="rect" id="node52" href="$d9/df8/a00096.html" title="ibeo::common::sdk::\lCommandReplyBase" alt="" coords="5,2423,152,2465"/>
+<area shape="rect" id="node53" href="$d2/df5/a00137.html" title="ibeo::common::sdk::\lEcuCommandReplyBase" alt="" coords="211,2703,380,2745"/>
+<area shape="rect" id="node60" href="$d1/d53/a00399.html" title="ibeo::common::sdk::\lLuxCommandReplyBase" alt="" coords="212,2022,379,2063"/>
+<area shape="rect" id="node68" href="$d2/de1/a00421.html" title="ibeo::common::sdk::\lMiniLuxCommandReplyBase" alt="" coords="200,2423,391,2465"/>
+<area shape="rect" id="node54" href="$d0/d5e/a00136.html" title="ibeo::common::sdk::\lEcuCommandReply\&lt; cmdId \&gt;" alt="" coords="477,2841,675,2882"/>
+<area shape="rect" id="node56" href="$d0/d5e/a00136.html" title="ibeo::common::sdk::\lEcuCommandReply\&lt; CommandId\l::Id::CmdManagerAppBaseStatus \&gt;" alt="" coords="461,2616,691,2672"/>
+<area shape="rect" id="node57" href="$d0/d5e/a00136.html" title="ibeo::common::sdk::\lEcuCommandReply\&lt; CommandId\l::Id::CmdManagerSetFilter \&gt;" alt="" coords="465,2696,687,2752"/>
+<area shape="rect" id="node59" href="$d0/d5e/a00136.html" title="ibeo::common::sdk::\lEcuCommandReply\&lt; cId \&gt;" alt="" coords="485,2775,667,2817"/>
+<area shape="rect" id="node55" href="$de/d14/a00139.html" title="ibeo::common::sdk::\lEmptyEcuCommandReply\l\&lt; cmdId \&gt;" alt="" coords="809,2731,986,2787"/>
+<area shape="rect" id="node58" href="$d6/d10/a00511.html" title="ibeo::common::sdk::\lReplyEcuSetFilter" alt="" coords="827,2634,968,2675"/>
+<area shape="rect" id="node61" href="$d9/dd1/a00398.html" title="ibeo::common::sdk::\lLuxCommandReply\&lt; cId \&gt;" alt="" coords="487,2022,665,2063"/>
+<area shape="rect" id="node62" href="$d9/dd1/a00398.html" title="ibeo::common::sdk::\lLuxCommandReply\&lt; cmdId \&gt;" alt="" coords="477,1878,675,1919"/>
+<area shape="rect" id="node64" href="$d9/dd1/a00398.html" title="ibeo::common::sdk::\lLuxCommandReply\&lt; CommandId\l::Id::CmdLuxGetParameter \&gt;" alt="" coords="466,1943,686,1999"/>
+<area shape="rect" id="node66" href="$d9/dd1/a00398.html" title="ibeo::common::sdk::\lLuxCommandReply\&lt; CommandId\l::Id::CmdLuxGetStatus \&gt;" alt="" coords="466,2087,686,2143"/>
+<area shape="rect" id="node63" href="$d5/db1/a00140.html" title="ibeo::common::sdk::\lEmptyLuxCommandReply\l\&lt; cmdId \&gt;" alt="" coords="810,1909,985,1965"/>
+<area shape="rect" id="node65" href="$d4/dfb/a00512.html" title="ibeo::common::sdk::\lReplyLuxGetParameter" alt="" coords="818,2009,977,2050"/>
+<area shape="rect" id="node67" href="$da/def/a00513.html" title="ibeo::common::sdk::\lReplyLuxGetStatus" alt="" coords="827,2094,968,2135"/>
+<area shape="rect" id="node69" href="$db/d4f/a00420.html" title="ibeo::common::sdk::\lMiniLuxCommandReply\l\&lt; cId \&gt;" alt="" coords="495,2456,657,2512"/>
+<area shape="rect" id="node70" href="$db/d4f/a00420.html" title="ibeo::common::sdk::\lMiniLuxCommandReply\l\&lt; cmdId \&gt;" alt="" coords="495,2376,657,2432"/>
+<area shape="rect" id="node72" href="$db/d4f/a00420.html" title="ibeo::common::sdk::\lMiniLuxCommandReply\l\&lt; CommandId::Id::CmdLuxGetParameter \&gt;" alt="" coords="439,2536,713,2592"/>
+<area shape="rect" id="node74" href="$db/d4f/a00420.html" title="ibeo::common::sdk::\lMiniLuxCommandReply\l\&lt; CommandId::Id::CmdLuxGetStatus \&gt;" alt="" coords="450,2296,702,2352"/>
+<area shape="rect" id="node71" href="$d5/d4e/a00141.html" title="ibeo::common::sdk::\lEmptyMiniLuxCommandReply\l\&lt; cmdId \&gt;" alt="" coords="798,2372,997,2428"/>
+<area shape="rect" id="node73" href="$dc/d19/a00515.html" title="ibeo::common::sdk::\lReplyMiniLuxGetParameter" alt="" coords="806,2499,989,2541"/>
+<area shape="rect" id="node75" href="$d4/d40/a00516.html" title="ibeo::common::sdk::\lReplyMiniLuxGetStatus" alt="" coords="817,2303,977,2345"/>
+<area shape="rect" id="node76" href="$d4/d3a/a00101.html" title="Class that provides a mutex mechanism for it heir. " alt="" coords="225,2231,366,2273"/>
+<area shape="rect" id="node77" href="$db/d57/a00112.html" title="Base class for Serializable which can be read and written. " alt="" coords="505,2231,647,2273"/>
+<area shape="rect" id="node78" href="$dc/d30/a00508.html" title="ibeo::common::sdk::\lRegisteredDataBlock\l\&lt; DataBlockImpl \&gt;" alt="" coords="824,2159,971,2215"/>
+</map>

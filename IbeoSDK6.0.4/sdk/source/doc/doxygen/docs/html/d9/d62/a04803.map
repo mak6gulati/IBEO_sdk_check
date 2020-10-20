@@ -1,0 +1,8 @@
+<map id="ibeo::common::sdk::Version" name="ibeo::common::sdk::Version">
+<area shape="rect" id="node2" href="$d9/d95/a00400.html" title="Class that holds the major version. " alt="" coords="231,5,381,47"/>
+<area shape="rect" id="node3" href="$d1/d84/a00097.html" title="ibeo::common::sdk::\lComparableUnconvertable\l\&lt; int \&gt;" alt="" coords="5,129,181,185"/>
+<area shape="rect" id="node4" href="$d5/dee/a00518.html" title="Class that holds the revision. " alt="" coords="235,71,377,112"/>
+<area shape="rect" id="node5" href="$d9/da5/a00493.html" title="Class that holds the patch level. " alt="" coords="235,136,377,177"/>
+<area shape="rect" id="node6" href="$db/d43/a00422.html" title="Class that holds the minor version. " alt="" coords="231,201,381,243"/>
+<area shape="rect" id="node7" href="$d1/d22/a00057.html" title="Class that holds the build number. " alt="" coords="235,267,377,308"/>
+</map>

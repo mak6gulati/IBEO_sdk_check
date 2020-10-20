@@ -1,0 +1,25 @@
+<map id="GpsImu9001Importer9001.hpp" name="GpsImu9001Importer9001.hpp">
+<area shape="rect" id="node2" href="$db/d7c/a01614.html" title="ibeo/common/sdk/misc\l/WinCompatibility.hpp" alt="" coords="2583,809,2741,851"/>
+<area shape="rect" id="node5" href="$d1/dcd/a01351.html" title="ibeo/common/sdk/datablocks\l/RegisteredImporter.hpp" alt="" coords="2137,80,2329,121"/>
+<area shape="rect" id="node40" href="$da/dd8/a00906.html" title="ibeo/common/sdk/datablocks\l/gpsimu/special/GpsImu9001.hpp" alt="" coords="2903,169,3119,211"/>
+<area shape="rect" id="node6" href="$d7/d06/a01005.html" title="ibeo/common/sdk/datablocks\l/ImporterBase.hpp" alt="" coords="815,169,1007,211"/>
+<area shape="rect" id="node8" href="$dc/d5e/a00817.html" title="ibeo/common/sdk/DataType\lId.hpp" alt="" coords="1378,452,1565,493"/>
+<area shape="rect" id="node38" href="$da/d71/a00814.html" title="ibeo/common/sdk/listener\l/DataContainerListener.hpp" alt="" coords="1762,169,1943,211"/>
+<area shape="rect" id="node7" href="$de/d9d/a00813.html" title="ibeo/common/sdk/datablocks\l/DataContainerBase.hpp" alt="" coords="1757,259,1949,300"/>
+<area shape="rect" id="node27" href="$d6/d82/a00920.html" title="ibeo/common/sdk/datablocks\l/IbeoDataHeader.hpp" alt="" coords="1615,355,1807,397"/>
+<area shape="rect" id="node34" href="$d2/d95/a01449.html" title="ibeo/common/sdk/misc\l/SdkExceptions.hpp" alt="" coords="249,259,406,300"/>
+<area shape="rect" id="node9" href="$da/dcf/a01558.html" title="ibeo/common/sdk/misc\l/Unconvertable.hpp" alt="" coords="1221,541,1378,583"/>
+<area shape="rect" id="node10" href="$d6/d8d/a01007.html" title="ibeo/common/sdk/io.hpp" alt="" coords="931,638,1095,665"/>
+<area shape="rect" id="node20" href="$dc/d0c/a01532.html" title="ibeo/common/sdk/misc\l/ToHex.hpp" alt="" coords="2347,631,2505,672"/>
+<area shape="rect" id="node24" href="$d9/d0f/a00644.html" title="ibeo/common/sdk/bufferIO.hpp" alt="" coords="1148,638,1349,665"/>
+<area shape="rect" id="node11" href="$dd/dac/a01008.html" title="ibeo/common/sdk/io\l_prototypes.hpp" alt="" coords="1058,720,1197,761"/>
+<area shape="rect" id="node28" href="$da/ddc/a01492.html" title="ibeo/common/sdk/Time.hpp" alt="" coords="1883,638,2065,665"/>
+<area shape="rect" id="node41" href="$da/d97/a01528.html" title="ibeo/common/sdk/datablocks\l/Timestamp.hpp" alt="" coords="3270,452,3462,493"/>
+<area shape="rect" id="node48" href="$d3/d29/a00947.html" title="ibeo/common/sdk/misc\l/IbeoSdkHash.hpp" alt="" coords="3641,720,3798,761"/>
+<area shape="rect" id="node49" href="$d6/d66/a00916.html" title="ibeo/common/sdk/datablocks\l/gpsimu/special/GpsImuSourceIn9001.hpp" alt="" coords="2852,355,3120,397"/>
+<area shape="rect" id="node50" href="$d2/d5e/a00915.html" title="ibeo/common/sdk/datablocks\l/gpsimu/special/GpsImuInsQuality\lIn9001.hpp" alt="" coords="3144,348,3367,404"/>
+<area shape="rect" id="node42" href="$d3/d60/a00818.html" title="ibeo/common/sdk/misc\l/deprecatedwarning.hpp" alt="" coords="3457,720,3617,761"/>
+<area shape="rect" id="node43" href="$d5/d5b/a00695.html" title="ibeo/common/sdk/datablocks\l/ClockType.hpp" alt="" coords="3054,541,3246,583"/>
+<area shape="rect" id="node44" href="$d6/d80/a01076.html" title="../Math.hpp" alt="" coords="3279,638,3367,665"/>
+<area shape="rect" id="node47" href="$db/dce/a01529.html" title="ibeo/common/sdk/datablocks\l/TimestampInterface.hpp" alt="" coords="3270,541,3462,583"/>
+</map>

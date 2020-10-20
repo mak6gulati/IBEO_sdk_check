@@ -1,0 +1,9 @@
+<map id="ibeo::common::sdk::CommandMiniLuxSetParameterC" name="ibeo::common::sdk::CommandMiniLuxSetParameterC">
+<area shape="rect" id="node2" href="$de/df7/a00418.html" title="ibeo::common::sdk::\lMiniLuxCommandC\&lt; CommandId\l::Id::CmdLuxSetParameter \&gt;" alt="" coords="968,5,1188,61"/>
+<area shape="rect" id="node3" href="$d3/d29/a00419.html" title="Base class for LUX commands. " alt="" coords="752,17,919,58"/>
+<area shape="rect" id="node4" href="$d6/d2c/a00072.html" title="ibeo::common::sdk::\lCommandCBase" alt="" coords="561,19,703,61"/>
+<area shape="rect" id="node5" href="$db/df8/a00076.html" title="ibeo::common::sdk::\lCommandId" alt="" coords="231,19,372,61"/>
+<area shape="rect" id="node6" href="$d1/d84/a00097.html" title="ibeo::common::sdk::\lComparableUnconvertable\l\&lt; uint16_t \&gt;" alt="" coords="5,48,181,104"/>
+<area shape="rect" id="node8" href="$d6/d60/a00491.html" title="ibeo::common::sdk::\lParameterIndex" alt="" coords="396,78,537,119"/>
+<area shape="rect" id="node7" href="$d7/daa/a00490.html" title="ibeo::common::sdk::\lParameterData" alt="" coords="1007,137,1149,178"/>
+</map>

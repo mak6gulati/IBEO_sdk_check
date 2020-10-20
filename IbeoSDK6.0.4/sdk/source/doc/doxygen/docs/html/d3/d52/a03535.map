@@ -1,0 +1,7 @@
+<map id="ibeo::common::sdk::DeviceStatus6301" name="ibeo::common::sdk::DeviceStatus6301">
+<area shape="rect" id="node2" href="$d6/da3/a00589.html" title="ibeo::common::sdk::\lSpecializedDataContainer" alt="" coords="307,37,480,79"/>
+<area shape="rect" id="node3" href="$d9/d4b/a00117.html" title="ibeo::common::sdk::\lDataContainerBase" alt="" coords="5,5,147,47"/>
+<area shape="rect" id="node4" href="$dd/d63/a00455.html" title="ibeo::common::sdk::\lNTPTime" alt="" coords="5,71,147,112"/>
+<area shape="rect" id="node5" href="$de/dbb/a00637.html" title="Version number in 4/4/8 bit format with its date. " alt="" coords="323,103,464,144"/>
+<area shape="rect" id="node6" href="$d4/d79/a00540.html" title="ibeo::common::sdk::\lSerialNumberIn6301" alt="" coords="323,168,464,209"/>
+</map>

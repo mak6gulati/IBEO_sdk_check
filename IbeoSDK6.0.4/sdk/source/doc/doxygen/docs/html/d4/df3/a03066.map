@@ -1,0 +1,31 @@
+<map id="ScanImporter2209.hpp" name="ScanImporter2209.hpp">
+<area shape="rect" id="node2" href="$db/d7c/a01614.html" title="ibeo/common/sdk/misc\l/WinCompatibility.hpp" alt="" coords="1417,795,1575,836"/>
+<area shape="rect" id="node5" href="$d1/dcd/a01351.html" title="ibeo/common/sdk/datablocks\l/RegisteredImporter.hpp" alt="" coords="307,80,499,121"/>
+<area shape="rect" id="node40" href="$d7/d38/a01373.html" title="ibeo/common/sdk/datablocks\l/scan/Scan.hpp" alt="" coords="2719,80,2911,121"/>
+<area shape="rect" id="node46" href="$d0/db9/a01552.html" title="ibeo/common/sdk/Transformation\lMatrix3d.hpp" alt="" coords="2975,348,3191,389"/>
+<area shape="rect" id="node49" href="$de/dd5/a01564.html" title="ibeo/common/sdk/Vector3.hpp" alt="" coords="3254,623,3453,650"/>
+<area shape="rect" id="node6" href="$d7/d06/a01005.html" title="ibeo/common/sdk/datablocks\l/ImporterBase.hpp" alt="" coords="743,169,935,211"/>
+<area shape="rect" id="node8" href="$dc/d5e/a00817.html" title="ibeo/common/sdk/DataType\lId.hpp" alt="" coords="511,437,697,479"/>
+<area shape="rect" id="node38" href="$da/d71/a00814.html" title="ibeo/common/sdk/listener\l/DataContainerListener.hpp" alt="" coords="248,169,429,211"/>
+<area shape="rect" id="node7" href="$de/d9d/a00813.html" title="ibeo/common/sdk/datablocks\l/DataContainerBase.hpp" alt="" coords="508,259,700,300"/>
+<area shape="rect" id="node27" href="$d6/d82/a00920.html" title="ibeo/common/sdk/datablocks\l/IbeoDataHeader.hpp" alt="" coords="775,348,967,389"/>
+<area shape="rect" id="node34" href="$d2/d95/a01449.html" title="ibeo/common/sdk/misc\l/SdkExceptions.hpp" alt="" coords="1069,259,1227,300"/>
+<area shape="rect" id="node9" href="$da/dcf/a01558.html" title="ibeo/common/sdk/misc\l/Unconvertable.hpp" alt="" coords="521,527,679,568"/>
+<area shape="rect" id="node10" href="$d6/d8d/a01007.html" title="ibeo/common/sdk/io.hpp" alt="" coords="847,623,1011,650"/>
+<area shape="rect" id="node20" href="$dc/d0c/a01532.html" title="ibeo/common/sdk/misc\l/ToHex.hpp" alt="" coords="2263,616,2420,657"/>
+<area shape="rect" id="node24" href="$d9/d0f/a00644.html" title="ibeo/common/sdk/bufferIO.hpp" alt="" coords="375,623,577,650"/>
+<area shape="rect" id="node11" href="$dd/dac/a01008.html" title="ibeo/common/sdk/io\l_prototypes.hpp" alt="" coords="2207,705,2345,747"/>
+<area shape="rect" id="node28" href="$da/ddc/a01492.html" title="ibeo/common/sdk/Time.hpp" alt="" coords="1702,623,1885,650"/>
+<area shape="rect" id="node41" href="$d4/d3c/a01418.html" title="ibeo/common/sdk/datablocks\l/scan/ScannerInfo.hpp" alt="" coords="2297,169,2489,211"/>
+<area shape="rect" id="node55" href="$db/df2/a01425.html" title="ibeo/common/sdk/datablocks\l/scan/ScanPoint.hpp" alt="" coords="2852,527,3044,568"/>
+<area shape="rect" id="node57" href="$d3/d29/a00947.html" title="ibeo/common/sdk/misc\l/IbeoSdkHash.hpp" alt="" coords="3596,705,3753,747"/>
+<area shape="rect" id="node42" href="$d0/d05/a01420.html" title="ibeo/common/sdk/datablocks\l/scan/special/ScannerInfoIn2205.hpp" alt="" coords="2275,259,2512,300"/>
+<area shape="rect" id="node43" href="$d6/dfe/a01366.html" title="ibeo/common/sdk/datablocks\l/scan/special/ResolutionInfoIn2205.hpp" alt="" coords="2324,437,2575,479"/>
+<area shape="rect" id="node44" href="$d8/dbe/a01370.html" title="ibeo/common/sdk/Rotation\lOrder.hpp" alt="" coords="2599,437,2777,479"/>
+<area shape="rect" id="node45" href="$d5/da5/a01424.html" title="ibeo/common/sdk/ScannerType.hpp" alt="" coords="2445,623,2675,650"/>
+<area shape="rect" id="node47" href="$d1/d17/a01369.html" title="ibeo/common/sdk/Rotation\lMatrix3d.hpp" alt="" coords="3053,437,3232,479"/>
+<area shape="rect" id="node48" href="$d2/d4d/a01079.html" title="ibeo/common/sdk/Matrix3x3.hpp" alt="" coords="3068,534,3279,561"/>
+<area shape="rect" id="node50" href="$d6/d80/a01076.html" title="ibeo/common/sdk/Math.hpp" alt="" coords="3237,713,3419,739"/>
+<area shape="rect" id="node51" href="$d3/d60/a00818.html" title="ibeo/common/sdk/misc\l/deprecatedwarning.hpp" alt="" coords="3297,795,3457,836"/>
+<area shape="rect" id="node56" href="$d2/d9b/a01433.html" title="ibeo/common/sdk/datablocks\l/scan/special/ScanPointIn2205.hpp" alt="" coords="2903,616,3129,657"/>
+</map>

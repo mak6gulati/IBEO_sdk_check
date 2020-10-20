@@ -1,0 +1,29 @@
+<map id="CarriageWayIn6970.hpp" name="CarriageWayIn6970.hpp">
+<area shape="rect" id="node2" href="$db/d7c/a01614.html" title="ibeo/common/sdk/misc\l/WinCompatibility.hpp" alt="" coords="1781,1211,1939,1252"/>
+<area shape="rect" id="node5" href="$d0/db6/a00692.html" title="ibeo/common/sdk/datablocks\l/carriageway/special/CarriageWay\lTemplate.hpp" alt="" coords="2799,184,3020,240"/>
+<area shape="rect" id="node52" href="$d1/d87/a00689.html" title="CarriageWaySegment6970 which has a constant number of lanes of type LaneIn6970. " alt="" coords="3111,80,3332,136"/>
+<area shape="rect" id="node6" href="$db/dde/a00691.html" title="ibeo/common/sdk/datablocks\l/carriageway/special/CarriageWay\lSegmentTemplate.hpp" alt="" coords="3233,288,3455,344"/>
+<area shape="rect" id="node8" href="$de/d41/a01030.html" title="Definition of structs and enums for carriageways and lanes. " alt="" coords="300,503,511,530"/>
+<area shape="rect" id="node32" href="$d6/d8d/a01007.html" title="ibeo/common/sdk/io.hpp" alt="" coords="2521,1039,2685,1066"/>
+<area shape="rect" id="node7" href="$d0/daa/a01029.html" title="ibeo/common/sdk/datablocks\l/carriageway/special/LaneTemplate.hpp" alt="" coords="2906,399,3158,441"/>
+<area shape="rect" id="node28" href="$d1/d93/a00875.html" title="ibeo/common/sdk/datablocks\l/ExporterBase.hpp" alt="" coords="2481,585,2673,627"/>
+<area shape="rect" id="node46" href="$d1/dcd/a01351.html" title="ibeo/common/sdk/datablocks\l/RegisteredImporter.hpp" alt="" coords="1664,496,1856,537"/>
+<area shape="rect" id="node9" href="$d5/d53/a01324.html" title="ibeo/common/sdk/datablocks\l/PositionWgs84.hpp" alt="" coords="404,943,596,984"/>
+<area shape="rect" id="node10" href="$d6/d80/a01076.html" title="ibeo/common/sdk/Math.hpp" alt="" coords="394,1039,577,1066"/>
+<area shape="rect" id="node11" href="$d3/d60/a00818.html" title="ibeo/common/sdk/misc\l/deprecatedwarning.hpp" alt="" coords="195,1121,355,1163"/>
+<area shape="rect" id="node15" href="$da/ddc/a01492.html" title="ibeo/common/sdk/Time.hpp" alt="" coords="1437,1039,1619,1066"/>
+<area shape="rect" id="node16" href="$dd/dac/a01008.html" title="ibeo/common/sdk/io\l_prototypes.hpp" alt="" coords="1659,1121,1797,1163"/>
+<area shape="rect" id="node29" href="$de/d9d/a00813.html" title="ibeo/common/sdk/datablocks\l/DataContainerBase.hpp" alt="" coords="2164,675,2356,716"/>
+<area shape="rect" id="node30" href="$dc/d5e/a00817.html" title="ibeo/common/sdk/DataType\lId.hpp" alt="" coords="2419,853,2605,895"/>
+<area shape="rect" id="node41" href="$d6/d82/a00920.html" title="ibeo/common/sdk/datablocks\l/IbeoDataHeader.hpp" alt="" coords="1824,764,2016,805"/>
+<area shape="rect" id="node43" href="$d2/d95/a01449.html" title="ibeo/common/sdk/misc\l/SdkExceptions.hpp" alt="" coords="2431,675,2588,716"/>
+<area shape="rect" id="node31" href="$da/dcf/a01558.html" title="ibeo/common/sdk/misc\l/Unconvertable.hpp" alt="" coords="2524,943,2681,984"/>
+<area shape="rect" id="node37" href="$dc/d0c/a01532.html" title="ibeo/common/sdk/misc\l/ToHex.hpp" alt="" coords="1943,1032,2100,1073"/>
+<area shape="rect" id="node39" href="$d9/d0f/a00644.html" title="ibeo/common/sdk/bufferIO.hpp" alt="" coords="2790,1039,2991,1066"/>
+<area shape="rect" id="node47" href="$d7/d06/a01005.html" title="ibeo/common/sdk/datablocks\l/ImporterBase.hpp" alt="" coords="1989,585,2181,627"/>
+<area shape="rect" id="node49" href="$da/d71/a00814.html" title="ibeo/common/sdk/listener\l/DataContainerListener.hpp" alt="" coords="1669,585,1851,627"/>
+<area shape="rect" id="node53" href="$db/daf/a01019.html" title="Lane which has a list of LaneSegments. " alt="" coords="287,191,524,233"/>
+<area shape="rect" id="node54" href="$d6/dcd/a01023.html" title="Segment of a lane. " alt="" coords="293,288,518,344"/>
+<area shape="rect" id="node55" href="$dd/dfd/a01027.html" title="Support point for a LaneSegment. " alt="" coords="631,392,849,448"/>
+<area shape="rect" id="node56" href="$d8/d6c/a01563.html" title="ibeo/common/sdk/Vector2.hpp" alt="" coords="686,950,885,977"/>
+</map>

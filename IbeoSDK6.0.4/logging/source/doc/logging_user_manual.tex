@@ -1,0 +1,44 @@
+% Relative path to the directory with common files for documentation.
+\newcommand{\commondocpath}{../../../common/doc}
+
+\input{\commondocpath/ibeo_setup.tex}
+
+\usepackage{scrextend}
+
+\usepackage{xcolor}
+
+\usepackage[most]{tcolorbox}
+\tcbset{
+	frame code={}
+	center title,
+	left=0pt,
+	right=0pt,
+	top=0pt,
+	bottom=0pt,
+	colback=light-gray,
+	colframe=white,
+	width=\dimexpr\textwidth\relax,
+	enlarge left by=0mm,
+	boxsep=5pt,
+	arc=0pt,outer arc=0pt,
+}
+
+\usepackage{fancyvrb}
+\fvset{tabsize=4}
+
+\usepackage{longtable}
+
+\newcommand{\sourcecode}[1]{\begin{footnotesize}\colorbox{light-gray}{\texttt{\detokenize{#1}}}\end{footnotesize}}
+\newcommand{\fullref}[1]{\ref{#1}-\nameref{#1}}
+
+\begin{document}
+\title{Introduction to Logging Services in the ibeoSDK}
+\newpage
+
+\input{logging_startup_cover_toc.tex}
+\newpage
+
+\input{logging_user_manual_contents.tex}
+\newpage
+
+\end{document}

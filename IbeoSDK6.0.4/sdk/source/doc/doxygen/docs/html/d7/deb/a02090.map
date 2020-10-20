@@ -1,0 +1,19 @@
+<map id="ContentSeparator7100Importer7100.hpp" name="ContentSeparator7100Importer7100.hpp">
+<area shape="rect" id="node2" href="$db/d7c/a01614.html" title="ibeo/common/sdk/misc\l/WinCompatibility.hpp" alt="" coords="2185,824,2343,865"/>
+<area shape="rect" id="node5" href="$d1/dcd/a01351.html" title="ibeo/common/sdk/datablocks\l/RegisteredImporter.hpp" alt="" coords="979,80,1171,121"/>
+<area shape="rect" id="node40" href="$d5/d12/a00794.html" title="ibeo/common/sdk/datablocks\l/contentseparator/special\l/ContentSeparator7100.hpp" alt="" coords="2537,169,2729,225"/>
+<area shape="rect" id="node6" href="$d7/d06/a01005.html" title="ibeo/common/sdk/datablocks\l/ImporterBase.hpp" alt="" coords="428,177,620,218"/>
+<area shape="rect" id="node8" href="$dc/d5e/a00817.html" title="ibeo/common/sdk/DataType\lId.hpp" alt="" coords="1407,467,1593,508"/>
+<area shape="rect" id="node38" href="$da/d71/a00814.html" title="ibeo/common/sdk/listener\l/DataContainerListener.hpp" alt="" coords="1533,177,1715,218"/>
+<area shape="rect" id="node7" href="$de/d9d/a00813.html" title="ibeo/common/sdk/datablocks\l/DataContainerBase.hpp" alt="" coords="1735,273,1927,315"/>
+<area shape="rect" id="node27" href="$d6/d82/a00920.html" title="ibeo/common/sdk/datablocks\l/IbeoDataHeader.hpp" alt="" coords="1699,370,1891,411"/>
+<area shape="rect" id="node34" href="$d2/d95/a01449.html" title="ibeo/common/sdk/misc\l/SdkExceptions.hpp" alt="" coords="388,273,545,315"/>
+<area shape="rect" id="node9" href="$da/dcf/a01558.html" title="ibeo/common/sdk/misc\l/Unconvertable.hpp" alt="" coords="1721,556,1879,597"/>
+<area shape="rect" id="node10" href="$d6/d8d/a01007.html" title="ibeo/common/sdk/io.hpp" alt="" coords="1425,653,1589,679"/>
+<area shape="rect" id="node20" href="$dc/d0c/a01532.html" title="ibeo/common/sdk/misc\l/ToHex.hpp" alt="" coords="1081,645,1239,687"/>
+<area shape="rect" id="node24" href="$d9/d0f/a00644.html" title="ibeo/common/sdk/bufferIO.hpp" alt="" coords="1903,653,2105,679"/>
+<area shape="rect" id="node11" href="$dd/dac/a01008.html" title="ibeo/common/sdk/io\l_prototypes.hpp" alt="" coords="820,735,959,776"/>
+<area shape="rect" id="node28" href="$da/ddc/a01492.html" title="ibeo/common/sdk/Time.hpp" alt="" coords="634,653,817,679"/>
+<area shape="rect" id="node41" href="$d3/d29/a00947.html" title="ibeo/common/sdk/misc\l/IbeoSdkHash.hpp" alt="" coords="2757,735,2915,776"/>
+<area shape="rect" id="node42" href="$d5/d72/a00803.html" title="ibeo/common/sdk/datablocks\l/contentseparator/special\l/ContentSeparatorTypeIn7100.hpp" alt="" coords="2436,363,2657,419"/>
+</map>

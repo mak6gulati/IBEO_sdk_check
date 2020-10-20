@@ -1,0 +1,33 @@
+<map id="DeviceStatusImporter6303.hpp" name="DeviceStatusImporter6303.hpp">
+<area shape="rect" id="node2" href="$da/d90/a00826.html" title="ibeo/common/sdk/datablocks\l/devicestatus/DeviceStatus.hpp" alt="" coords="1537,80,1745,121"/>
+<area shape="rect" id="node3" href="$db/d7c/a01614.html" title="ibeo/common/sdk/misc\l/WinCompatibility.hpp" alt="" coords="2037,809,2195,851"/>
+<area shape="rect" id="node52" href="$d1/dcd/a01351.html" title="ibeo/common/sdk/datablocks\l/RegisteredImporter.hpp" alt="" coords="3449,80,3641,121"/>
+<area shape="rect" id="node6" href="$de/d9d/a00813.html" title="ibeo/common/sdk/datablocks\l/DataContainerBase.hpp" alt="" coords="3521,259,3713,300"/>
+<area shape="rect" id="node33" href="$d3/d79/a01611.html" title="ibeo/common/sdk/datablocks\l/devicestatus/Version448.hpp" alt="" coords="2389,616,2584,657"/>
+<area shape="rect" id="node35" href="$d3/da3/a01450.html" title="ibeo/common/sdk/datablocks\l/devicestatus/SerialNumber.hpp" alt="" coords="771,616,979,657"/>
+<area shape="rect" id="node37" href="$d4/d3c/a01418.html" title="ibeo/common/sdk/datablocks\l/scan/ScannerInfo.hpp" alt="" coords="1545,169,1737,211"/>
+<area shape="rect" id="node51" href="$d3/d29/a00947.html" title="ibeo/common/sdk/misc\l/IbeoSdkHash.hpp" alt="" coords="5,713,163,754"/>
+<area shape="rect" id="node7" href="$dc/d5e/a00817.html" title="ibeo/common/sdk/DataType\lId.hpp" alt="" coords="3524,437,3711,479"/>
+<area shape="rect" id="node26" href="$d6/d82/a00920.html" title="ibeo/common/sdk/datablocks\l/IbeoDataHeader.hpp" alt="" coords="3228,348,3420,389"/>
+<area shape="rect" id="node8" href="$da/dcf/a01558.html" title="ibeo/common/sdk/misc\l/Unconvertable.hpp" alt="" coords="3680,527,3837,568"/>
+<area shape="rect" id="node9" href="$d6/d8d/a01007.html" title="ibeo/common/sdk/io.hpp" alt="" coords="3285,623,3449,650"/>
+<area shape="rect" id="node19" href="$dc/d0c/a01532.html" title="ibeo/common/sdk/misc\l/ToHex.hpp" alt="" coords="2201,616,2359,657"/>
+<area shape="rect" id="node23" href="$d9/d0f/a00644.html" title="ibeo/common/sdk/bufferIO.hpp" alt="" coords="3578,623,3779,650"/>
+<area shape="rect" id="node10" href="$dd/dac/a01008.html" title="ibeo/common/sdk/io\l_prototypes.hpp" alt="" coords="1205,713,1344,754"/>
+<area shape="rect" id="node27" href="$da/ddc/a01492.html" title="ibeo/common/sdk/Time.hpp" alt="" coords="1953,623,2135,650"/>
+<area shape="rect" id="node34" href="$d5/d84/a01612.html" title="ibeo/common/sdk/datablocks\l/devicestatus/special/Version448\lIn6301.hpp" alt="" coords="2603,705,2818,761"/>
+<area shape="rect" id="node36" href="$d3/dbc/a01451.html" title="ibeo/common/sdk/datablocks\l/devicestatus/special/SerialNumber\lIn6301.hpp" alt="" coords="699,705,927,761"/>
+<area shape="rect" id="node38" href="$d0/d05/a01420.html" title="ibeo/common/sdk/datablocks\l/scan/special/ScannerInfoIn2205.hpp" alt="" coords="1392,259,1629,300"/>
+<area shape="rect" id="node39" href="$d6/dfe/a01366.html" title="ibeo/common/sdk/datablocks\l/scan/special/ResolutionInfoIn2205.hpp" alt="" coords="1256,437,1507,479"/>
+<area shape="rect" id="node40" href="$d8/dbe/a01370.html" title="ibeo/common/sdk/Rotation\lOrder.hpp" alt="" coords="1419,527,1597,568"/>
+<area shape="rect" id="node41" href="$d5/da5/a01424.html" title="ibeo/common/sdk/ScannerType.hpp" alt="" coords="1470,623,1701,650"/>
+<area shape="rect" id="node42" href="$d0/db9/a01552.html" title="ibeo/common/sdk/Transformation\lMatrix3d.hpp" alt="" coords="576,348,792,389"/>
+<area shape="rect" id="node43" href="$d1/d17/a01369.html" title="ibeo/common/sdk/Rotation\lMatrix3d.hpp" alt="" coords="595,437,773,479"/>
+<area shape="rect" id="node45" href="$de/dd5/a01564.html" title="ibeo/common/sdk/Vector3.hpp" alt="" coords="445,623,643,650"/>
+<area shape="rect" id="node44" href="$d2/d4d/a01079.html" title="ibeo/common/sdk/Matrix3x3.hpp" alt="" coords="579,534,789,561"/>
+<area shape="rect" id="node46" href="$d6/d80/a01076.html" title="ibeo/common/sdk/Math.hpp" alt="" coords="187,720,370,747"/>
+<area shape="rect" id="node47" href="$d3/d60/a00818.html" title="ibeo/common/sdk/misc\l/deprecatedwarning.hpp" alt="" coords="76,809,236,851"/>
+<area shape="rect" id="node53" href="$d7/d06/a01005.html" title="ibeo/common/sdk/datablocks\l/ImporterBase.hpp" alt="" coords="3244,169,3436,211"/>
+<area shape="rect" id="node58" href="$da/d71/a00814.html" title="ibeo/common/sdk/listener\l/DataContainerListener.hpp" alt="" coords="3905,169,4087,211"/>
+<area shape="rect" id="node54" href="$d2/d95/a01449.html" title="ibeo/common/sdk/misc\l/SdkExceptions.hpp" alt="" coords="2995,259,3152,300"/>
+</map>

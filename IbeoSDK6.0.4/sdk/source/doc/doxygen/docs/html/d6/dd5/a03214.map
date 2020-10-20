@@ -1,0 +1,22 @@
+<map id="TimeRelationsList9010Importer9010.hpp" name="TimeRelationsList9010Importer9010.hpp">
+<area shape="rect" id="node2" href="$db/d7c/a01614.html" title="ibeo/common/sdk/misc\l/WinCompatibility.hpp" alt="" coords="1377,824,1535,865"/>
+<area shape="rect" id="node5" href="$d1/dcd/a01351.html" title="ibeo/common/sdk/datablocks\l/RegisteredImporter.hpp" alt="" coords="2147,80,2339,121"/>
+<area shape="rect" id="node40" href="$dc/d47/a01510.html" title="ibeo/common/sdk/datablocks\l/timerelation/special/TimeRelations\lList9010.hpp" alt="" coords="2547,169,2773,225"/>
+<area shape="rect" id="node6" href="$d7/d06/a01005.html" title="ibeo/common/sdk/datablocks\l/ImporterBase.hpp" alt="" coords="1728,177,1920,218"/>
+<area shape="rect" id="node8" href="$dc/d5e/a00817.html" title="ibeo/common/sdk/DataType\lId.hpp" alt="" coords="1425,459,1612,501"/>
+<area shape="rect" id="node38" href="$da/d71/a00814.html" title="ibeo/common/sdk/listener\l/DataContainerListener.hpp" alt="" coords="2331,177,2512,218"/>
+<area shape="rect" id="node7" href="$de/d9d/a00813.html" title="ibeo/common/sdk/datablocks\l/DataContainerBase.hpp" alt="" coords="1487,273,1679,315"/>
+<area shape="rect" id="node27" href="$d6/d82/a00920.html" title="ibeo/common/sdk/datablocks\l/IbeoDataHeader.hpp" alt="" coords="1756,363,1948,404"/>
+<area shape="rect" id="node34" href="$d2/d95/a01449.html" title="ibeo/common/sdk/misc\l/SdkExceptions.hpp" alt="" coords="1804,273,1961,315"/>
+<area shape="rect" id="node9" href="$da/dcf/a01558.html" title="ibeo/common/sdk/misc\l/Unconvertable.hpp" alt="" coords="700,556,857,597"/>
+<area shape="rect" id="node10" href="$d6/d8d/a01007.html" title="ibeo/common/sdk/io.hpp" alt="" coords="697,653,861,679"/>
+<area shape="rect" id="node20" href="$dc/d0c/a01532.html" title="ibeo/common/sdk/misc\l/ToHex.hpp" alt="" coords="1411,645,1568,687"/>
+<area shape="rect" id="node24" href="$d9/d0f/a00644.html" title="ibeo/common/sdk/bufferIO.hpp" alt="" coords="1086,653,1287,679"/>
+<area shape="rect" id="node11" href="$dd/dac/a01008.html" title="ibeo/common/sdk/io\l_prototypes.hpp" alt="" coords="397,735,536,776"/>
+<area shape="rect" id="node28" href="$da/ddc/a01492.html" title="ibeo/common/sdk/Time.hpp" alt="" coords="1891,653,2074,679"/>
+<area shape="rect" id="node41" href="$dd/d05/a01504.html" title="ibeo/common/sdk/datablocks\l/timerelation/special/TimeRelation\lIn9010.hpp" alt="" coords="2713,452,2932,508"/>
+<area shape="rect" id="node49" href="$d3/d29/a00947.html" title="ibeo/common/sdk/misc\l/IbeoSdkHash.hpp" alt="" coords="3175,735,3332,776"/>
+<area shape="rect" id="node42" href="$d5/d5b/a00695.html" title="ibeo/common/sdk/datablocks\l/ClockType.hpp" alt="" coords="2727,556,2919,597"/>
+<area shape="rect" id="node43" href="$d3/d60/a00818.html" title="../misc/deprecatedwarning.hpp" alt="" coords="2727,742,2927,769"/>
+<area shape="rect" id="node44" href="$d6/d80/a01076.html" title="../Math.hpp" alt="" coords="2891,653,2979,679"/>
+</map>

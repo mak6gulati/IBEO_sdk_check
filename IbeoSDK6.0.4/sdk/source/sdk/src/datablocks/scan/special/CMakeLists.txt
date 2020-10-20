@@ -1,0 +1,32 @@
+setupSources(SOURCES
+        ResolutionInfoIn2205.cpp
+        Scan2202.cpp
+        Scan2202Exporter2202.cpp
+        Scan2202Importer2202.cpp
+        Scan2205.cpp
+        Scan2205Exporter2205.cpp
+        Scan2205Importer2205.cpp
+        Scan2208.cpp
+        Scan2208Exporter2208.cpp
+        Scan2208Importer2208.cpp
+        Scan2208Importer2310.cpp
+        Scan2209.cpp
+        Scan2209Exporter2209.cpp
+        Scan2209Importer2209.cpp
+        Scan2310.cpp
+        Scan2310Exporter2310.cpp
+        Scan2310Importer2310.cpp
+        ScanHeaderIn2310.cpp
+        ScanInfoIn2310.cpp
+        ScannerInfoIn2205.cpp
+        ScanPointBaseIn2310.cpp
+        ScanPointDiagPulseIn2310.cpp
+        ScanPointIn2202.cpp
+        ScanPointIn2205.cpp
+        ScanPointIn2208.cpp
+        ScanPointIn2310.cpp
+        ScanPointRefScanIn2310.cpp
+        ScanSegInfoIn2310.cpp
+        ScanTrailerIn2310.cpp
+        SubScanIn2208.cpp
+        GROUP datablocks\\scan\\special)

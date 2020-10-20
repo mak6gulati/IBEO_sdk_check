@@ -1,0 +1,32 @@
+<map id="Scan2208Importer2208.hpp" name="Scan2208Importer2208.hpp">
+<area shape="rect" id="node2" href="$db/d7c/a01614.html" title="ibeo/common/sdk/misc\l/WinCompatibility.hpp" alt="" coords="1512,795,1669,836"/>
+<area shape="rect" id="node5" href="$d1/dcd/a01351.html" title="ibeo/common/sdk/datablocks\l/RegisteredImporter.hpp" alt="" coords="208,80,400,121"/>
+<area shape="rect" id="node40" href="$d9/d40/a01387.html" title="ibeo/common/sdk/datablocks\l/scan/special/Scan2208.hpp" alt="" coords="1423,80,1615,121"/>
+<area shape="rect" id="node6" href="$d7/d06/a01005.html" title="ibeo/common/sdk/datablocks\l/ImporterBase.hpp" alt="" coords="713,169,905,211"/>
+<area shape="rect" id="node8" href="$dc/d5e/a00817.html" title="ibeo/common/sdk/DataType\lId.hpp" alt="" coords="384,437,571,479"/>
+<area shape="rect" id="node38" href="$da/d71/a00814.html" title="ibeo/common/sdk/listener\l/DataContainerListener.hpp" alt="" coords="213,169,395,211"/>
+<area shape="rect" id="node7" href="$de/d9d/a00813.html" title="ibeo/common/sdk/datablocks\l/DataContainerBase.hpp" alt="" coords="544,259,736,300"/>
+<area shape="rect" id="node27" href="$d6/d82/a00920.html" title="ibeo/common/sdk/datablocks\l/IbeoDataHeader.hpp" alt="" coords="651,348,843,389"/>
+<area shape="rect" id="node34" href="$d2/d95/a01449.html" title="ibeo/common/sdk/misc\l/SdkExceptions.hpp" alt="" coords="901,259,1059,300"/>
+<area shape="rect" id="node9" href="$da/dcf/a01558.html" title="ibeo/common/sdk/misc\l/Unconvertable.hpp" alt="" coords="211,527,368,568"/>
+<area shape="rect" id="node10" href="$d6/d8d/a01007.html" title="ibeo/common/sdk/io.hpp" alt="" coords="843,623,1007,650"/>
+<area shape="rect" id="node20" href="$dc/d0c/a01532.html" title="ibeo/common/sdk/misc\l/ToHex.hpp" alt="" coords="1925,616,2083,657"/>
+<area shape="rect" id="node24" href="$d9/d0f/a00644.html" title="ibeo/common/sdk/bufferIO.hpp" alt="" coords="585,623,786,650"/>
+<area shape="rect" id="node11" href="$dd/dac/a01008.html" title="ibeo/common/sdk/io\l_prototypes.hpp" alt="" coords="3063,705,3201,747"/>
+<area shape="rect" id="node28" href="$da/ddc/a01492.html" title="ibeo/common/sdk/Time.hpp" alt="" coords="2107,623,2290,650"/>
+<area shape="rect" id="node41" href="$db/d8b/a01464.html" title="ibeo/common/sdk/datablocks\l/scan/special/SubScanIn2208.hpp" alt="" coords="1529,527,1749,568"/>
+<area shape="rect" id="node45" href="$d0/d39/a01138.html" title="ibeo/common/sdk/datablocks\l/MountingPosition.hpp" alt="" coords="3341,527,3533,568"/>
+<area shape="rect" id="node51" href="$d4/d3c/a01418.html" title="ibeo/common/sdk/datablocks\l/scan/ScannerInfo.hpp" alt="" coords="2103,169,2295,211"/>
+<area shape="rect" id="node59" href="$d3/d29/a00947.html" title="ibeo/common/sdk/misc\l/IbeoSdkHash.hpp" alt="" coords="3839,705,3996,747"/>
+<area shape="rect" id="node42" href="$d3/d95/a01435.html" title="ibeo/common/sdk/datablocks\l/scan/special/ScanPointIn2208.hpp" alt="" coords="1440,616,1667,657"/>
+<area shape="rect" id="node46" href="$d6/d80/a01076.html" title="ibeo/common/sdk/Math.hpp" alt="" coords="3631,713,3814,739"/>
+<area shape="rect" id="node50" href="$de/dd5/a01564.html" title="ibeo/common/sdk/Vector3.hpp" alt="" coords="3113,623,3311,650"/>
+<area shape="rect" id="node47" href="$d3/d60/a00818.html" title="ibeo/common/sdk/misc\l/deprecatedwarning.hpp" alt="" coords="3636,795,3796,836"/>
+<area shape="rect" id="node52" href="$d0/d05/a01420.html" title="ibeo/common/sdk/datablocks\l/scan/special/ScannerInfoIn2205.hpp" alt="" coords="2080,259,2317,300"/>
+<area shape="rect" id="node53" href="$d6/dfe/a01366.html" title="ibeo/common/sdk/datablocks\l/scan/special/ResolutionInfoIn2205.hpp" alt="" coords="1893,437,2144,479"/>
+<area shape="rect" id="node54" href="$d8/dbe/a01370.html" title="ibeo/common/sdk/Rotation\lOrder.hpp" alt="" coords="2363,348,2541,389"/>
+<area shape="rect" id="node55" href="$d5/da5/a01424.html" title="ibeo/common/sdk/ScannerType.hpp" alt="" coords="2655,623,2886,650"/>
+<area shape="rect" id="node56" href="$d0/db9/a01552.html" title="ibeo/common/sdk/Transformation\lMatrix3d.hpp" alt="" coords="2961,348,3177,389"/>
+<area shape="rect" id="node57" href="$d1/d17/a01369.html" title="ibeo/common/sdk/Rotation\lMatrix3d.hpp" alt="" coords="3115,437,3293,479"/>
+<area shape="rect" id="node58" href="$d2/d4d/a01079.html" title="ibeo/common/sdk/Matrix3x3.hpp" alt="" coords="3107,534,3317,561"/>
+</map>

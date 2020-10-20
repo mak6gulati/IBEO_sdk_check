@@ -1,0 +1,10 @@
+<map id="ibeo::common::sdk::MiniLuxCommandReplyBase" name="ibeo::common::sdk::MiniLuxCommandReplyBase">
+<area shape="rect" id="node3" href="$db/d4f/a00420.html" title="ibeo::common::sdk::\lMiniLuxCommandReply\l\&lt; cId \&gt;" alt="" coords="495,5,657,61"/>
+<area shape="rect" id="node4" href="$db/d4f/a00420.html" title="ibeo::common::sdk::\lMiniLuxCommandReply\l\&lt; cmdId \&gt;" alt="" coords="495,85,657,141"/>
+<area shape="rect" id="node6" href="$db/d4f/a00420.html" title="ibeo::common::sdk::\lMiniLuxCommandReply\l\&lt; CommandId::Id::CmdLuxGetParameter \&gt;" alt="" coords="439,165,713,221"/>
+<area shape="rect" id="node8" href="$db/d4f/a00420.html" title="ibeo::common::sdk::\lMiniLuxCommandReply\l\&lt; CommandId::Id::CmdLuxGetStatus \&gt;" alt="" coords="450,245,702,301"/>
+<area shape="rect" id="node2" href="$d9/df8/a00096.html" title="ibeo::common::sdk::\lCommandReplyBase" alt="" coords="5,133,152,174"/>
+<area shape="rect" id="node5" href="$d5/d4e/a00141.html" title="ibeo::common::sdk::\lEmptyMiniLuxCommandReply\l\&lt; cmdId \&gt;" alt="" coords="761,85,960,141"/>
+<area shape="rect" id="node7" href="$dc/d19/a00515.html" title="ibeo::common::sdk::\lReplyMiniLuxGetParameter" alt="" coords="769,173,952,214"/>
+<area shape="rect" id="node9" href="$d4/d40/a00516.html" title="ibeo::common::sdk::\lReplyMiniLuxGetStatus" alt="" coords="781,253,941,294"/>
+</map>

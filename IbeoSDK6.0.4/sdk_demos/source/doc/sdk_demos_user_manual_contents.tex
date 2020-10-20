@@ -1,0 +1,466 @@
+\section{Introduction}
+After explaining the basic functionality and structure in the IbeoSDK introduction, it is important to see how this knowledge can be applied. This document will show the practical use of the IbeoSDK and explain every single step.
+\\\\
+To cover all possible sources of data, we will use the 3 demos \textit{GeneralFileDemo}, \textit{FileDemo} and \textit{WriterDemo}.
+\\\\
+The \textit{GeneralFileDemo} and \textit{FileDemo} processes data from IDC Files.
+\\\\
+The \textit{WriterDemo} shows the connection to an IbeoDevice and the processing of that live data into an IDC File.
+\newpage
+\section{GeneralFileDemo}
+The GeneralFileDemo is a demo project for reading IDC files and process the DataContainers with general data types.
+\subsection{Arguments}
+The following program arguments shows how to start the GeneralFileDemo properly: \\
+\begin{lstlisting}[numbers=none]
+.../IbeoSdkGeneralFileDemo.cpp InputFileName LogFile
+\end{lstlisting}
+
+\begin{table}[!htbp]
+	\begin{center}
+		\renewcommand{\arraystretch}{1.5}
+		\begin{tabularx}{\textwidth}{| p{0.2\textwidth} | p{0.4\textwidth} | X |}
+			\hline
+			\cellcolor{ibeo_red} \textcolor{white}{\textbf{Argument}} & \cellcolor{ibeo_red} \textcolor{white}{\textbf{Purpose}} & \cellcolor{ibeo_red} \textcolor{white}{\textbf{Example}} \\
+			
+			\hline
+			InputFileName & Name of the IDC File to use as input. & .../TestInputFile.idc
+			\\
+			
+			\hline
+			LogFile & Name of the log file (optional). & .../TestInputLogFile.log
+			\\
+			
+			\hline
+		\end{tabularx}
+	\end{center}
+\end{table}
+
+\subsection{Source}
+\subsubsection{Version}
+\begin{lstlisting}
+int main(const int argc, const char** argv)
+{
+    std::cerr << argv[0] << " (" << appName << ")"
+	    	  << " Version " << appVersion.toString();
+    std::cerr << "  using IbeoSDK " << ibeoSDK.getVersion().toString() << std::endl;
+\end{lstlisting}
+The first part of the source code prints the current IbeoSDK version.
+\subsubsection{Parameter check and parsing}
+\begin{lstlisting}[firstnumber=last]
+    bool hasLogFile;
+    const int checkResult = checkArguments(argc, argv, hasLogFile);
+    if (checkResult != 0)
+    	exit(checkResult);
+    int currArg = 1;
+\end{lstlisting}
+The next step is to check the parsed program argument syntax and whether the file has a log file or not.
+\begin{lstlisting}[firstnumber=last]
+    std::string filename = argv[currArg++];
+\end{lstlisting}
+Assigns the first argument to the string filename and increments the current argument.
+\subsubsection{Logging}
+The IbeoSDK offers a special framework, the IbeoSDK Logging. It allows to log every debug, warning and error message coming from the SDK itself in a specified log file. This is a excellent source of information to understand the system and analyze any upcoming issues. For further information regarding the IbeoSDK Logging: See IbeoSDK Logging manual.
+\begin{lstlisting}[firstnumber=last]
+    if (hasLogFile)
+    {
+    	ibeo::common::logging::FileLoggerBackendSPtr fileLoggerBackend
+    		= std::dynamic_pointer_cast<ibeo::common::logging::FileLoggerBackend>(
+    			ibeo::common::logging::LogManager::getInstance().getBackendById(
+    				ibeo::common::logging::FileLoggerBackend::getBackendId()));
+    	fileLoggerBackend->setFilePath(argv[currArg++]);
+    }
+\end{lstlisting}
+The logging system itself provides two backends which can be used by loggers: console logging and file logging. If a log file has been parsed, it sets the backend to log to a file.
+\begin{lstlisting}[firstnumber=last]
+    ibeo::common::logging::LogManager::getInstance().setDefaultLogLevel("Debug");
+\end{lstlisting}
+Sets the default log level to debug, which is the least important level.
+\begin{lstlisting}[firstnumber=last]
+    if (hasLogFile)
+    {
+    	LOGINFO(logger,
+    			argv[0] << " Version " << appVersion.toString() << "  using IbeoSDK "
+    					<< ibeoSDK.getVersion().toString());
+    }
+\end{lstlisting}
+If a log file has been parsed, then it writes the current IbeoSDK version into it. 
+\begin{lstlisting}[firstnumber=last]
+	generalFileDemoContainer(filename);
+}
+\end{lstlisting}
+Calls the generalFileDemoContainer method with the filename parameter.
+\subsubsection{Listener}
+There are two different specializations of DataContainerListeners. \textbf{GeneralDataContainerListeners} and \textbf{DataContainerListener}. 
+\\\\
+DataContainerListeners are defined by giving a DataContainer and a DataTypeID of a serialization. 
+\\\\
+GeneralDataContainerListener are defined by giving only a general DataContainer. 
+\\\\
+The general DataContainer can lose the preciseness of some data within or even lose the data completely due to the conversion. The user has to decide for himself which information content makes more sense for the respective task that has to be fulfilled. 
+\\\\
+For each DataContainer mentioned in one of the DataContainerListeners specializations, an onData method has to be implemented with this DataContainer type as parameter. This onData method will be called with a filled DataContainer instance if the Device has filled out a container of this DataType.
+\newpage
+\subsubsection{Reading and processing data out of an IDC File}
+\begin{lstlisting}
+void generalFileDemoContainer(const std::string& filename)
+{
+    IdcFile file;
+    file.open(filename);
+\end{lstlisting}
+Instantiates file as IdcFile and opens the IDC file(that previously has been assigned to filename) for read access. 
+\begin{lstlisting}[firstnumber=last]
+    if (file.isOpen())
+    {
+    	AllListener allListener;
+    	file.registerContainerListener(&allListener);
+\end{lstlisting}
+If the file has been successfully opened, an AllListener will be instantiated and registered to the IDC file. In this case the Listeners are implemented as general DataContainer for a DataTypeID(e.g. DataContainerListener<Scan, DataTypeId::DataType\_Scan2202>).
+\begin{lstlisting}[firstnumber=last]
+    	uint32_t nbOfMessages = 0; //# of messages we parsed
+\end{lstlisting}
+Instantiates the number of parsed messages with a 0.
+\begin{lstlisting}[firstnumber=last]
+    	while (file.isGood())
+    	{
+    		const IdcFile::ContainerImporterPairs p = file.getNextDataContainer();
+      	  	file.notifyContainerListeners(p);
+	    	++nbOfMessages;
+	    	...
+	    }
+	}
+}
+\end{lstlisting}
+The code block will be executed repeatedly until an error bit is set.
+\begin{itemize}
+	\item \textbf{Line 12}: Reads and assigns the next DataContainer as \textbf{ContainerImporterPair}. The \textbf{ContainerImporterPair} is a vector with pairs of pointer to the filled DataContainers and the Importer used to fill them.
+	\item \textbf{Line 13}: Calls all registered ContainerListener listening to the combination of DataContainer and Import for all pairs in the given vector.
+	\item \textbf{Line 14}: Increments the number of parsed messages. 
+\end{itemize}
+\newpage
+\begin{lstlisting}
+void onData(const VehicleState& vs) override
+{
+    ...
+    LOGINFO(logger, "Vehicle state container received: ");
+    LOGINFO(logger, "  position: " << vs.getRelativeXPosition() << "/" << vs.getRelativeYPosition());
+    LOGINFO(logger, "  yaw rate: " << vs.getYawRate());
+    LOGINFO(logger, "  speed: " << vs.getLongitudinalVelocity());
+    LOGINFO(logger, "========================================================");
+    ...
+}
+\end{lstlisting}
+In this example the method parameters indicates that a general DataContainer VehicleState is being used for every serialization (Can be checked in the AllListener). So whenever the next DataContainer is a VehicleState2805, VehicleState2806, VehicleState2807 or VehicleState2808 it will log the position(line 2) and yaw rate (line 3) and speed(line 4).
+\newpage
+\section{FileDemo}
+The FileDemo is a demo project for reading IDC files and process the DataContainers with special data types.
+
+\subsection{Arguments}
+The following program arguments shows how to start the FileDemo properly: \\
+\begin{lstlisting}[numbers=none]
+.../IbeoSdkFileDemo.cpp InputFileName LogFile
+\end{lstlisting}
+\begin{table}[!htbp]
+	\begin{center}
+		\renewcommand{\arraystretch}{1.5}
+		\begin{tabularx}{\textwidth}{| p{0.2\textwidth} | p{0.4\textwidth} | X |}
+			\hline
+			\cellcolor{ibeo_red} \textcolor{white}{\textbf{Argument}} & \cellcolor{ibeo_red} \textcolor{white}{\textbf{Purpose}} & \cellcolor{ibeo_red} \textcolor{white}{\textbf{Example}} \\
+			
+			\hline
+			InputFileName & Name of the IDC File to use as input. & .../TestInputFile.idc
+			\\
+			
+			\hline
+			LogFile & Name of the log file (optional). & .../TestInputLogFile.log
+			\\
+			
+			\hline
+		\end{tabularx}
+	\end{center}
+\end{table}
+\subsection{Source}
+\subsubsection{Version}
+\begin{lstlisting}
+int main(const int argc, const char** argv)
+{
+    std::cerr << argv[0] << " (" << appName << ")"
+	    	  << " Version " << appVersion.toString();
+    std::cerr << "  using IbeoSDK " << ibeoSDK.getVersion().toString() << std::endl;
+\end{lstlisting}
+The first part of the source code prints the current IbeoSDK version.
+\subsubsection{Parameter check and parsing}
+The next step is to check the parsed program argument syntax and whether the file has a log file or not.
+\begin{lstlisting}[firstnumber=last]
+    std::string filename = argv[currArg++];
+\end{lstlisting}
+Assigns the first argument to the string filename and increments the current argument.
+\subsubsection{Logging}
+The IbeoSDK offers a special framework, the IbeoSDK Logging. It allows to log every debug, warning and error message coming from the SDK itself in a specified log file. This is a excellent source of information to understand the system and analyze any upcoming issues. For further information regarding the IbeoSDK Logging: See IbeoSDK Logging manual.\\
+\begin{lstlisting}[firstnumber=last]
+    if (hasLogFile)
+    {
+    	ibeo::common::logging::FileLoggerBackendSPtr fileLoggerBackend
+    	= std::dynamic_pointer_cast<ibeo::common::logging::FileLoggerBackend>(
+    		ibeo::common::logging::LogManager::getInstance().getBackendById(
+    			ibeo::common::logging::FileLoggerBackend::getBackendId()));
+    	fileLoggerBackend->setFilePath(argv[currArg++]);
+    }
+\end{lstlisting}
+The logging system itself provides two backends which can be used by loggers: console logging and file logging. If a log file has been parsed, it sets the backend to log to a file.
+\begin{lstlisting}[firstnumber=last]
+    ibeo::common::logging::LogManager::getInstance().setDefaultLogLevel("Debug");
+\end{lstlisting}
+Sets the default log level to debug, which is the least important level.
+\begin{lstlisting}[firstnumber=last]
+    if (hasLogFile)
+    {
+    	LOGINFO(logger,
+                argv[0] << " Version " << appVersion.toString() << "  using IbeoSDK " 
+                		<< ibeoSDK.getVersion().toString());
+    }
+\end{lstlisting}
+If a log file has been parsed, then it writes the current IbeoSDK version into it. 
+\begin{lstlisting}[firstnumber=last]
+    file_demo_container(filename);
+}	
+\end{lstlisting}
+Calls the file\_demo\_container method with the filename parameter.
+\subsubsection{Listener}
+There are two different specializations of DataContainerListeners. \textbf{GeneralDataContainerListeners} and \textbf{DataContainerListener}. 
+\\\\
+DataContainerListeners are defined by giving a DataContainer and a DataTypeID of a serialization. 
+\\\\
+GeneralDataContainerListener are defined by giving only a general DataContainer. 
+\\\\
+The general DataContainer can lose the preciseness of some data within or even lose the data completely due to the conversion. The user has to decide for himself which information content makes more sense for the respective task that has to be fulfilled. 
+\\\\
+For each DataContainer mentioned in one of the DataContainerListeners specializations, an onData method has to be implemented with this DataContainer type as parameter. This onData method will be called with a filled DataContainer instance if the Device has filled out a container of this DataType.
+\newpage
+\subsubsection{Reading and processing data out of an IDC File}
+\begin{lstlisting}
+void file_demo_container(const std::string& filename)
+{
+	IdcFile file;
+	file.open(filename);
+\end{lstlisting}
+Instantiates file as IdcFile and opens the IDC file(that previously has been assigned to filename) for read access. 
+\begin{lstlisting}[firstnumber=last]
+	if (file.isOpen())
+	{
+		AllListener allListener;
+		file.registerContainerListener(&allListener);
+\end{lstlisting}
+If the file has been successfully opened, an AllListener will be instantiated and registered to the IDC file. In this case the Listeners are implemented as special DataContainer for a DataTypeID(e.g. DataContainerListener<Scan2202, DataTypeId::DataType\_Scan2202>).
+\begin{lstlisting}[firstnumber=last]
+		uint32_t nbOfMessages = 0; // # of messages we parsed
+\end{lstlisting}
+Instantiates the number of parsed messages with a 0.
+\begin{lstlisting}[firstnumber=last]
+		while (file.isGood())
+		{
+			const IdcFile::ContainerImporterPairs p = file.getNextDataContainer();
+			file.notifyContainerListeners(p);
+			++nbOfMessages;
+			...
+		}
+	}
+}
+\end{lstlisting}
+The code block will be executed repeatedly until an error bit is set.
+\begin{itemize}
+	\item \textbf{Line 12}: Reads and assigns the next DataContainer as \textbf{ContainerImporterPair}. The \textbf{ContainerImporterPair} is a vector with pairs of pointer to the filled DataContainers and the Importer used to fill them.
+	\item \textbf{Line 13}: Calls all registered ContainerListener listening to the combination of DataContainer and Import for all pairs in the given vector.
+	\item \textbf{Line 14}: Increments the number of parsed messages. 
+\end{itemize}
+\begin{lstlisting}
+void onData(const VehicleState2808& vs) override
+{
+	LOGTRACE(logger, "VS (0x2808) container received: time: " 
+	                 << tc.toString(vs.getTimestamp().toPtime()));
+	LOGTRACE(logger, "========================================================");
+}
+\end{lstlisting}
+In this example the method parameters indicates that a special DataContainer VehicleState2808 is being used for the 0x2808 serialization. So whenever the next DataContainer is a VehicleState2808 it will log the timestamp at trace level(line 1).
+\newpage
+\section{WriterDemo}
+The WriterDemo project is for connecting to a IbeoDevice and process the received DataContaienrs.
+\subsection{Arguments}
+The following program arguments shows how to start the WriterDemo properly: \\
+\begin{lstlisting}[numbers=none]
+.../IbeoSdkWriterDemo.cpp -e Ip OutputFileName LogFile
+\end{lstlisting}
+\begin{table}[!htbp]
+	\begin{center}
+		\renewcommand{\arraystretch}{1.5}
+		\begin{tabularx}{\textwidth}{| p{0.2\textwidth} | p{0.4\textwidth} | X |}
+			\hline
+			\cellcolor{ibeo_red} \textcolor{white}{\textbf{Argument}} & \cellcolor{ibeo_red} \textcolor{white}{\textbf{Purpose}} & \cellcolor{ibeo_red} \textcolor{white}{\textbf{Example}} \\
+			\hline
+			-e & If this parameter is given and the port is set to 12002. The sensor is an ECU instead of a Lux. &
+			-e
+			\\
+			\hline
+			Ip & Ip address and port of the IbeoDevice. & 192.168.0.1:12004
+			\\
+			\hline
+			OutputFileName & Name of the IDC File to use as out. & TestOutputFile
+			\\
+			
+			\hline
+			LogFile & Name of the log file (optional). & .../TestInputLogFile.log
+			\\
+			
+			\hline
+		\end{tabularx}
+	\end{center}
+\end{table}
+\subsection{Source}
+\subsubsection{Version}
+\begin{lstlisting}
+int main(const int argc, const char** argv)
+{
+	std::cerr << argv[0] << " (" << appName << ")"
+	          << " Version " << appVersion.toString();
+	std::cerr << "  using IbeoSDK " << ibeoSDK.getVersion().toString() << std::endl;
+\end{lstlisting}
+The first part of the source code prints the current IbeoSDK version.
+\subsubsection{Parameter check and parsing}
+\begin{lstlisting}[firstnumber=last]
+	bool useEcu;
+	bool hasLogFile;
+	const int checkResult = checkArguments(argc, argv, useEcu, hasLogFile);
+	if (checkResult != 0)
+	{
+		exit(checkResult);
+	}
+\end{lstlisting}
+The next step is to check the parsed program argument syntax and whether the file has a log file or not.
+\begin{lstlisting}[firstnumber=last]
+	int currArg = 1 + (useEcu ? 1 : 0);
+\end{lstlisting}
+Instantiates currArg(short for current argument) as 1 if there is no ECU or 2 if there is an ECU.
+\begin{lstlisting}[firstnumber=last]
+	std::string ip                = argv[currArg++];
+	const uint16_t port           = getPort(ip, 12002);
+	const std::string outFilename = argv[currArg++];
+\end{lstlisting}
+\textbf{Line 15}: Sets the IP address as string. \\
+\textbf{Line 16}: Sets the port as uint16\_t.\\
+\textbf{Line 17}: Sets the outputfilename as string.
+\subsubsection{Logging}
+The IbeoSDK offers a special framework, the IbeoSDK Logging. It allows to log every debug, warning and error message coming from the SDK itself in a specified log file. This is a excellent source of information to understand the system and analyze any upcoming issues. For further information regarding the IbeoSDK Logging: See IbeoSDK Logging manual. \\
+\begin{lstlisting}[firstnumber=last]
+	if (hasLogFile)
+	{
+		ibeo::common::logging::FileLoggerBackendSPtr fileLoggerBackend
+			= std::dynamic_pointer_cast<ibeo::common::logging::FileLoggerBackend>(
+				ibeo::common::logging::LogManager::getInstance().getBackendById(
+					ibeo::common::logging::FileLoggerBackend::getBackendId()));
+		fileLoggerBackend->setFilePath(argv[currArg++]);
+	}
+\end{lstlisting}
+The logging system itself provides two backends which can be used by loggers: console logging and file logging. If a log file has been parsed, it sets the backend to log to a file.
+\begin{lstlisting}[firstnumber=last]
+	ibeo::common::logging::LogManager::getInstance().setDefaultLogLevel("Debug");
+\end{lstlisting}
+Sets the default log level to debug, which is the least important level.
+\begin{lstlisting}[firstnumber=last]
+	if (hasLogFile)
+	{
+		LOGINFO(logger,
+				argv[0] << " Version " << appVersion.toString() << "  using IbeoSDK " 
+						<< ibeoSDK.getVersion().toString());
+	}
+\end{lstlisting}
+If a log file has been parsed, then it writes the current IbeoSDK version into it. 
+\newpage
+\subsubsection{Selecting a device}
+\begin{lstlisting}[firstnumber=last]
+	switch (port)
+	{
+		case 12002:
+			if (useEcu)
+			{
+				idcWriterEcu_demo(ip, outFilename);
+			}
+			else
+			{
+				idcWriterLux_demo(ip, outFilename);
+			}
+			break;
+		case 12004:
+			idcWriterScala_demo(ip, outFilename);
+			break;
+		case 12006:
+			idcWriterMiniLux_demo(ip, outFilename);
+			break;
+		case 12008:
+			idcWriterLuxHr_demo(ip, outFilename);
+			break;
+		default:
+			LOGERROR(appLogger, "Port " << port << " is not supported by any known device.");
+			break;
+	}
+}
+\end{lstlisting}
+Depending on the parsed port the program will call the specific idcWriter method with the ip and output file name parameters. \\
+\textbf{Port 12002}: Can either be ECU or Lux\\
+\textbf{Port 12004}: Scala\\
+\textbf{Port 12006}: MiniLux\\
+\textbf{Port 12008}: LuxHr\\
+\textbf{Anything else}: Error
+\newpage
+\subsubsection{Streamer}
+IdcWriter is a streamer class within the WriterDemo that allows to create and write the received data from a device into an IDC File. Streamers are classes whose data is derived from DataStreamer. They have to implement the onData method, which needs a IbeoDataHeader and a byte array (char*) as arguments. \\
+Streamer can be used for forwarding DataTypes from the Device to a destination that does not need deserialized DataContainers. In our demo the destination is an IDC File.
+\subsubsection{Connecting to a device and process data}
+\begin{lstlisting}
+void idcWriterEcu_demo(const std::string& ip, const std::string& outFilename)
+{
+	IbeoEcu ecu(ip);
+\end{lstlisting}
+Instanties an ECU with the given ip address.
+\begin{lstlisting}[firstnumber=last]
+	IdcWriter idcWriter(outFilename, 1000000000);
+	if (idcWriter.isOpen())
+	{
+		ecu.registerStreamer(&idcWriter);
+	}
+	ecu.getConnected();
+}
+\end{lstlisting}
+\begin{itemize}
+	\item \textbf{Line 4}: Creates an IdcWriter with the output file name and file size limit as parameters.
+	\item \textbf{Line 7}: If the IDC File is open, registers the IdcWriter as streamer.
+	\item \textbf{Line 8}: Establish the connection to the hardware.
+\end{itemize}
+A device in the Ibeo SDK receives a stream of data packets from the sensor and converts them to an Ibeo SDK DataContainer. If multiple packets are needed, the device is responsible for collecting and storing these packets before creating a data container. \\
+The onData method of a streamer class gets an Ibeo data header and a plain byte buffer, that means that the received DataType is not serialized. 
+
+\symNOTE{The following code is just to show what can be done with the onData method of a streamer class. There is no particular reason why some DataTypes are treated different than other DataTypes.}
+\newpage
+\begin{lstlisting}
+void IdcWriter::onData(const IbeoDataHeader& dh, const char* const bodyBuf)
+{
+	LOGDEBUG(appLogger, "Received message 0x" << std::hex << dh.getDataType() << std::dec);
+	switch (dh.getDataType())
+	{
+		case DataTypeId::DataType_Scan2202:
+		case DataTypeId::DataType_Scan2205:
+		case DataTypeId::DataType_Scan2208:
+			this->splitFileIfNeeded();
+			break;
+		case DataTypeId::DataType_IdcTrailer6120:
+		case DataTypeId::DataType_FrameIndex6130:
+			LOGDEBUG(appLogger, "Skip writing datatype " << toHex(dh.getDataType()));
+			return;
+		default:
+		break;
+	}
+\end{lstlisting}
+\begin{itemize}
+	\item \textbf{Line 3}: Logs at debug level that a DataType has been received.
+	\item \textbf{Line 4}: Switch case based on the received DataType
+	\textbf{\item Line 6-8}: In case of a scan (0x2202, 0x2205, or 0x2208), the file will be split.
+	\textbf{\item Line 11 and 12}: In case of a trailer (0x6120) or frame index (0x6130), there will be an debug log about skipping it and after that it will leave the onData method.
+\end{itemize}

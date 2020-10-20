@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Configuration>
+    <Backends>
+        <Backend id="ibeo::common::logging::ConsoleLoggerBackend"
+                 format="[%level] %date{%Y-%m-%d %H-%M-%S,%s} - %file(%line) - %func: %msg%n" />
+        <Backend id="ibeo::common::logging::FileLoggerBackend"
+                 format="[%level] %date{%Y-%m-%d %H-%M-%S,%s} - %file(%line) - %func: %msg%n">
+            <Path>ibeo.log</Path>
+        </Backend>
+    </Backends>
+    <Loggers>
+        <Root level="debug">
+            <BackendRef id="ibeo::common::logging::ConsoleLoggerBackend" />
+            <BackendRef id="ibeo::common::logging::FileLoggerBackend" />
+        </Root>
+        <Logger id="ibeo::common::logging::TestLogger" level="critical">
+            <BackendRef id="ibeo::common::logging::ConsoleLoggerBackend" />
+        </Logger>
+    </Loggers>
+</Configuration>

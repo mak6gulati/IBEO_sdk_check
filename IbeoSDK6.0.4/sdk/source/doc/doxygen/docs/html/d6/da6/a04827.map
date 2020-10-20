@@ -1,0 +1,8 @@
+<map id="ibeo::common::sdk::lanes::LaneHandlerTemplate&lt; TLaneSegment &gt;::LanePosition" name="ibeo::common::sdk::lanes::LaneHandlerTemplate&lt; TLaneSegment &gt;::LanePosition">
+<area shape="rect" id="node2" href="$d0/da2/a00502.html" title="ibeo::common::sdk::\lPositionWgs84" alt="" coords="526,5,667,47"/>
+<area shape="rect" id="node3" href="$dd/d63/a00455.html" title="ibeo::common::sdk::\lNTPTime" alt="" coords="233,5,374,47"/>
+<area shape="rect" id="node4" href="$d6/d6a/a00619.html" title="ibeo::common::sdk::\lTransformationMatrix2d\l\&lt; float \&gt;" alt="" coords="517,70,676,126"/>
+<area shape="rect" id="node5" href="$dd/d4d/a00519.html" title="ibeo::common::sdk::\lRotationMatrix2d\&lt; value\l_type \&gt;" alt="" coords="221,70,385,126"/>
+<area shape="rect" id="node6" href="$d4/d6d/a00402.html" title="ibeo::common::sdk::\lMatrix2x2\&lt; value_type \&gt;" alt="" coords="5,77,172,119"/>
+<area shape="rect" id="node7" href="$d1/d51/a00628.html" title="ibeo::common::sdk::\lVector2\&lt; value_type \&gt;" alt="" coords="226,149,381,191"/>
+</map>

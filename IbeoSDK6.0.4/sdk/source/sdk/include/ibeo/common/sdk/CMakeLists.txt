@@ -1,0 +1,53 @@
+setupHeaders(HEADERS
+        BufferAndImporterProvider.hpp
+        bufferIO.hpp
+        CommandId.hpp
+        CompressedPoint2d.hpp
+        ContainerBufferAndImporterProvider.hpp
+        Convert.hpp
+        DataBlockBufferProvider.hpp
+        DataTypeId.hpp
+        EcefPoint.hpp
+        ecu.hpp
+        EventMonitor.hpp
+        IbeoSdk.hpp
+        io.hpp
+        io_prototypes.hpp
+        IpHelper.hpp
+        LaneHandler.hpp
+        LaneType.hpp
+        Line2d.hpp
+        lux.hpp
+        luxhr.hpp
+        Math.hpp
+        Matrix2x2.hpp
+        Matrix3x3.hpp
+        MeasurementKey.hpp
+        minilux.hpp
+        MsgBufferBase.hpp
+        MsgBuffer.hpp
+        ObjectBasic.hpp
+        PassiveMsgBuffer.hpp
+        Rectangle.hpp
+        RotationMatrix2d.hpp
+        RotationMatrix3d.hpp
+        RotationOrder.hpp
+        scala.hpp
+        ScannerProperties.hpp
+        ScannerType.hpp
+        ThreadRunner.hpp
+        Time.hpp
+        TimeInterval.hpp
+        trackingbox.hpp
+        TransformationMatrix2d.hpp
+        TransformationMatrix3d.hpp
+        Transform.hpp
+        Vector2.hpp
+        Vector3.hpp
+)
+
+include(${CMAKE_CURRENT_LIST_DIR}/datablocks/CMakeLists.txt)
+include(${CMAKE_CURRENT_LIST_DIR}/devices/CMakeLists.txt)
+include(${CMAKE_CURRENT_LIST_DIR}/jpegsupport/CMakeLists.txt)
+include(${CMAKE_CURRENT_LIST_DIR}/listener/CMakeLists.txt)
+include(${CMAKE_CURRENT_LIST_DIR}/misc/CMakeLists.txt)

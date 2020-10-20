@@ -1,0 +1,23 @@
+<map id="FrameIndexImporter6130.hpp" name="FrameIndexImporter6130.hpp">
+<area shape="rect" id="node2" href="$db/d7c/a01614.html" title="ibeo/common/sdk/misc\l/WinCompatibility.hpp" alt="" coords="1209,824,1367,865"/>
+<area shape="rect" id="node5" href="$db/d18/a00885.html" title="ibeo/common/sdk/datablocks\l/frameindex/FrameIndex.hpp" alt="" coords="601,80,793,121"/>
+<area shape="rect" id="node41" href="$d1/dcd/a01351.html" title="ibeo/common/sdk/datablocks\l/RegisteredImporter.hpp" alt="" coords="1907,80,2099,121"/>
+<area shape="rect" id="node6" href="$d7/d92/a00887.html" title="ibeo/common/sdk/datablocks\l/frameindex/special/FrameIndex6130.hpp" alt="" coords="567,169,828,211"/>
+<area shape="rect" id="node7" href="$de/d9d/a00813.html" title="ibeo/common/sdk/datablocks\l/DataContainerBase.hpp" alt="" coords="1196,259,1388,300"/>
+<area shape="rect" id="node28" href="$da/ddc/a01492.html" title="ibeo/common/sdk/Time.hpp" alt="" coords="671,653,854,679"/>
+<area shape="rect" id="node37" href="$d3/d29/a00947.html" title="ibeo/common/sdk/misc\l/IbeoSdkHash.hpp" alt="" coords="112,355,269,397"/>
+<area shape="rect" id="node39" href="$d3/d8a/a00899.html" title="ibeo/common/sdk/datablocks\l/frameindex/FramingPolicy.hpp" alt="" coords="919,259,1121,300"/>
+<area shape="rect" id="node40" href="$d0/de2/a00892.html" title="ibeo/common/sdk/datablocks\l/frameindex/FrameIndexEntry.hpp" alt="" coords="412,452,631,493"/>
+<area shape="rect" id="node34" href="$d0/dac/a00901.html" title="ibeo/common/sdk/datablocks\l/frameindex/special/FramingPolicy\lIn6130.hpp" alt="" coords="683,348,906,404"/>
+<area shape="rect" id="node36" href="$dc/dfa/a00894.html" title="ibeo/common/sdk/datablocks\l/frameindex/special/FrameIndexEntry\lIn6130.hpp" alt="" coords="377,541,615,597"/>
+<area shape="rect" id="node8" href="$dc/d5e/a00817.html" title="ibeo/common/sdk/DataType\lId.hpp" alt="" coords="1899,452,2085,493"/>
+<area shape="rect" id="node27" href="$d6/d82/a00920.html" title="ibeo/common/sdk/datablocks\l/IbeoDataHeader.hpp" alt="" coords="1381,355,1573,397"/>
+<area shape="rect" id="node9" href="$da/dcf/a01558.html" title="ibeo/common/sdk/misc\l/Unconvertable.hpp" alt="" coords="1871,549,2028,590"/>
+<area shape="rect" id="node10" href="$d6/d8d/a01007.html" title="ibeo/common/sdk/io.hpp" alt="" coords="2225,653,2389,679"/>
+<area shape="rect" id="node20" href="$dc/d0c/a01532.html" title="ibeo/common/sdk/misc\l/ToHex.hpp" alt="" coords="1544,645,1701,687"/>
+<area shape="rect" id="node24" href="$d9/d0f/a00644.html" title="ibeo/common/sdk/bufferIO.hpp" alt="" coords="1943,653,2145,679"/>
+<area shape="rect" id="node11" href="$dd/dac/a01008.html" title="ibeo/common/sdk/io\l_prototypes.hpp" alt="" coords="2527,735,2665,776"/>
+<area shape="rect" id="node42" href="$d7/d06/a01005.html" title="ibeo/common/sdk/datablocks\l/ImporterBase.hpp" alt="" coords="1580,169,1772,211"/>
+<area shape="rect" id="node47" href="$da/d71/a00814.html" title="ibeo/common/sdk/listener\l/DataContainerListener.hpp" alt="" coords="2091,169,2272,211"/>
+<area shape="rect" id="node43" href="$d2/d95/a01449.html" title="ibeo/common/sdk/misc\l/SdkExceptions.hpp" alt="" coords="1513,259,1671,300"/>
+</map>

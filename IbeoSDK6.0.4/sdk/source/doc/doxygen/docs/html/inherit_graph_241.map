@@ -1,0 +1,3 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$d0/db1/a00622.html" title="This class serves as a de&#45;multiplexer for packets received via local UDP endpoints. The packets are separated according to their remote IP address and/or port number. So, clients using this class can register a callback for UDP traffic flowing from a remote to a local endpoint. In general, it is not allow to have more than one thread listening on the same UDP socket. So, instances of this class have an own thread that receives UDP packets and distributes them via the registered callbacks. " alt="" coords="5,5,147,47"/>
+</map>

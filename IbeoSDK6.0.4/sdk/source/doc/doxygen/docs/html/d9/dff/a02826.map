@@ -1,0 +1,29 @@
+<map id="ObjectListImporter2280_2290.hpp" name="ObjectListImporter2280_2290.hpp">
+<area shape="rect" id="node2" href="$da/de0/a01248.html" title="Get serialized size for object types 0x2280/0x2290 from/to general object container. " alt="" coords="3781,95,3987,151"/>
+<area shape="rect" id="node3" href="$db/d7c/a01614.html" title="ibeo/common/sdk/misc\l/WinCompatibility.hpp" alt="" coords="1480,1092,1637,1133"/>
+<area shape="rect" id="node44" href="$d1/dcd/a01351.html" title="ibeo/common/sdk/datablocks\l/RegisteredImporter.hpp" alt="" coords="3147,377,3339,419"/>
+<area shape="rect" id="node6" href="$d1/d0d/a01191.html" title="Generalized container class for object lists. " alt="" coords="893,199,1085,240"/>
+<area shape="rect" id="node7" href="$de/d9d/a00813.html" title="ibeo/common/sdk/datablocks\l/DataContainerBase.hpp" alt="" coords="2993,556,3185,597"/>
+<area shape="rect" id="node34" href="$db/d51/a01144.html" title="General object with members in SI units (m, rad, m/s, rad/s). " alt="" coords="893,288,1085,329"/>
+<area shape="rect" id="node59" href="$d3/d29/a00947.html" title="ibeo/common/sdk/misc\l/IbeoSdkHash.hpp" alt="" coords="5,1003,163,1044"/>
+<area shape="rect" id="node8" href="$dc/d5e/a00817.html" title="ibeo/common/sdk/DataType\lId.hpp" alt="" coords="2808,735,2995,776"/>
+<area shape="rect" id="node27" href="$d6/d82/a00920.html" title="ibeo/common/sdk/datablocks\l/IbeoDataHeader.hpp" alt="" coords="2951,645,3143,687"/>
+<area shape="rect" id="node9" href="$da/dcf/a01558.html" title="ibeo/common/sdk/misc\l/Unconvertable.hpp" alt="" coords="2288,824,2445,865"/>
+<area shape="rect" id="node10" href="$d6/d8d/a01007.html" title="ibeo/common/sdk/io.hpp" alt="" coords="2119,921,2283,947"/>
+<area shape="rect" id="node20" href="$dc/d0c/a01532.html" title="ibeo/common/sdk/misc\l/ToHex.hpp" alt="" coords="2892,913,3049,955"/>
+<area shape="rect" id="node24" href="$d9/d0f/a00644.html" title="ibeo/common/sdk/bufferIO.hpp" alt="" coords="1755,921,1957,947"/>
+<area shape="rect" id="node11" href="$dd/dac/a01008.html" title="ibeo/common/sdk/io\l_prototypes.hpp" alt="" coords="1129,1003,1268,1044"/>
+<area shape="rect" id="node28" href="$da/ddc/a01492.html" title="ibeo/common/sdk/Time.hpp" alt="" coords="2685,921,2867,947"/>
+<area shape="rect" id="node35" href="$d7/dff/a00805.html" title="Contour point (in SI units) " alt="" coords="567,735,759,776"/>
+<area shape="rect" id="node36" href="$d8/d6c/a01563.html" title="ibeo/common/sdk/Vector2.hpp" alt="" coords="606,831,805,858"/>
+<area shape="rect" id="node41" href="$de/d89/a01560.html" title="Unfiltered object data (in SI units) " alt="" coords="456,645,685,687"/>
+<area shape="rect" id="node42" href="$da/d20/a01160.html" title="ibeo/common/sdk/ObjectBasic.hpp" alt="" coords="833,742,1058,769"/>
+<area shape="rect" id="node52" href="$d2/df3/a01085.html" title="ibeo/common/sdk/datablocks\l/MeasurementList.hpp" alt="" coords="760,556,952,597"/>
+<area shape="rect" id="node37" href="$d6/d80/a01076.html" title="ibeo/common/sdk/Math.hpp" alt="" coords="485,921,667,947"/>
+<area shape="rect" id="node38" href="$d3/d60/a00818.html" title="ibeo/common/sdk/misc\l/deprecatedwarning.hpp" alt="" coords="895,1003,1055,1044"/>
+<area shape="rect" id="node45" href="$d7/d06/a01005.html" title="ibeo/common/sdk/datablocks\l/ImporterBase.hpp" alt="" coords="3147,467,3339,508"/>
+<area shape="rect" id="node50" href="$da/d71/a00814.html" title="ibeo/common/sdk/listener\l/DataContainerListener.hpp" alt="" coords="3609,467,3791,508"/>
+<area shape="rect" id="node46" href="$d2/d95/a01449.html" title="ibeo/common/sdk/misc\l/SdkExceptions.hpp" alt="" coords="3505,556,3663,597"/>
+<area shape="rect" id="node53" href="$dd/dee/a01081.html" title="ibeo/common/sdk/datablocks\l/Measurement.hpp" alt="" coords="1320,645,1512,687"/>
+<area shape="rect" id="node54" href="$d6/d9a/a01083.html" title="ibeo/common/sdk/Measurement\lKey.hpp" alt="" coords="1771,735,1979,776"/>
+</map>

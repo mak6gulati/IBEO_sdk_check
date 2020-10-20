@@ -1,0 +1,232 @@
+\documentclass[a4paper,english,11pt,oneside]{article}
+\usepackage{amssymb}
+\usepackage[T1]{fontenc}
+\usepackage{libertine}  
+\renewcommand*\familydefault{\sfdefault}
+\usepackage{tabularx}
+\usepackage{amsmath}
+\usepackage{adjustbox}
+\usepackage{multicol}
+\usepackage{mathtools}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype}
+\usepackage{geometry}
+\geometry{textheight=235mm,textwidth=180mm,headsep=12mm,tmargin=20mm}
+\usepackage{babel}
+\usepackage{eurosym}
+\usepackage{blindtext}
+\usepackage{graphicx}
+\usepackage{textpos}                         % placing boxes at absolute positions
+\usepackage{xcolor} 
+\usepackage{gensymb}
+\widowpenalty 10000
+\clubpenalty 10000
+\usepackage{makeidx}
+\usepackage{caption}
+
+\definecolor{light-gray}{gray}{0.95}
+\definecolor{dark-green}{HTML}{3C8031}
+
+\usepackage{listings}
+\lstset{
+	backgroundcolor=\color{light-gray},
+	basewidth=0.55em,
+	basicstyle=\footnotesize\ttfamily,        % the size of the fonts that are used for the code
+	breaklines=true,
+	commentstyle=\color{dark-green}, % comment color
+	frame=none,
+	keywordstyle=\color{blue}, % keyword color
+	language=C++,
+	numbers=left, % display line numbers on the left
+	tabsize=4, % tab space width
+	showstringspaces=false, % don't mark spaces in strings
+	stringstyle=\color{red} % string color
+} 
+\usepackage{float}   
+\usepackage{lastpage}
+
+\usepackage[onehalfspacing]{setspace}
+\usepackage{multirow}
+\usepackage{bigstrut}
+
+\usepackage{array,booktabs}
+\usepackage{color} 
+
+\usepackage{colortbl}
+\usepackage[pdfborder={0 0 0}]{hyperref}
+\usepackage{url}
+
+
+\usepackage{makecell}
+\definecolor{ibeo_red}{cmyk}{0.13,0.99,0.87,0.03}
+\definecolor{ibeo_grey}{cmyk}{0.35,0.28,0.26,0}
+\definecolor{ibe_antrazit}{cmyk}{0.72,0.65,0.59,0.50}
+
+\usepackage{chngcntr}
+\counterwithin{figure}{section}
+\counterwithin{table}{section}
+
+\setlength{\parindent}{0pt}
+
+%---------------------------------------------------------------------------------------------------
+% Header Ibeo % Footer
+%---------------------------------------------------------------------------------------------------
+\def\title#1{\gdef\@title{#1}\gdef\THETITLE{#1}}
+\pagenumbering{arabic} 
+\usepackage{fancyhdr}
+\addtolength{\headheight}{2cm} % make more space for the header
+\pagestyle{fancyplain} % use fancy for all pages except chapter start
+\fancyheadoffset{1.5cm}
+\lhead{\hspace{1.5cm} \includegraphics[height=1.6cm]{\commondocpath/images/ibeo_logo.jpg}} % left logo
+\chead{}
+\rhead{Page \thepage\ of \pageref{LastPage} \hspace*{1.5cm}}
+\fancyfootoffset{1.5cm}
+\lfoot{\hspace{1.5cm}  \THETITLE}
+\cfoot{}
+\rfoot{\includegraphics[width=7cm]{\commondocpath/images/ibeo_slogan.png}\hspace*{1.5cm}}
+\renewcommand{\headrule}{\hbox to\headwidth{%
+  \color{ibeo_red}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\footrule}{\hbox to\headwidth{%
+  \color{ibeo_red}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{2pt} 
+
+\newcommand{\bild}[3]{
+  \begin{figure}[!hbt]
+    \centering
+      \vspace{1ex}
+	 \fbox{
+      \includegraphics[width=#2]{images/#1}}
+      \caption{#3}
+      \label{fig:#3}
+    \vspace{1ex}
+  \end{figure}
+}
+\newcommand{\bildref}[4]{
+  \begin{figure}[!hbt]
+    \centering
+      \vspace{1ex}
+	\frame{
+      \includegraphics[width=#2]{images/#1}}
+      \caption{#3}
+      \label{fig:#4}
+    \vspace{1ex}
+  \end{figure}
+}
+
+
+
+\newcommand{\symDANGER}[1]{
+\begin{center}
+	\begin{minipage}[c]{0.1\textwidth}
+		\vspace{0pt}
+		\includegraphics[width=\textwidth]{\commondocpath/images/danger.png}
+	\end{minipage}
+	\begin{minipage}[c]{0.8\textwidth}
+	\vspace{0pt}
+	\begin{tabular}{| >{\centering\arraybackslash}m{13cm} |}
+		\hline
+		\cellcolor{red} \color{white} \begin{bfseries}DANGER\end{bfseries} \normalfont  \\
+		\cline{1-1}
+		{#1} \\
+		\hline
+	\end{tabular}
+	\end{minipage}
+\end{center}
+}
+
+\newcommand{\symWARNING}[1]{
+\begin{center}
+	\begin{minipage}[c]{0.1\textwidth}
+		\vspace{0pt}
+		\includegraphics[width=\textwidth]{\commondocpath/images/danger.png}
+	\end{minipage}
+	\begin{minipage}[c]{0.8\textwidth}
+	\vspace{0pt}
+	\begin{tabular}{| >{\centering\arraybackslash}m{13cm} |}
+		\hline
+		\cellcolor{orange} \color{black} \begin{bfseries}WARNING\end{bfseries} \normalfont  \\
+		\cline{1-1}
+		{#1} \\
+		\hline
+	\end{tabular}
+	\end{minipage}
+\end{center}
+}
+
+\newcommand{\symCAUTION}[1]{
+\begin{center}
+	\begin{minipage}[c]{0.1\textwidth}
+		\vspace{0pt}
+		\includegraphics[width=\textwidth]{\commondocpath/images/danger.png}
+	\end{minipage}
+	\begin{minipage}[c]{0.8\textwidth}
+	\vspace{0pt}
+	\begin{tabular}{| >{\centering\arraybackslash}m{13cm} |}
+		\hline
+		\cellcolor{yellow} \color{black} \begin{bfseries}CAUTION\end{bfseries} \normalfont  \\
+		\cline{1-1}
+		{#1} \\
+		\hline
+	\end{tabular}
+	\end{minipage}
+\end{center}
+}
+
+\newcommand{\symCAUTIONHAND}[1]{
+\begin{center}
+	\begin{minipage}[c]{0.1\textwidth}
+		\vspace{0pt}
+		\includegraphics[width=\textwidth]{\commondocpath/images/caution.png}
+	\end{minipage}
+	\begin{minipage}[c]{0.8\textwidth}
+	\vspace{0pt}
+	\begin{tabular}{| >{\centering\arraybackslash}m{13cm} |}
+		\hline
+		 \cellcolor{yellow} \color{black} \vspace{1mm}\begin{bfseries}CAUTION\end{bfseries} \normalfont   \\
+		\cline{1-1}
+		#1 \\
+		\hline
+	\end{tabular}
+	\end{minipage}
+\end{center}
+}
+
+\newcommand{\symNOTE}[1]{
+\begin{center}
+	\begin{minipage}[c]{0.1\textwidth}
+		\vspace*{0pt}
+		\hspace*{0.4cm}\includegraphics[width=0.3\textwidth]{\commondocpath/images/note.png}
+	\end{minipage}
+	\begin{minipage}[c]{0.8\textwidth}
+	\vspace*{0pt}
+	\begin{tabular}{| >{\centering\arraybackslash}m{13cm} |}
+		\hline
+		\cellcolor{blue} \color{white} \vspace{1mm}\begin{bfseries}NOTE\end{bfseries} \normalfont    \\
+		\cline{1-1}
+		\textit {#1} \\
+		\hline
+	\end{tabular}
+	\end{minipage}
+\end{center}
+}
+
+\newcommand{\IbeoTabelle}{
+	\begin{table}[!htbp]
+	\begin{center}
+	\renewcommand{\arraystretch}{1.5}
+		\begin{tabular}{| m{4cm} | m{3cm} | m{2cm} | m{6.6cm} |}
+		\hline
+		\cellcolor{ibeo_red} \textcolor{white}{\textbf{Parameter}} & \cellcolor{ibeo_red} \textcolor{white}{\textbf{Data type}} & \cellcolor{ibeo_red} \textcolor{white}{\textbf{Default}} & \cellcolor{ibeo_red} \textcolor{white}{\textbf{Description}} \\
+		\hline
+		ObjectListDataType & Hex16 & 0x2280 & Chose 0x2225 for backward compability, refer to the Customer Ethernet Document for contents and structure of the datatypes \\
+		\hline
+		VehicleStateDataType & Hex16 & 0x2807 & Chose 0x 2806 for backward compability, refer to the Customer Ethernet Document for contents and structure of the datatypes\\
+		\hline
+	\end{tabular}
+	\caption{DataTypeSelectorWorker Configuration}
+	\label{table:DataTypeSelectorWorker Configuration}
+	\end{center}
+	\end{table}
+}
+\urlstyle{same}

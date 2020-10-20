@@ -1,0 +1,35 @@
+setupSources(SOURCES
+        ContourPointIn2271.cpp
+        FilteredObjectDataIn2271.cpp
+        ObjectIn2221.cpp
+        ObjectIn2225.cpp
+        ObjectIn2270.cpp
+        ObjectIn2271.cpp
+        ObjectIn2280.cpp
+        ObjectIn2281.cpp
+        ObjectList2221.cpp
+        ObjectList2221Exporter2221.cpp
+        ObjectList2221Importer2221.cpp
+        ObjectList2225.cpp
+        ObjectList2225Exporter2225.cpp
+        ObjectList2225Importer2225.cpp
+        ObjectList2270.cpp
+        ObjectList2270Exporter2270.cpp
+        ObjectList2270Importer2270.cpp
+        ObjectList2271.cpp
+        ObjectList2271Exporter2271.cpp
+        ObjectList2271Importer2271.cpp
+        ObjectList2280.cpp
+        ObjectList2280Exporter2280.cpp
+        ObjectList2280Importer2280.cpp
+        ObjectList2281.cpp
+        ObjectList2281Exporter2281.cpp
+        ObjectList2281Importer2281.cpp
+        ObjectList2290.cpp
+        ObjectList2290Exporter2290.cpp
+        ObjectList2290Importer2290.cpp
+        ObjectList2291.cpp
+        ObjectList2291Exporter2291.cpp
+        ObjectList2291Importer2291.cpp
+        UnfilteredObjectDataIn2271.cpp
+        GROUP datablocks\\objectlist\\special)

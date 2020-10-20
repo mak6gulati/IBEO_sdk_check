@@ -1,0 +1,22 @@
+<map id="ibeo::common::sdk::IbeoDeviceBase" name="ibeo::common::sdk::IbeoDeviceBase">
+<area shape="rect" id="node3" href="$d0/da7/a00250.html" title="Base class for all Ibeo devices connected via TCP/IP or UDP. " alt="" coords="337,201,479,243"/>
+<area shape="rect" id="node4" href="$d0/d1f/a00247.html" title="ibeo::common::sdk::\lIbeoDevice\&lt; DeviceImpl \&gt;" alt="" coords="543,5,721,47"/>
+<area shape="rect" id="node6" href="$d0/d1f/a00247.html" title="ibeo::common::sdk::\lIbeoDevice\&lt; IbeoEcu \&gt;" alt="" coords="552,71,712,112"/>
+<area shape="rect" id="node9" href="$d0/d1f/a00247.html" title="ibeo::common::sdk::\lIbeoDevice\&lt; IbeoLux \&gt;" alt="" coords="553,136,711,177"/>
+<area shape="rect" id="node12" href="$d0/d1f/a00247.html" title="ibeo::common::sdk::\lIbeoDevice\&lt; IbeoLuxHr \&gt;" alt="" coords="546,201,718,243"/>
+<area shape="rect" id="node15" href="$d0/d1f/a00247.html" title="ibeo::common::sdk::\lIbeoDevice\&lt; IbeoMiniLux \&gt;" alt="" coords="541,267,723,308"/>
+<area shape="rect" id="node18" href="$d0/d1f/a00247.html" title="ibeo::common::sdk::\lIbeoDevice\&lt; IbeoScala \&gt;" alt="" coords="547,332,717,373"/>
+<area shape="rect" id="node20" href="$d0/d1f/a00247.html" title="ibeo::common::sdk::\lIbeoDevice\&lt; IbeoTrackingBox \&gt;" alt="" coords="527,401,737,443"/>
+<area shape="rect" id="node5" href="$d0/d2f/a00259.html" title="IbeoDevice for use with TCP. " alt="" coords="787,5,987,47"/>
+<area shape="rect" id="node7" href="$d0/d2f/a00259.html" title="ibeo::common::sdk::\lIbeoTcpDevice\&lt; IbeoEcu \&gt;" alt="" coords="796,71,979,112"/>
+<area shape="rect" id="node8" href="$de/dbc/a00249.html" title="ibeo::common::sdk::\lIbeoEcu" alt="" coords="1037,71,1179,112"/>
+<area shape="rect" id="node10" href="$d0/d2f/a00259.html" title="ibeo::common::sdk::\lIbeoTcpDevice\&lt; IbeoLux \&gt;" alt="" coords="797,136,977,177"/>
+<area shape="rect" id="node11" href="$dc/ded/a00252.html" title="Class to connect to a LUX3/LUX4 sensor. " alt="" coords="1037,136,1179,177"/>
+<area shape="rect" id="node13" href="$d0/d2f/a00259.html" title="ibeo::common::sdk::\lIbeoTcpDevice\&lt; IbeoLuxHr \&gt;" alt="" coords="790,201,985,243"/>
+<area shape="rect" id="node14" href="$d0/d3e/a00253.html" title="Class to connect to a LuxHr sensor. " alt="" coords="1037,201,1179,243"/>
+<area shape="rect" id="node16" href="$d0/d2f/a00259.html" title="ibeo::common::sdk::\lIbeoTcpDevice\&lt; IbeoMiniLux \&gt;" alt="" coords="785,267,989,308"/>
+<area shape="rect" id="node17" href="$d7/d03/a00254.html" title="Class to connect to a MiniLux sensor. " alt="" coords="1037,267,1179,308"/>
+<area shape="rect" id="node19" href="$d4/d04/a00255.html" title="Class to connect to a Scala sensor. " alt="" coords="817,332,958,373"/>
+<area shape="rect" id="node21" href="$d0/d2f/a00259.html" title="ibeo::common::sdk::\lIbeoTcpDevice\&lt; IbeoTracking\lBox \&gt;" alt="" coords="789,397,986,453"/>
+<area shape="rect" id="node22" href="$df/da9/a00263.html" title="Device class to connect to the Ibeo Tracking Box. " alt="" coords="1037,404,1179,445"/>
+</map>

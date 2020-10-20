@@ -1,0 +1,48 @@
+<map id="LaneTemplate.hpp" name="LaneTemplate.hpp">
+<area shape="rect" id="node2" href="$db/dde/a00691.html" title="CarriageWaySegmentTemplate.hpp" alt="" coords="1875,229,2104,256"/>
+<area shape="rect" id="node39" href="$db/daf/a01019.html" title="Lane which has a list of LaneSegments. " alt="" coords="1652,229,1767,256"/>
+<area shape="rect" id="node43" href="$d0/d43/a01020.html" title="Lane which has a list of LaneSegments. " alt="" coords="1558,80,1672,107"/>
+<area shape="rect" id="node3" href="$d1/d87/a00689.html" title="CarriageWaySegment6970 which has a constant number of lanes of type LaneIn6970. " alt="" coords="2137,304,2352,331"/>
+<area shape="rect" id="node13" href="$da/dd4/a00690.html" title="CarriageWaySegment6972 which has a constant number of lanes of type LaneIn6972. " alt="" coords="1697,304,1912,331"/>
+<area shape="rect" id="node38" href="$d0/db6/a00692.html" title="CarriageWayTemplate.hpp" alt="" coords="1936,304,2113,331"/>
+<area shape="rect" id="node4" href="$d9/db8/a00658.html" title="CarriageWay for datatype 0x6970 which stores CarriageWayIn6970Segments. " alt="" coords="2163,379,2326,405"/>
+<area shape="rect" id="node5" href="$d7/d5f/a00663.html" title="CarriageWayList6970.hpp" alt="" coords="2617,453,2789,480"/>
+<area shape="rect" id="node6" href="$d9/d41/a00666.html" title="CarriageWayList6970Exporter6970.hpp" alt="" coords="2453,535,2702,562"/>
+<area shape="rect" id="node8" href="$d0/d5c/a00668.html" title="CarriageWayList6970Importer6970.hpp" alt="" coords="3151,535,3399,562"/>
+<area shape="rect" id="node10" href="$d1/d97/a00670.html" title="CarriageWayList6970Serialized\lSize6970.hpp" alt="" coords="2726,528,2930,569"/>
+<area shape="rect" id="node12" href="$dc/df1/a00662.html" title="CarriageWayList6970.cpp" alt="" coords="2954,535,3126,562"/>
+<area shape="rect" id="node7" href="$da/d46/a00665.html" title="CarriageWayList6970Exporter6970.cpp" alt="" coords="2649,625,2898,651"/>
+<area shape="rect" id="node9" href="$d2/d6e/a00667.html" title="CarriageWayList6970Importer6970.cpp" alt="" coords="3151,625,3399,651"/>
+<area shape="rect" id="node11" href="$d8/d7a/a00669.html" title="CarriageWayList6970Serialized\lSize6970.cpp" alt="" coords="2922,617,3126,659"/>
+<area shape="rect" id="node14" href="$d6/dd3/a00688.html" title="CarriageWaySegment.hpp" alt="" coords="1365,379,1540,405"/>
+<area shape="rect" id="node29" href="$dc/d91/a00659.html" title="CarriageWay for datatype 0x6972 which stores CarriageWayIn6972Segments. " alt="" coords="1755,379,1918,405"/>
+<area shape="rect" id="node15" href="$da/dc3/a00657.html" title="CarriageWay.hpp" alt="" coords="1775,453,1898,480"/>
+<area shape="rect" id="node16" href="$d0/d50/a00661.html" title="CarriageWayList.hpp" alt="" coords="1786,535,1930,562"/>
+<area shape="rect" id="node17" href="$d4/d9b/a00680.html" title="CarriageWayListExporter6972.hpp" alt="" coords="1546,625,1767,651"/>
+<area shape="rect" id="node19" href="$d7/dc3/a00682.html" title="CarriageWayListImporter6970.hpp" alt="" coords="2405,625,2625,651"/>
+<area shape="rect" id="node21" href="$d3/db4/a00684.html" title="CarriageWayListImporter6972.hpp" alt="" coords="1960,625,2180,651"/>
+<area shape="rect" id="node23" href="$df/d9e/a00686.html" title="CarriageWayListSerialized\lSize6970.hpp" alt="" coords="2204,617,2380,659"/>
+<area shape="rect" id="node25" href="$df/d1b/a00687.html" title="CarriageWayListSerialized\lSize6972.hpp" alt="" coords="802,617,978,659"/>
+<area shape="rect" id="node26" href="$d5/d4e/a00660.html" title="CarriageWayList.cpp" alt="" coords="1791,625,1935,651"/>
+<area shape="rect" id="node27" href="$dd/dad/a00005.html" title="IbeoSdkCarriageWayListDemo.cpp" alt="" coords="1295,625,1522,651"/>
+<area shape="rect" id="node28" href="$dd/d1b/a00015.html" title="IbeoSdkLaneEvaluationDemo.cpp" alt="" coords="1052,625,1271,651"/>
+<area shape="rect" id="node18" href="$d2/d85/a00679.html" title="CarriageWayListExporter6972.cpp" alt="" coords="719,714,940,741"/>
+<area shape="rect" id="node20" href="$d8/dba/a00681.html" title="CarriageWayListImporter6970.cpp" alt="" coords="2405,714,2625,741"/>
+<area shape="rect" id="node22" href="$db/d77/a00683.html" title="CarriageWayListImporter6972.cpp" alt="" coords="965,714,1185,741"/>
+<area shape="rect" id="node24" href="$d0/df1/a00685.html" title="CarriageWayListSerialized\lSize6970.cpp" alt="" coords="2204,707,2380,748"/>
+<area shape="rect" id="node30" href="$d5/d40/a00672.html" title="CarriageWayList6972.hpp" alt="" coords="940,453,1112,480"/>
+<area shape="rect" id="node31" href="$d8/d73/a00674.html" title="CarriageWayList6972Exporter6972.hpp" alt="" coords="28,535,277,562"/>
+<area shape="rect" id="node33" href="$d5/d39/a00676.html" title="CarriageWayList6972Importer6972.hpp" alt="" coords="784,535,1032,562"/>
+<area shape="rect" id="node35" href="$da/d31/a00678.html" title="CarriageWayList6972Serialized\lSize6972.hpp" alt="" coords="552,528,756,569"/>
+<area shape="rect" id="node37" href="$d8/d13/a00671.html" title="CarriageWayList6972.cpp" alt="" coords="1057,535,1229,562"/>
+<area shape="rect" id="node32" href="$d4/d4f/a00673.html" title="CarriageWayList6972Exporter6972.cpp" alt="" coords="28,625,277,651"/>
+<area shape="rect" id="node34" href="$d6/da1/a00675.html" title="CarriageWayList6972Importer6972.cpp" alt="" coords="530,625,778,651"/>
+<area shape="rect" id="node36" href="$dc/de4/a00677.html" title="CarriageWayList6972Serialized\lSize6972.cpp" alt="" coords="301,617,505,659"/>
+<area shape="rect" id="node40" href="$d6/dcd/a01023.html" title="Segment of a lane. " alt="" coords="1506,304,1673,331"/>
+<area shape="rect" id="node41" href="$d3/d08/a01018.html" title="LaneHandler which implements functionality for the CarriageWay / Lane linked lists. " alt="" coords="1220,379,1340,405"/>
+<area shape="rect" id="node42" href="$d1/dd8/a01022.html" title="Segment of a lane for data type 0x6970. " alt="" coords="1564,379,1730,405"/>
+<area shape="rect" id="node44" href="$d3/ded/a01017.html" title="Lane.hpp" alt="" coords="1408,304,1483,331"/>
+<area shape="rect" id="node45" href="$db/d23/a01025.html" title="Segment of a lane. " alt="" coords="1410,155,1577,181"/>
+<area shape="rect" id="node46" href="$d5/dfb/a01021.html" title="LaneSegment.hpp" alt="" coords="1260,229,1386,256"/>
+<area shape="rect" id="node47" href="$d4/dc5/a01024.html" title="Segment of a lane for data type 0x6972. " alt="" coords="1410,229,1577,256"/>
+</map>
